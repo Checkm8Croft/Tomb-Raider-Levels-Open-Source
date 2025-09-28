@@ -3,7 +3,7 @@ Tomb Raider 2: ![](https://geps.dev/progress/11?dangerColor=800000&warningColor=
 
 - [x] Venice
 
-- [ ] Bartoli's Hideout
+- [x] Bartoli's Hideout
 
 - [ ] Opera House
 
