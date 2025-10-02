@@ -1,11 +1,11 @@
-Tomb Raider 2: ![](https://geps.dev/progress/11?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 2: ![](https://geps.dev/progress/22?dangerColor=800000&warningColor=ff9900&successColor=006600)
 - [x] The Great Wall
 
 - [x] Venice
 
 - [x] Bartoli's Hideout
 
-- [ ] Opera House
+- [x] Opera House
 
 - [ ] Offshore Rig
 
