@@ -1,11 +1,6 @@
 {
   "entries": [
-    "tp 158",
-    "tp 7",
-    "play 41",
-    "tp 41",
     "tp 135",
-    "flip on",
     "music 0",
     "play 1",
     "tp 22",
@@ -18,7 +13,6 @@
     "tp 51",
     "tp 56",
     "pos",
-    "tp 20",
     "play 3",
     "tp 88",
     "tp 183",
@@ -29,6 +23,12 @@
     "tp 28",
     "speed 0",
     "play 5",
-    "tp 38"
+    "tp 38",
+    "flip off",
+    "flip on",
+    "play 6",
+    "tp 23",
+    "tp 20",
+    "tp 30"
   ]
 }

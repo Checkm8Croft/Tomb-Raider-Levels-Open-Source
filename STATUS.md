@@ -1,4 +1,4 @@
-Tomb Raider 2: ![](https://geps.dev/progress/27?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 2: ![](https://geps.dev/progress/33?dangerColor=800000&warningColor=ff9900&successColor=006600)
 - [x] The Great Wall
 
 - [x] Venice
@@ -9,7 +9,7 @@ Tomb Raider 2: ![](https://geps.dev/progress/27?dangerColor=800000&warningColor=
 
 - [x] Offshore Rig
 
-- [ ] Diving Area
+- [x] Diving Area
 
 - [ ] 40 Fathmos
 
