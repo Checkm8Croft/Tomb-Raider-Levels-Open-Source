@@ -1,7 +1,5 @@
 {
   "entries": [
-    "tp 49",
-    "tp 1",
     "tp 158",
     "tp 7",
     "play 41",
@@ -20,12 +18,17 @@
     "tp 51",
     "tp 56",
     "pos",
-    "speed 0",
     "tp 20",
     "play 3",
     "tp 88",
     "tp 183",
     "play 4",
-    "music 43"
+    "music 43",
+    "tp 4",
+    "tp 17",
+    "tp 28",
+    "speed 0",
+    "play 5",
+    "tp 38"
   ]
 }
