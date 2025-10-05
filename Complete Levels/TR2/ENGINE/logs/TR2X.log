@@ -1,0 +1,287 @@
+INF | 2025-10-05 13:05:48.142 [libtrx/game/shell/main.c:20:SDL_main] Starting TR2X 1.3.2
+INF | 2025-10-05 13:05:48.142 [game/shell/common.c:179:Shell_Main] Game directory: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\
+ERR | 2025-10-05 13:05:48.152 [libtrx/filesystem.c:477:File_Load] Can't open file cfg/TR2X_console_history.json5
+WRN | 2025-10-05 13:05:48.152 [libtrx/config/file.c:200:ConfigFile_Read] 'cfg/TR2X_console_history.json5' not loaded - default settings will apply
+INF | 2025-10-05 13:05:48.349 [libtrx/game/input/backends/controller.c:345:M_FindController] 0 controllers
+INF | 2025-10-05 13:05:48.395 [libtrx/game/music/common.c:132:Music_Init] Chosen music backend: Directory (directory: music)
+DBG | 2025-10-05 13:05:48.395 [libtrx/game/random.c:21:Random_SeedControl] 46392
+DBG | 2025-10-05 13:05:48.395 [libtrx/game/random.c:33:Random_SeedDraw] 45464
+ERR | 2025-10-05 13:05:48.398 [libtrx/filesystem.c:477:File_Load] Can't open file cfg/TR2X.json5
+WRN | 2025-10-05 13:05:48.398 [libtrx/config/file.c:200:ConfigFile_Read] 'cfg/TR2X.json5' not loaded - default settings will apply
+DBG | 2025-10-05 13:05:48.398 [game/shell/common.c:82:M_CreateGameWindow] -1,-1 -> 1280x720
+DBG | 2025-10-05 13:05:48.867 [game/render/common.c:110:Render_Init] Trying GL backend 3.3
+INF | 2025-10-05 13:05:48.867 [libtrx/gfx/context.c:86:GFX_Context_Attach] Attaching to window 03d48e30
+INF | 2025-10-05 13:05:48.876 [libtrx/gfx/context.c:110:GFX_Context_Attach] OpenGL vendor string:   NVIDIA Corporation
+INF | 2025-10-05 13:05:48.876 [libtrx/gfx/context.c:111:GFX_Context_Attach] OpenGL renderer string: GeForce GTX 775M/PCIe/SSE2
+INF | 2025-10-05 13:05:48.876 [libtrx/gfx/context.c:112:GFX_Context_Attach] OpenGL version string:  3.3.0 NVIDIA 353.24
+INF | 2025-10-05 13:05:48.876 [libtrx/gfx/context.c:116:GFX_Context_Attach] Shading version string: 3.30 NVIDIA via Cg compiler
+INF | 2025-10-05 13:05:48.958 [libtrx/gfx/2d/2d_renderer.c:107:GFX_2D_Renderer_Create] 
+DBG | 2025-10-05 13:05:48.970 [libtrx/game/shell/config.c:33:Shell_SyncToWindow] is_fullscreen=0 is_maximized=0 x=-1 y=-1 width=1280 height=720
+DBG | 2025-10-05 13:05:49.005 [game/render/common.c:185:Render_SetupDisplay] 1280x720
+DBG | 2025-10-05 13:05:49.005 [game/render/common.c:151:Render_Reset] reset_flags=1
+INF | 2025-10-05 13:05:49.005 [libtrx/gfx/2d/2d_renderer.c:107:GFX_2D_Renderer_Create] 
+INF | 2025-10-05 13:05:49.007 [libtrx/gfx/3d/3d_renderer.c:116:GFX_3D_Renderer_Create] 
+DBG | 2025-10-05 13:05:49.037 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:49.037 [game/render/common.c:185:Render_SetupDisplay] 1280x720
+DBG | 2025-10-05 13:05:49.037 [game/render/common.c:151:Render_Reset] reset_flags=1
+DBG | 2025-10-05 13:05:49.053 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:49.053 [game/render/common.c:151:Render_Reset] reset_flags=8
+DBG | 2025-10-05 13:05:49.070 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:49.078 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TRX_common_strings.json5
+DBG | 2025-10-05 13:05:49.078 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+DBG | 2025-10-05 13:05:49.079 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+ERR | 2025-10-05 13:05:49.080 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/wall.tr2
+ERR | 2025-10-05 13:05:49.081 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/boat.tr2
+ERR | 2025-10-05 13:05:49.083 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/venice.tr2
+ERR | 2025-10-05 13:05:49.084 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/opera.tr2
+ERR | 2025-10-05 13:05:49.085 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/rig.tr2
+ERR | 2025-10-05 13:05:49.087 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/platform.tr2
+ERR | 2025-10-05 13:05:49.088 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/unwater.tr2
+ERR | 2025-10-05 13:05:49.089 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/keel.tr2
+ERR | 2025-10-05 13:05:49.091 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/living.tr2
+ERR | 2025-10-05 13:05:49.092 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/deck.tr2
+ERR | 2025-10-05 13:05:49.093 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/skidoo.tr2
+ERR | 2025-10-05 13:05:49.094 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/monastry.tr2
+ERR | 2025-10-05 13:05:49.096 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/catacomb.tr2
+ERR | 2025-10-05 13:05:49.097 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/icecave.tr2
+ERR | 2025-10-05 13:05:49.098 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/emprtomb.tr2
+ERR | 2025-10-05 13:05:49.099 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/floating.tr2
+ERR | 2025-10-05 13:05:49.101 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/xian.tr2
+ERR | 2025-10-05 13:05:49.102 [libtrx/virtual_file.c:14:VFile_CreateFromPath] Can't open file data/house.tr2
+DBG | 2025-10-05 13:05:49.102 [game/level.c:498:Level_Init] took 22.87 ms
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #0
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #0
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #1
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #1
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #2
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #2
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #3
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #3
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #4
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #4
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #5
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #5
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #6
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #6
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #7
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #7
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #8
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #8
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #9
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #9
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #10
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #10
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #11
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #11
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #12
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #12
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #13
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #13
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #14
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #14
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #15
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #15
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #16
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #16
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #17
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #17
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:389:Savegame_ResetCurrentInfo] Resetting resume info for level #18
+INF | 2025-10-05 13:05:49.102 [libtrx/game/savegame/common.c:500:Savegame_ApplyLogicToCurrentInfo] Applying game logic to level #18
+DBG | 2025-10-05 13:05:49.105 [libtrx/game/savegame/common.c:673:Savegame_ScanSavedGames] took 2.52 ms
+DBG | 2025-10-05 13:05:49.105 [libtrx/game/game_flow/sequencer.c:47:GF_InterpretSequence] running sequence for level=0 type=0 seq_ctx=0
+WRN | 2025-10-05 13:05:49.105 [libtrx/game/savegame/common.c:353:Savegame_GetCurrentInfo] Warning: unable to get resume info for level 0 (type=title)
+DBG | 2025-10-05 13:05:49.105 [game/level.c:418:Level_Initialise] num=0 type=0
+INF | 2025-10-05 13:05:49.106 [libtrx/game/inject/common.c:115:M_ReadVFile] data/injections/pda_model.bin queued for injection
+INF | 2025-10-05 13:05:49.108 [libtrx/game/inject/common.c:115:M_ReadVFile] data/injections/winston_model.bin queued for injection
+INF | 2025-10-05 13:05:49.110 [libtrx/game/inject/common.c:115:M_ReadVFile] data/injections/font.bin queued for injection
+DBG | 2025-10-05 13:05:49.110 [libtrx/game/inject/common.c:281:Inject_InitLevel] took 5.00 ms
+DBG | 2025-10-05 13:05:49.110 [game/level.c:315:M_LoadFromFile] (null) (num=0)
+DBG | 2025-10-05 13:05:49.111 [game/level.c:235:M_GuessLayout] took 0.00 ms
+DBG | 2025-10-05 13:05:49.111 [libtrx/game/level/common.c:418:Level_ReadPalettes] took 0.00 ms
+INF | 2025-10-05 13:05:49.111 [libtrx/game/level/common.c:427:Level_ReadTexturePages] texture pages: 3
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:464:Level_ReadTexturePages] took 1.44 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:472:Level_ReadRooms] rooms: 2
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:591:Level_ReadRooms] took 0.03 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:598:Level_ReadObjectMeshes] object mesh data: 3180
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:604:Level_ReadObjectMeshes] object mesh indices: 12
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:658:Level_AppendObjectMeshes] 12 unique meshes constructed
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:619:Level_ReadObjectMeshes] took 0.06 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:668:Level_ReadAnims] anims: 6
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:671:Level_ReadAnims] took 0.01 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:702:Level_ReadAnimChanges] anim changes: 1
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:706:Level_ReadAnimChanges] took 0.01 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:725:Level_ReadAnimRanges] anim ranges: 1
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:729:Level_ReadAnimRanges] took 0.01 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:749:Level_ReadAnimCommands] anim commands: 0
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:754:Level_ReadAnimCommands] took 0.01 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:775:Level_ReadAnimBones] anim bones: 6
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:778:Level_ReadAnimBones] took 0.01 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:801:Level_ReadAnimFrames] raw anim frames: 563
+DBG | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:806:Level_ReadAnimFrames] took 0.01 ms
+INF | 2025-10-05 13:05:49.112 [libtrx/game/level/common.c:829:Level_ReadObjects] objects: 6
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:847:Level_ReadObjects] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:854:Level_ReadStaticObjects] static objects: 0
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:875:Level_ReadStaticObjects] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:883:Level_ReadObjectTextures] object textures: 26
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:887:Level_ReadObjectTextures] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:911:Level_ReadSpriteTextures] sprite textures: 121
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:916:Level_ReadSpriteTextures] took 0.03 ms
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:946:Level_ReadSpriteSequences] sprite sequences: 5
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:969:Level_ReadSpriteSequences] took 0.01 ms
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1085:Level_ReadCamerasAndSinks] fixed cameras/sinks: 0
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1091:Level_ReadCamerasAndSinks] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1142:Level_ReadSoundSources] sound sources: 0
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1148:Level_ReadSoundSources] took 0.05 ms
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1009:Level_ReadPathingData] took 0.00 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1020:Level_ReadAnimatedTextureRanges] animated texture ranges: 0
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1040:Level_ReadAnimatedTextureRanges] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1098:Level_ReadItems] items: 0
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1122:Level_ReadItems] took 0.47 ms
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1060:Level_ReadLightMap] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1068:Level_ReadCinematicFrames] cinematic frames: 0
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1078:Level_ReadCinematicFrames] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1129:Level_ReadDemoData] demo buffer size: 0
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1135:Level_ReadDemoData] took 0.01 ms
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1160:Level_ReadSamples] sample infos: 8
+INF | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1182:Level_ReadSamples] samples: 8
+DBG | 2025-10-05 13:05:49.113 [libtrx/game/level/common.c:1191:Level_ReadSamples] took 0.03 ms
+DBG | 2025-10-05 13:05:49.114 [game/level.c:369:M_LoadFromFile] took 3.54 ms
+INF | 2025-10-05 13:05:49.114 [libtrx/game/level/common.c:658:Level_AppendObjectMeshes] 2 unique meshes constructed
+INF | 2025-10-05 13:05:49.114 [libtrx/game/level/common.c:658:Level_AppendObjectMeshes] 26 unique meshes constructed
+DBG | 2025-10-05 13:05:49.115 [libtrx/game/inject/common.c:335:Inject_AllInjections] took 1.47 ms
+INF | 2025-10-05 13:05:49.115 [libtrx/game/anims/frames.c:164:Anim_InitialiseFrames] 254 anim frames
+DBG | 2025-10-05 13:05:49.115 [libtrx/game/anims/frames.c:214:Anim_LoadFrames] took 0.05 ms
+DBG | 2025-10-05 13:05:49.115 [libtrx/game/anims/commands.c:71:Anim_LoadCommands] took 0.00 ms
+DBG | 2025-10-05 13:05:49.117 [game/output.c:395:M_ReserveVertexBuffer] took 0.00 ms
+DBG | 2025-10-05 13:05:49.117 [game/render/common.c:185:Render_SetupDisplay] 1280x720
+DBG | 2025-10-05 13:05:49.117 [game/render/common.c:151:Render_Reset] reset_flags=1
+DBG | 2025-10-05 13:05:49.168 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:49.168 [game/render/common.c:151:Render_Reset] reset_flags=16
+DBG | 2025-10-05 13:05:49.207 [game/render/hwr.c:1342:M_Reset] Reloading textures
+DBG | 2025-10-05 13:05:49.216 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:49.217 [game/level.c:257:M_InitialiseSoundEffects] Loading samples from C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\data/main.sfx
+DBG | 2025-10-05 13:05:49.219 [game/level.c:310:M_InitialiseSoundEffects] took 3.02 ms
+DBG | 2025-10-05 13:05:49.219 [game/level.c:393:M_CompleteSetup] took 105.92 ms
+DBG | 2025-10-05 13:05:49.220 [libtrx/game/inject/common.c:364:Inject_Cleanup] took 0.09 ms
+DBG | 2025-10-05 13:05:49.220 [game/level.c:410:Level_Load] took 114.62 ms
+DBG | 2025-10-05 13:05:49.220 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TRX_common_strings.json5
+DBG | 2025-10-05 13:05:49.220 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+DBG | 2025-10-05 13:05:49.220 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+DBG | 2025-10-05 13:05:49.221 [libtrx/game/game_flow/sequencer.c:21:M_RunEvent] event type=display_picture(0) data=0x55491d0
+INF | 2025-10-05 13:05:49.221 [libtrx/game/output/background.c:56:M_ScanCandidates] Searching for background images
+INF | 2025-10-05 13:05:49.222 [libtrx/game/output/background.c:115:M_ScanCandidates] 1. data/images/legal_eu.webp (16:9)
+INF | 2025-10-05 13:05:49.222 [libtrx/game/output/background.c:160:M_LoadCandidate] Loading background image from data/images/legal_eu.webp
+DBG | 2025-10-05 13:05:49.328 [libtrx/gfx/2d/2d_renderer.c:98:M_UploadVertices] 1 1
+DBG | 2025-10-05 13:05:49.435 [libtrx/game/shell/events.c:74:M_HandleWindowShown] 
+DBG | 2025-10-05 13:05:50.237 [libtrx/game/game_flow/sequencer.c:33:M_RunEvent] event type=display_picture(0) data=0x55491d0 finished, result: action=noop, param=0
+DBG | 2025-10-05 13:05:50.237 [libtrx/game/game_flow/sequencer.c:21:M_RunEvent] event type=play_fmv(3) data=0x0
+DBG | 2025-10-05 13:05:50.245 [libtrx/engine/video.c:1907:Video_Open] Playing video: fmv/LOGO.RPL
+ERR | 2025-10-05 13:05:50.246 [libtrx/engine/video.c:1909:Video_Open] Video does not exist: fmv/LOGO.RPL
+DBG | 2025-10-05 13:05:50.246 [game/render/common.c:151:Render_Reset] reset_flags=7fffffff
+DBG | 2025-10-05 13:05:50.273 [game/render/hwr.c:1342:M_Reset] Reloading textures
+DBG | 2025-10-05 13:05:50.283 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:50.283 [libtrx/game/game_flow/sequencer.c:33:M_RunEvent] event type=play_fmv(3) data=0x0 finished, result: action=noop, param=0
+DBG | 2025-10-05 13:05:50.283 [libtrx/game/game_flow/sequencer.c:21:M_RunEvent] event type=play_fmv(3) data=0x1
+DBG | 2025-10-05 13:05:50.293 [libtrx/engine/video.c:1907:Video_Open] Playing video: fmv/ANCIENT.RPL
+ERR | 2025-10-05 13:05:50.294 [libtrx/engine/video.c:1909:Video_Open] Video does not exist: fmv/ANCIENT.RPL
+DBG | 2025-10-05 13:05:50.294 [game/render/common.c:151:Render_Reset] reset_flags=7fffffff
+DBG | 2025-10-05 13:05:50.321 [game/render/hwr.c:1342:M_Reset] Reloading textures
+DBG | 2025-10-05 13:05:50.330 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:50.330 [libtrx/game/game_flow/sequencer.c:33:M_RunEvent] event type=play_fmv(3) data=0x1 finished, result: action=noop, param=0
+DBG | 2025-10-05 13:05:50.330 [libtrx/game/game_flow/sequencer.c:21:M_RunEvent] event type=exit_to_title(5) data=0x0
+DBG | 2025-10-05 13:05:50.330 [libtrx/game/game_flow/sequencer.c:33:M_RunEvent] event type=exit_to_title(5) data=0x0 finished, result: action=exit_to_title, param=0
+INF | 2025-10-05 13:05:50.330 [game/shell/common.c:224:Shell_Main] action=exit_to_title param=0
+DBG | 2025-10-05 13:05:50.330 [libtrx/game/savegame/common.c:251:Savegame_UnbindSlot] Resetting the save slot
+DBG | 2025-10-05 13:05:50.330 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TRX_common_strings.json5
+DBG | 2025-10-05 13:05:50.330 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+DBG | 2025-10-05 13:05:50.331 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+DBG | 2025-10-05 13:05:50.331 [game/level.c:418:Level_Initialise] num=0 type=0
+INF | 2025-10-05 13:05:50.332 [libtrx/game/inject/common.c:115:M_ReadVFile] data/injections/pda_model.bin queued for injection
+INF | 2025-10-05 13:05:50.334 [libtrx/game/inject/common.c:115:M_ReadVFile] data/injections/winston_model.bin queued for injection
+INF | 2025-10-05 13:05:50.336 [libtrx/game/inject/common.c:115:M_ReadVFile] data/injections/font.bin queued for injection
+DBG | 2025-10-05 13:05:50.336 [libtrx/game/inject/common.c:281:Inject_InitLevel] took 4.82 ms
+DBG | 2025-10-05 13:05:50.336 [game/level.c:315:M_LoadFromFile] (null) (num=0)
+DBG | 2025-10-05 13:05:50.338 [game/level.c:235:M_GuessLayout] took 0.00 ms
+DBG | 2025-10-05 13:05:50.338 [libtrx/game/level/common.c:418:Level_ReadPalettes] took 0.01 ms
+INF | 2025-10-05 13:05:50.338 [libtrx/game/level/common.c:427:Level_ReadTexturePages] texture pages: 3
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:464:Level_ReadTexturePages] took 1.31 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:472:Level_ReadRooms] rooms: 2
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:591:Level_ReadRooms] took 0.02 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:598:Level_ReadObjectMeshes] object mesh data: 3180
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:604:Level_ReadObjectMeshes] object mesh indices: 12
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:658:Level_AppendObjectMeshes] 12 unique meshes constructed
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:619:Level_ReadObjectMeshes] took 0.07 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:668:Level_ReadAnims] anims: 6
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:671:Level_ReadAnims] took 0.01 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:702:Level_ReadAnimChanges] anim changes: 1
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:706:Level_ReadAnimChanges] took 0.07 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:725:Level_ReadAnimRanges] anim ranges: 1
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:729:Level_ReadAnimRanges] took 0.01 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:749:Level_ReadAnimCommands] anim commands: 0
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:754:Level_ReadAnimCommands] took 0.01 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:775:Level_ReadAnimBones] anim bones: 6
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:778:Level_ReadAnimBones] took 0.01 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:801:Level_ReadAnimFrames] raw anim frames: 563
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:806:Level_ReadAnimFrames] took 0.02 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:829:Level_ReadObjects] objects: 6
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:847:Level_ReadObjects] took 0.02 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:854:Level_ReadStaticObjects] static objects: 0
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:875:Level_ReadStaticObjects] took 0.02 ms
+INF | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:883:Level_ReadObjectTextures] object textures: 26
+DBG | 2025-10-05 13:05:50.339 [libtrx/game/level/common.c:887:Level_ReadObjectTextures] took 0.02 ms
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:911:Level_ReadSpriteTextures] sprite textures: 121
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:916:Level_ReadSpriteTextures] took 0.02 ms
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:946:Level_ReadSpriteSequences] sprite sequences: 5
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:969:Level_ReadSpriteSequences] took 0.01 ms
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1085:Level_ReadCamerasAndSinks] fixed cameras/sinks: 0
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1091:Level_ReadCamerasAndSinks] took 0.01 ms
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1142:Level_ReadSoundSources] sound sources: 0
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1148:Level_ReadSoundSources] took 0.01 ms
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1009:Level_ReadPathingData] took 0.00 ms
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1020:Level_ReadAnimatedTextureRanges] animated texture ranges: 0
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1040:Level_ReadAnimatedTextureRanges] took 0.02 ms
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1098:Level_ReadItems] items: 0
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1122:Level_ReadItems] took 0.20 ms
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1060:Level_ReadLightMap] took 0.03 ms
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1068:Level_ReadCinematicFrames] cinematic frames: 0
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1078:Level_ReadCinematicFrames] took 0.01 ms
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1129:Level_ReadDemoData] demo buffer size: 0
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1135:Level_ReadDemoData] took 0.01 ms
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1160:Level_ReadSamples] sample infos: 8
+INF | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1182:Level_ReadSamples] samples: 8
+DBG | 2025-10-05 13:05:50.340 [libtrx/game/level/common.c:1191:Level_ReadSamples] took 0.03 ms
+DBG | 2025-10-05 13:05:50.340 [game/level.c:369:M_LoadFromFile] took 3.21 ms
+INF | 2025-10-05 13:05:50.341 [libtrx/game/level/common.c:658:Level_AppendObjectMeshes] 2 unique meshes constructed
+INF | 2025-10-05 13:05:50.341 [libtrx/game/level/common.c:658:Level_AppendObjectMeshes] 26 unique meshes constructed
+DBG | 2025-10-05 13:05:50.342 [libtrx/game/inject/common.c:335:Inject_AllInjections] took 1.74 ms
+INF | 2025-10-05 13:05:50.342 [libtrx/game/anims/frames.c:164:Anim_InitialiseFrames] 254 anim frames
+DBG | 2025-10-05 13:05:50.342 [libtrx/game/anims/frames.c:214:Anim_LoadFrames] took 0.02 ms
+DBG | 2025-10-05 13:05:50.342 [libtrx/game/anims/commands.c:71:Anim_LoadCommands] took 0.00 ms
+DBG | 2025-10-05 13:05:50.343 [game/output.c:395:M_ReserveVertexBuffer] took 0.01 ms
+DBG | 2025-10-05 13:05:50.343 [game/render/common.c:185:Render_SetupDisplay] 1280x720
+DBG | 2025-10-05 13:05:50.343 [game/render/common.c:151:Render_Reset] reset_flags=1
+DBG | 2025-10-05 13:05:50.364 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:50.364 [game/render/common.c:151:Render_Reset] reset_flags=16
+DBG | 2025-10-05 13:05:50.385 [game/render/hwr.c:1342:M_Reset] Reloading textures
+DBG | 2025-10-05 13:05:50.393 [game/render/common.c:178:Render_Reset] reset finished
+DBG | 2025-10-05 13:05:50.393 [game/level.c:257:M_InitialiseSoundEffects] Loading samples from C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\data/main.sfx
+DBG | 2025-10-05 13:05:50.396 [game/level.c:310:M_InitialiseSoundEffects] took 2.85 ms
+DBG | 2025-10-05 13:05:50.396 [game/level.c:393:M_CompleteSetup] took 55.61 ms
+DBG | 2025-10-05 13:05:50.396 [libtrx/game/inject/common.c:364:Inject_Cleanup] took 0.06 ms
+DBG | 2025-10-05 13:05:50.396 [game/level.c:410:Level_Load] took 64.82 ms
+DBG | 2025-10-05 13:05:50.396 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TRX_common_strings.json5
+DBG | 2025-10-05 13:05:50.396 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+DBG | 2025-10-05 13:05:50.396 [libtrx/game/game_string_table/common.c:74:M_ApplyLayer] applying layer: C:\Users\Checkm8ra1n\Documents\Levels\Tomb-Raider-Levels-Open-Source\Complete Levels\TR2\Engine\cfg/TR2X_strings.json5
+INF | 2025-10-05 13:05:50.397 [libtrx/game/music/common.c:201:Music_Play] Playing track 60, mode: 1
+ERR | 2025-10-05 13:05:50.412 [libtrx/engine/audio_stream.c:377:M_InitialiseFromPath] Error while opening audio music/60.flac: No such file or directory
+ERR | 2025-10-05 13:05:50.412 [libtrx/game/music/common.c:205:Music_Play] Failed to create music stream for track 60
+INF | 2025-10-05 13:05:50.412 [libtrx/game/output/background.c:56:M_ScanCandidates] Searching for background images
+INF | 2025-10-05 13:05:50.413 [libtrx/game/output/background.c:115:M_ScanCandidates] 1. data/images/title_eu.webp (16:9)
+INF | 2025-10-05 13:05:50.413 [libtrx/game/output/background.c:160:M_LoadCandidate] Loading background image from data/images/title_eu.webp
+DBG | 2025-10-05 13:05:51.116 [libtrx/engine/audio_sample.c:454:M_ConvertSample] sample 2 decoded: took 4.28 ms
+INF | 2025-10-05 13:05:53.578 [game/shell/common.c:224:Shell_Main] action=exit_game param=0
+INF | 2025-10-05 13:05:53.578 [libtrx/config/file.c:220:ConfigFile_Write] Saving user settings
+ERR | 2025-10-05 13:05:53.580 [libtrx/filesystem.c:477:File_Load] Can't open file cfg/TR2X.json5
+INF | 2025-10-05 13:05:53.587 [libtrx/gfx/renderer.c:128:M_Shutdown] 
+INF | 2025-10-05 13:05:53.591 [libtrx/config/file.c:220:ConfigFile_Write] Saving user settings
+ERR | 2025-10-05 13:05:53.593 [libtrx/filesystem.c:477:File_Load] Can't open file cfg/TR2X_console_history.json5

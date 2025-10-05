@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>TR2 Open Source</Name>
+	<GameVersion>TR2X</GameVersion>
+	<LevelsPath>$(ProjectDirectory)\Levels</LevelsPath>
+	<ScriptPath>$(ProjectDirectory)\Engine\cfg</ScriptPath>
+	<LaunchFilePath>$(ProjectDirectory)\PLAY.exe</LaunchFilePath>
+	<Levels>
+		<ProjectLevel>
+			<Name>The Great Wall</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\The Great Wall</FolderPath>
+			<SpecificFile>Wall.prj2</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Venice</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Venice</FolderPath>
+			<SpecificFile>boat.prj2</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Bartoli's Hideout</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Bartoli's Hideout</FolderPath>
+			<SpecificFile>venice.prj2</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Opera House</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Opera House</FolderPath>
+			<SpecificFile>opera.prj2</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Offshore Rig</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Offshore Rig</FolderPath>
+			<SpecificFile>rig.prj2</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Diving Aera</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Diving Aera</FolderPath>
+			<SpecificFile>Platform.prj2</SpecificFile>
+		</ProjectLevel>
+		<ProjectLevel>
+			<Name>40 Fathmos</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\40 Fathmos</FolderPath>
+			<SpecificFile>unwater.prj2</SpecificFile>
+		</ProjectLevel>
+	</Levels>
+</Project>
