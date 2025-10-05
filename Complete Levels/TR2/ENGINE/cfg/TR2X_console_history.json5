@@ -1,8 +1,5 @@
 {
   "entries": [
-    "tp 135",
-    "music 0",
-    "play 1",
     "tp 22",
     "tp 142",
     "tp 21",
@@ -26,9 +23,12 @@
     "tp 38",
     "flip off",
     "flip on",
-    "play 6",
     "tp 23",
+    "tp 30",
+    "play 6",
+    "tp 25",
     "tp 20",
-    "tp 30"
+    "play 7",
+    "tp 13"
   ]
 }
