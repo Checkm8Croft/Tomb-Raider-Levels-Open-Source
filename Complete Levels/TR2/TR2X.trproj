@@ -45,5 +45,9 @@
 			<Name>Wreck of Maria Doria</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\Wreck of Maria Doria</FolderPath>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Living Quarters</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Living Quarters</FolderPath>
+		</ProjectLevel>
 	</Levels>
 </Project>
