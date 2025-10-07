@@ -1,4 +1,4 @@
-Tomb Raider 2: ![](https://geps.dev/progress/38?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 2: ![](https://geps.dev/progress/44?dangerColor=800000&warningColor=ff9900&successColor=006600)
 - [x] The Great Wall
 
 - [x] Venice
@@ -13,7 +13,7 @@ Tomb Raider 2: ![](https://geps.dev/progress/38?dangerColor=800000&warningColor=
 
 - [x] 40 Fathmos
 
-- [ ] Wreck of Maria Doria
+- [x] Wreck of Maria Doria
 
 - [ ] Living Quarters
 

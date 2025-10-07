@@ -73,7 +73,7 @@
   "enable_tr3_sidesteps": true,
   "new_game_plus_unlock": false,
   "enable_lighting": true,
-  "enable_trapezoid_filter": false,
+  "enable_trapezoid_filter": true,
   "enable_vsync": true,
   "enable_wireframe": false,
   "enable_fps_counter": false,

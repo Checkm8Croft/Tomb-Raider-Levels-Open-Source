@@ -41,5 +41,9 @@
 			<FolderPath>$(ProjectDirectory)\Levels\40 Fathmos</FolderPath>
 			<SpecificFile>unwater.prj2</SpecificFile>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Wreck of Maria Doria</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Wreck of Maria Doria</FolderPath>
+		</ProjectLevel>
 	</Levels>
 </Project>
