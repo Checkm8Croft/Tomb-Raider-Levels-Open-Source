@@ -49,5 +49,9 @@
 			<Name>Living Quarters</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\Living Quarters</FolderPath>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>The Deck</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\The Deck</FolderPath>
+		</ProjectLevel>
 	</Levels>
 </Project>

@@ -25,7 +25,7 @@
   "enable_debug_pos": false,
   "enable_debug_room_clip": false,
   "enable_debug_spheres": false,
-  "enable_debug_triggers": false,
+  "enable_debug_triggers": true,
   "enable_invulnerability": false,
   "enable_review_markers": false,
   "disable_healing_between_levels": false,
