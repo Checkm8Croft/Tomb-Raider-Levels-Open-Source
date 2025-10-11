@@ -1,4 +1,4 @@
-Tomb Raider 2: ![](https://geps.dev/progress/55?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 2: ![](https://geps.dev/progress/61?dangerColor=800000&warningColor=ff9900&successColor=006600)
 - [x] The Great Wall
 
 - [x] Venice
@@ -17,9 +17,9 @@ Tomb Raider 2: ![](https://geps.dev/progress/55?dangerColor=800000&warningColor=
 
 - [x] Living Quarters
 
-- [ ] The Deck
+- [x] The Deck
 
-- [ ] Tibetan Foothills
+- [x] Tibetan Foothills
 
 - [ ] Barkhang Monastry
 

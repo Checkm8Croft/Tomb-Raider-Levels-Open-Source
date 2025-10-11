@@ -53,5 +53,9 @@
 			<Name>The Deck</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\The Deck</FolderPath>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Tibetan Foothils</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Tibetan Foothils</FolderPath>
+		</ProjectLevel>
 	</Levels>
 </Project>

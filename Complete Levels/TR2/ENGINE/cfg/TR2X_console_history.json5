@@ -1,17 +1,11 @@
 {
   "entries": [
-    "tp ",
-    "tp 8",
-    "tp 16",
-    "tp 80",
     "play 9",
     "tp 0",
     "tp 1",
-    "flip on",
     "tp 4",
     "music 10",
     "music 0",
-    "pos",
     "debug enable",
     "debug enable-triggers 1",
     "debug.enable-triggers 1",
@@ -29,6 +23,12 @@
     "speed 0",
     "kill",
     "play 10",
-    "tp 109"
+    "tp 109",
+    "tp 86",
+    "tp 73",
+    "flip on",
+    "pos",
+    "play 11",
+    "tp 12"
   ]
 }
