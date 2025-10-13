@@ -57,5 +57,9 @@
 			<Name>Tibetan Foothils</Name>
 			<FolderPath>$(ProjectDirectory)\Levels\Tibetan Foothils</FolderPath>
 		</ProjectLevel>
+		<ProjectLevel>
+			<Name>Barkhang Monastry</Name>
+			<FolderPath>$(ProjectDirectory)\Levels\Barkhang Monastry</FolderPath>
+		</ProjectLevel>
 	</Levels>
 </Project>
