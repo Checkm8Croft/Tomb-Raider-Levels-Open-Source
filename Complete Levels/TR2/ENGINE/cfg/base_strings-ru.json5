@@ -1,676 +1,2757 @@
 {
     // For usage, refer to the documentation here:
-    // https://github.com/LostArtefacts/TRX/blob/stable/docs/GAME_STRINGS.md
+    // https://lostartefacts.dev/trx/docs/stable/game_strings
     "language_name": "Русский",
-    "game_strings": {
-        "ACTION_EXAMINE_ITEM": "Осмотреть",
-        "ACTION_RESET_DEFAULTS": "Сброс",
-        "ACTION_UNBIND": "Очистить",
-        "ACTION_USE_ITEM": "Использовать",
-        "CMD_GIVE_SECRET_GIVEN": "Добавлен секрет %s",
-        "CMD_GIVE_SECRET_LIST": "Собрано секретов: %d из %d (%s)",
-        "CMD_GIVE_SECRET_NONE": "Собрано секретов: %d из %d",
-        "CMD_GIVE_SECRET_TAKEN": "Удалён секрет %s",
-        "CMD_IMMUNE_SWITCHED_OFF": "Лара теперь уязвима",
-        "CMD_IMMUNE_SWITCHED_ON": "Теперь Лара неуязвима для повреждений",
-        "CMD_INF_SPRINT_SWITCHED_OFF": "\\{review}Лара больше не может бегать вечно",
-        "CMD_INF_SPRINT_SWITCHED_ON": "\\{review}Лара теперь может бегать вечно",
-        "CMD_INVALID_SECRET": "Невалидный секрет: %s (валидные секреты: %s)",
-        "CMD_LUA_RUNTIME_ERROR": "Ошибка выполнения Lua: %s",
-        "CMD_LUA_SYNTAX_ERROR": "Ошибка синтаксиса Lua: %s",
-        "COMMON_SETTINGS_ALL_HIDDEN_DISCLAIMER": "\\{review}Настройки отключены для этого набора уровней.",
-        "COMMON_SETTINGS_FROZEN_OPTION_DISCLAIMER": "Этот параметр принудительно установлен редактором уровней и не может быть изменён.",
-        "COMMON_SETTINGS_RESTORE_DEFAULT": "По умолчанию",
-        "COMMON_SETTINGS_TOGGLE_HELP": "Показать помощь",
-        "CONSOLE_CMD_HELP_LIST": "Доступные команды:",
-        "CONSOLE_HELP_BRAID": "Переключает косу Лары.",
-        "CONSOLE_HELP_CHEATS": "Вкл/выкл внутриигровые читы.",
-        "CONSOLE_HELP_CLEAR": "\\{review}Очищает видимые журналы консоли.",
-        "CONSOLE_HELP_DEBUG": "Переключает визуальную отладочную информацию.",
-        "CONSOLE_HELP_DRAIN": "Осушает текущую комнату, удаляет воду.",
-        "CONSOLE_HELP_END_LEVEL": "Завершает текущий уровень.",
-        "CONSOLE_HELP_EXIT": "Выходит из игры.",
-        "CONSOLE_HELP_FLIPMAP": "Переключает переворачивание карты.",
-        "CONSOLE_HELP_FLOOD": "Затапливает текущую комнату водой.",
-        "CONSOLE_HELP_FLY": "Переключает режим полета.",
-        "CONSOLE_HELP_FPS": "Изменяет значение FPS.",
-        "CONSOLE_HELP_GIVE": "Добавляет указанный предмет в инвентарь Лары.",
-        "CONSOLE_HELP_GIVE_SECRET": "Перечисляет секреты Лары, или добавляет/удаляет секрет по номеру.",
-        "CONSOLE_HELP_HEAL": "Восстанавливает здоровье Лары.",
-        "CONSOLE_HELP_HELP": "Показывает справку по всем командам или подробную справку по одной.",
-        "CONSOLE_HELP_HP": "Устанавливает здоровье Лары на указанное значение.",
-        "CONSOLE_HELP_IMMUNE": "Переключает неуязвимость (в некоторых ситуациях Лара всё ещё может умереть).",
-        "CONSOLE_HELP_INF_SPRINT": "\\{review}Переключает бесконечный бег.",
-        "CONSOLE_HELP_KILL": "Убивает ближайших врагов.",
-        "CONSOLE_HELP_LIGHTING": "Переключает освещение.",
-        "CONSOLE_HELP_LOAD": "Загружает игру из указанного слота сохранения.",
-        "CONSOLE_HELP_LUA": "Выполняет заданную строку кода Lua.",
-        "CONSOLE_HELP_MUSIC": "Воспроизводит музыкальную дорожку с указанным идентификатором.",
-        "CONSOLE_HELP_PLAY_CUTSCENE": "Воспроизводит кат-сцену с указанным номером.",
-        "CONSOLE_HELP_PLAY_DEMO": "Воспроизводит демо с указанным номером.",
-        "CONSOLE_HELP_PLAY_GYM": "Воспроизводит уровень Тренажёрный зал",
-        "CONSOLE_HELP_PLAY_LEVEL": "Воспроизводит уровень с указанным именем или номером",
-        "CONSOLE_HELP_POS": "Показывает позицию Лары",
-        "CONSOLE_HELP_SAVE": "Сохраняет игру в указанный слот сохранения",
-        "CONSOLE_HELP_SCREENSHOT": "\\{review}Сохраняет скриншот на диск с возможным указанием пути.",
-        "CONSOLE_HELP_SET": "Отображает или обновляет указанный параметр конфигурации",
-        "CONSOLE_HELP_SFX": "Воспроизводит звуковой эффект с указанным идентификатором",
-        "CONSOLE_HELP_SPEED": "Изменяет скорость игры",
-        "CONSOLE_HELP_STRINGS": "Перезагружает текущие языковые файлы с диска.",
-        "CONSOLE_HELP_TITLE": "Возвращает на титульный экран",
-        "CONSOLE_HELP_TP": "Телепортирует Лару в указанную позицию или номер комнаты.",
-        "CONSOLE_HELP_VSYNC": "Переключает вертикальную синхронизацию.",
-        "CONSOLE_HELP_WIREFRAME": "Переключает рендеринг каркаса.",
-        "CONTROLS_BACKEND_CONTROLLER": "Контроллер",
-        "CONTROLS_BACKEND_KEYBOARD": "Клавиатура",
-        "CONTROLS_CUSTOMIZE": "Настроить управление",
-        "CONTROLS_CUSTOM_1": "Пользовательская схема 1",
-        "CONTROLS_CUSTOM_2": "Пользовательская схема 2",
-        "CONTROLS_CUSTOM_3": "Пользовательская схема 3",
-        "CONTROLS_DEFAULT_KEYS": "По умолчанию",
-        "CONTROLS_SECTION_BASICS": "Движение",
-        "CONTROLS_SECTION_ITEMS": "Предметы",
-        "CONTROLS_SECTION_MISC": "Разное",
-        "CONTROLS_SECTION_SYSTEM": "Система",
-        "ENUM_ASPECT_MODE_16_10": "16:10",
-        "ENUM_ASPECT_MODE_16_9": "16:9",
-        "ENUM_ASPECT_MODE_4_3": "4:3",
-        "ENUM_ASPECT_MODE_ANY": "АВТО",
-        "ENUM_BAR_COLOR_BLUE": "Синий",
-        "ENUM_BAR_COLOR_BLUE2": "Голубой",
-        "ENUM_BAR_COLOR_GOLD": "Золотой",
-        "ENUM_BAR_COLOR_GOLD2": "Жёлтый",
-        "ENUM_BAR_COLOR_GREEN": "Зелёный",
-        "ENUM_BAR_COLOR_GREEN2": "\\{review}Зелёный 2",
-        "ENUM_BAR_COLOR_GREY": "Серый",
-        "ENUM_BAR_COLOR_PINK": "Розовый",
-        "ENUM_BAR_COLOR_PURPLE": "Фиолетовый",
-        "ENUM_BAR_COLOR_RED": "Красный",
-        "ENUM_BAR_COLOR_SILVER": "Серебряный",
-        "ENUM_BAR_LOCATION_BOTTOM_CENTER": "Внизу по центру",
-        "ENUM_BAR_LOCATION_BOTTOM_LEFT": "Внизу слева",
-        "ENUM_BAR_LOCATION_BOTTOM_RIGHT": "Внизу справа",
-        "ENUM_BAR_LOCATION_TOP_CENTER": "Вверху по центру",
-        "ENUM_BAR_LOCATION_TOP_LEFT": "Вверху слева",
-        "ENUM_BAR_LOCATION_TOP_RIGHT": "Вверху справа",
-        "ENUM_BAR_LOOK_PS1": "PS1",
-        "ENUM_BAR_LOOK_TR1": "TR1",
-        "ENUM_BAR_LOOK_TR2": "TR2",
-        "ENUM_BAR_MODE_ALWAYS": "Всегда",
-        "ENUM_BAR_MODE_BOSS_ONLY": "Только боссы",
-        "ENUM_BAR_MODE_DEFAULT": "Стандарт",
-        "ENUM_BAR_MODE_FLASHING_ONLY": "Только мигание",
-        "ENUM_BAR_MODE_FLASHING_OR_DEFAULT": "Стандарт или мигание",
-        "ENUM_BAR_MODE_NEVER": "Никогда",
-        "ENUM_BAR_MODE_PS1": "Стандарт, без мигания",
-        "ENUM_BILLBOARD_LOCK_NONE": "\\{review}Нет",
-        "ENUM_BILLBOARD_LOCK_PERSPECTIVE": "\\{review}Перспектива",
-        "ENUM_BILLBOARD_LOCK_ROLL": "\\{review}Крен",
-        "ENUM_BILLBOARD_LOCK_ROLL_PITCH": "\\{review}Крен и тангаж",
-        "ENUM_BK_PATTERN_STATIC": "\\{review}Статический",
-        "ENUM_BK_PATTERN_WAVE": "\\{review}Волна",
-        "ENUM_CAMERA_MODE_TR1": "TR1",
-        "ENUM_CAMERA_MODE_TR2": "TR2",
-        "ENUM_INPUT_ROLE_ACTION": "Действие",
-        "ENUM_INPUT_ROLE_CAMERA_BACK": "Камера назад",
-        "ENUM_INPUT_ROLE_CAMERA_DOWN": "Камера вниз",
-        "ENUM_INPUT_ROLE_CAMERA_FORWARD": "Камера вперёд",
-        "ENUM_INPUT_ROLE_CAMERA_LEFT": "Камера влево",
-        "ENUM_INPUT_ROLE_CAMERA_RIGHT": "Камера вправо",
-        "ENUM_INPUT_ROLE_CAMERA_UP": "Камера вверх",
-        "ENUM_INPUT_ROLE_CHANGE_TARGET": "Изменить цель",
-        "ENUM_INPUT_ROLE_CYCLE_LIGHTING_CONTRAST": "\\{review}Цикл контраста освещения",
-        "ENUM_INPUT_ROLE_DOWN": "Назад",
-        "ENUM_INPUT_ROLE_DRAW_WEAPON": "Оружие",
-        "ENUM_INPUT_ROLE_ENTER_CONSOLE": "Консоль разработчика",
-        "ENUM_INPUT_ROLE_EQUIP_PISTOLS": "Пистолеты",
-        "ENUM_INPUT_ROLE_EQUIP_SHOTGUN": "Дробовик",
-        "ENUM_INPUT_ROLE_EQUIP_UZIS": "Узи",
-        "ENUM_INPUT_ROLE_FLY_CHEAT": "Чит Полёт",
-        "ENUM_INPUT_ROLE_FPS": "Показать FPS",
-        "ENUM_INPUT_ROLE_INVENTORY": "Инвентарь",
-        "ENUM_INPUT_ROLE_ITEM_CHEAT": "Чит Предметы",
-        "ENUM_INPUT_ROLE_JUMP": "Прыжок",
-        "ENUM_INPUT_ROLE_LEFT": "Влево",
-        "ENUM_INPUT_ROLE_LEVEL_SKIP_CHEAT": "Чит Пропуск уровня",
-        "ENUM_INPUT_ROLE_LOAD": "Быстрая загрузка",
-        "ENUM_INPUT_ROLE_LOOK": "Обзор",
-        "ENUM_INPUT_ROLE_PAUSE": "Пауза",
-        "ENUM_INPUT_ROLE_RIGHT": "Вправо",
-        "ENUM_INPUT_ROLE_ROLL": "Кувырок",
-        "ENUM_INPUT_ROLE_SAVE": "Быстрое сохранение",
-        "ENUM_INPUT_ROLE_SCREENSHOT": "\\{review}Скриншот",
-        "ENUM_INPUT_ROLE_SLOW": "Ходьба",
-        "ENUM_INPUT_ROLE_SPRINT": "\\{review}Бег",
-        "ENUM_INPUT_ROLE_STEP_LEFT": "Шаг влево",
-        "ENUM_INPUT_ROLE_STEP_RIGHT": "Шаг вправо",
-        "ENUM_INPUT_ROLE_SWITCH_BORDERS": "Изменить размер рамки",
-        "ENUM_INPUT_ROLE_SWITCH_UPSCALING": "Изменить коэффициент масштабирования",
-        "ENUM_INPUT_ROLE_TOGGLE_BILINEAR_FILTER": "\\{review}Переключить билинейную фильтрацию",
-        "ENUM_INPUT_ROLE_TOGGLE_FULLSCREEN": "\\{review}Переключить полноэкранный режим",
-        "ENUM_INPUT_ROLE_TOGGLE_PHOTO_MODE": "Фоторежим",
-        "ENUM_INPUT_ROLE_TOGGLE_TRAPEZOID_FILTER": "Вкл/выкл четырёхугольную интерполяцию",
-        "ENUM_INPUT_ROLE_TOGGLE_UI": "Вкл/выкл интерфейс",
-        "ENUM_INPUT_ROLE_TOGGLE_WIREFRAME": "\\{review}Переключить каркасный режим",
-        "ENUM_INPUT_ROLE_TURBO_CHEAT": "Турбо скорость",
-        "ENUM_INPUT_ROLE_UP": "Вперёд",
-        "ENUM_INPUT_ROLE_USE_BIG_MEDI": "Большая аптечка",
-        "ENUM_INPUT_ROLE_USE_SMALL_MEDI": "Малая аптечка",
-        "ENUM_JUMP_LOCK_DISABLED": "Отключена",
-        "ENUM_JUMP_LOCK_LEGACY": "Оригинал",
-        "ENUM_JUMP_LOCK_TUNED": "Оптимально",
-        "ENUM_LIGHTING_CONTRAST_HIGH": "Высокая",
-        "ENUM_LIGHTING_CONTRAST_LOW": "Низкая",
-        "ENUM_LIGHTING_CONTRAST_MEDIUM": "Средняя",
-        "ENUM_LOOK_MODE_ENHANCED": "Расширенный",
-        "ENUM_LOOK_MODE_RESTRICTED": "Ограниченный",
-        "ENUM_LOOK_MODE_UNRESTRICTED": "Неограниченный",
-        "ENUM_MUSIC_LOAD_CONDITION_ALWAYS": "Всегда",
-        "ENUM_MUSIC_LOAD_CONDITION_NEVER": "Никогда",
-        "ENUM_MUSIC_LOAD_CONDITION_NON_AMBIENT": "Кроме фона",
-        "ENUM_QUICK_GUNS_MODE_DRAW_AND_HOLSTER": "Достать или убрать",
-        "ENUM_QUICK_GUNS_MODE_DRAW_ONLY": "Только достать",
-        "ENUM_SCREENSHOT_FORMAT_JPG": "JPG",
-        "ENUM_SCREENSHOT_FORMAT_PNG": "PNG",
-        "ENUM_STAT_DETAIL_MODE_DETAILED": "Подробная",
-        "ENUM_STAT_DETAIL_MODE_FULL": "Полная",
-        "ENUM_STAT_DETAIL_MODE_MINIMAL": "Минимальная",
-        "ENUM_TARGET_LOCK_MODE_FULL": "Полный захват",
-        "ENUM_TARGET_LOCK_MODE_NONE": "Без захвата",
-        "ENUM_TARGET_LOCK_MODE_SEMI": "Полузахват",
-        "ENUM_TEXTURE_FILTER_BILINEAR": "Билинейная",
-        "ENUM_TEXTURE_FILTER_POINT": "Точечная выборка",
-        "ENUM_UI_STYLE_PC": "PC",
-        "ENUM_UI_STYLE_PS1": "PS1",
-        "ENUM_WALL_GLITCH_FIXED": "Исправлен",
-        "ENUM_WALL_GLITCH_TR1": "TR1",
-        "ENUM_WALL_GLITCH_TR2": "TR2",
-        "GAMEPLAY_SETTINGS_CONTROLS_TAB": "Управление",
-        "GAMEPLAY_SETTINGS_FIXES_TAB": "Исправления",
-        "GAMEPLAY_SETTINGS_GENERAL_TAB": "Основные",
-        "GAMEPLAY_SETTINGS_MODS_TAB": "Модификации",
-        "GAMEPLAY_SETTINGS_TITLE": "Игровой процесс",
-        "GRAPHIC_SETTINGS_RENDERING_TAB": "Графика",
-        "GRAPHIC_SETTINGS_TITLE": "Настройки изображения",
-        "GRAPHIC_SETTINGS_UI_TAB": "Интерфейс",
-        "GRAPHIC_SETTINGS_VISUALS_TAB": "Визуальные эффекты",
-        "HEADING_GAME_OVER": "Конец игры",
-        "HEADING_INVENTORY": "Инвентарь",
-        "HEADING_ITEMS": "Предметы",
-        "HEADING_OPTION": "Настройки",
-        "MISC_DEMO_MODE": "Демо режим",
-        "MISC_EMPTY_SLOT_FMT": "- ПУСТОЙ СЛОТ %d -",
-        "MISC_EXIT": "Выход",
-        "MISC_HOLD_FMT": "удерж. %s",
-        "MISC_OFF": "Выкл",
-        "MISC_ON": "Вкл",
-        "OSD_AMBIGUOUS_INPUT_2": "Неоднозначный ввод: %s и %s",
-        "OSD_AMBIGUOUS_INPUT_3": "Неоднозначный ввод: %s, %s, ...",
-        "OSD_BILINEAR_FILTER_OFF": "\\{review}Билинейная фильтрация: выкл",
-        "OSD_BILINEAR_FILTER_ON": "\\{review}Билинейная фильтрация: вкл",
-        "OSD_COMMAND_BAD_INVOCATION": "Недопустимый вызов: %s",
-        "OSD_COMMAND_BOOL": "вкл, выкл",
-        "OSD_COMMAND_DECIMAL": "[десятичн.]",
-        "OSD_COMMAND_INTEGER": "[цел.]",
-        "OSD_COMMAND_PERCENT": "[цел.]",
-        "OSD_COMMAND_UNAVAILABLE": "Команда недоступна",
-        "OSD_COMMAND_VALID_VALUES": "Корректные значения: %s",
-        "OSD_COMPLETE_LEVEL": "Уровень завершён!",
-        "OSD_CONFIG_OPTION_GET": "%s установлен на %s",
-        "OSD_CONFIG_OPTION_SET": "%s изменён на %s",
-        "OSD_CONFIG_OPTION_UNKNOWN_OPTION": "Неизвестная опция: %s",
-        "OSD_CURRENT_HEALTH_GET": "Текущее здоровье Лары: %d",
-        "OSD_CURRENT_HEALTH_SET": "Здоровье Лары установлено на %d",
-        "OSD_DOOR_CLOSE": "Сезам, закройся!",
-        "OSD_DOOR_OPEN": "Сезам, откройся!",
-        "OSD_DOOR_OPEN_FAIL": "Рядом с Ларой нет дверей",
-        "OSD_FLIPMAP_FAIL_ALREADY_OFF": "Перевёрнутая карта уже выключена",
-        "OSD_FLIPMAP_FAIL_ALREADY_ON": "Перевёрнутая карта уже включена",
-        "OSD_FLIPMAP_OFF": "Перевёрнутая карта выключена",
-        "OSD_FLIPMAP_ON": "Перевёрнутая карта включена",
-        "OSD_FLY_MODE_OFF": "Режим полёта выключен",
-        "OSD_FLY_MODE_ON": "Режим полёта включен",
-        "OSD_FPS_COUNTER_OFF": "Счётчик FPS выключен",
-        "OSD_FPS_COUNTER_ON": "Счётчик FPS включен",
-        "OSD_GIVE_ITEM": "%s добавлен в инвентарь Лары",
-        "OSD_GIVE_ITEM_ALL_GUNS": "Оружие к бою - Лара вооружена до зубов!",
-        "OSD_GIVE_ITEM_ALL_KEYS": "Сюрприз! Все необходимые Ларе предметы теперь в её рюкзаке.",
-        "OSD_GIVE_ITEM_CHEAT": "Рюкзак Лары только что стал намного тяжелее!",
-        "OSD_HEAL_ALREADY_FULL_HP": "Лара уже полностью здорова",
-        "OSD_HEAL_SUCCESS": "Лара исцелена!",
-        "OSD_INVALID_CUTSCENE": "Невалидная заставка",
-        "OSD_INVALID_DEMO": "С этим демо что-то не так...",
-        "OSD_INVALID_ITEM": "Неизвестный предмет: %s",
-        "OSD_INVALID_LEVEL": "Невалидный уровень",
-        "OSD_INVALID_MUSIC_TRACK": "Невалидная музыка",
-        "OSD_INVALID_OBJECT": "Невалидный объект",
-        "OSD_INVALID_ROOM": "Невалидная комната: %d. Валидные комнаты 0-%d",
-        "OSD_INVALID_SAMPLE": "Невалидный звук: %d",
-        "OSD_KILL": "Пока-пока!",
-        "OSD_KILL_ALL": "Бах! Все враги убиты: %d!",
-        "OSD_KILL_ALL_FAIL": "Ого! Врагов больше не осталось...",
-        "OSD_KILL_FAIL": "Поблизости нет врагов...",
-        "OSD_LIGHTING_CONTRAST_FMT": "\\{review}Контраст освещения: %s",
-        "OSD_LOAD_GAME": "Игра загружена из слота %d",
-        "OSD_LOAD_GAME_FAIL_INVALID_SLOT": "Неверный слот сохранения %d",
-        "OSD_LOAD_GAME_FAIL_UNAVAILABLE_SLOT": "Слот сохранения %d недоступен",
-        "OSD_OBJECT_NOT_FOUND": "Объект не найден",
-        "OSD_PHOTO_MODE_LAUNCHED": "Вход в Фоторежим - нажмите \\{input toggle_ui} для помощи",
-        "OSD_PLAY_CUTSCENE": "Загрузка заставки %d",
-        "OSD_PLAY_DEMO": "Загрузка демо %d",
-        "OSD_PLAY_LEVEL": "Загрузка %s",
-        "OSD_PLAY_MUSIC_TRACK": "Воспроизведение музыки %d",
-        "OSD_POS_LARA_MISSING": "Лара отсутствует",
-        "OSD_POS_LARA_POS_FMT": "Комната: %d\nПозиция: %.3f, %.3f, %.3f\nВращение: %.3f,%.3f,%.3f",
-        "OSD_POS_LEVEL_FMT": "Уровень %d",
-        "OSD_POS_LEVEL_FMT_CUTSCENE": "Заставка %d",
-        "OSD_POS_LEVEL_FMT_DEMO": "Демо %d",
-        "OSD_POS_SET_ITEM": "Телепортировано к объекту: %s",
-        "OSD_POS_SET_ITEM_FAIL": "Невозможно телепортировать к объекту: %s",
-        "OSD_POS_SET_POS": "Телепортировано в позицию: %.3f %.3f %.3f",
-        "OSD_POS_SET_POS_FAIL": "Невозможно телепортировать в позицию: %.3f %.3f %.3f",
-        "OSD_POS_SET_ROOM": "Телепортировано в комнату: %d",
-        "OSD_POS_SET_ROOM_FAIL": "Невозможно телепортировать в комнату: %d",
-        "OSD_SAVE_GAME": "Игра сохранена в слот %d",
-        "OSD_SAVE_GAME_FAIL_INVALID_SLOT": "Неверный слот сохранения %d",
-        "OSD_SOUND_AVAILABLE_SAMPLES": "Доступные звуки : %s",
-        "OSD_SOUND_PLAYING_SAMPLE": "Воспроизведение звука %d",
-        "OSD_SPEED_GET": "Текущая скорость: %d",
-        "OSD_SPEED_SET": "Скорость установлена на %d",
-        "OSD_STRINGS_FAILED": "Ошибка перезагрузки языковых файлов",
-        "OSD_STRINGS_RELOADED": "Языковые файлы перезагружены",
-        "OSD_TRAPEZOID_FILTER_OFF": "Четырёхугольная интерполяция выключена",
-        "OSD_TRAPEZOID_FILTER_ON": "Четырёхугольная интерполяция включена",
-        "OSD_UI_OFF": "Интерфейс выключен",
-        "OSD_UI_ON": "Интерфейс включен",
-        "OSD_UNKNOWN_COMMAND": "Неизвестная команда: %s",
-        "OSD_UPSCALING_FACTOR": "Коэффициент масштабирования: x%d",
-        "OSD_WIREFRAME_MODE_OFF": "\\{review}Режим каркаса: выкл",
-        "OSD_WIREFRAME_MODE_ON": "\\{review}Режим каркаса: вкл",
-        "OVERLAY_DEBUG_ANIMATION": "Анимация: ",
-        "OVERLAY_DEBUG_IMMUNE": "Неуязвимость вкл.",
-        "OVERLAY_DEBUG_POSITION": "Позиция: ",
-        "OVERLAY_DEBUG_ROTATION": "Поворот: ",
-        "OVERLAY_DEBUG_SPEED": "Скорость: ",
-        "PAGINATION_NAV": "%d / %d",
-        "PASSPORT_EXIT_GAME": "Выход",
-        "PASSPORT_EXIT_TO_TITLE": "Выйти в меню",
-        "PASSPORT_LEGACY_SELECT_LEVEL_1": "Старые сохранения не",
-        "PASSPORT_LEGACY_SELECT_LEVEL_2": "поддерживают эту возможность",
-        "PASSPORT_LOAD_GAME": "Загрузить игру",
-        "PASSPORT_MODE_NEW_GAME": "Новая игра",
-        "PASSPORT_MODE_NEW_GAME_JP": "Японская новая игра",
-        "PASSPORT_MODE_NEW_GAME_JP_PLUS": "Японская новая игра+",
-        "PASSPORT_MODE_NEW_GAME_PLUS": "Новая игра+",
-        "PASSPORT_NEW_GAME": "Новая игра",
-        "PASSPORT_SAVE_GAME": "Сохранить игру",
-        "PASSPORT_SELECT_LEVEL": "Выбор уровня",
-        "PASSPORT_SELECT_MODE": "Выбор режима",
-        "PASSPORT_STORY_SO_FAR": "История до сих пор...",
-        "PAUSE_ARE_YOU_SURE": "Вы уверены?",
-        "PAUSE_CONTINUE": "Остаться",
-        "PAUSE_EXIT_TO_TITLE": "Выйти в меню?",
-        "PAUSE_NO": "Нет",
-        "PAUSE_PAUSED": "Пауза",
-        "PAUSE_QUIT": "Выйти в меню",
-        "PAUSE_YES": "Да",
-        "PHOTO_MODE_ADVANCE_FRAME": "Дополнительный кадр",
-        "PHOTO_MODE_CAMERA_MOVE_PROMPT": "Двигать камеру",
-        "PHOTO_MODE_CAMERA_RESET_PROMPT": "Сбросить камеру",
-        "PHOTO_MODE_CAMERA_ROLL_PROMPT": "Вращать камеру",
-        "PHOTO_MODE_CAMERA_ROTATE_90_PROMPT": "Поворот на 90°",
-        "PHOTO_MODE_CAMERA_ROTATE_PROMPT": "Повернуть камеру",
-        "PHOTO_MODE_CHANGE_LARA_POSE": "Изменить позу Лары",
-        "PHOTO_MODE_FOV_PROMPT": "Изменить угол обзора",
-        "PHOTO_MODE_LARA_MOVE_PROMPT": "Двигать Лару",
-        "PHOTO_MODE_LARA_RESET_PROMPT": "Сбросить Лару",
-        "PHOTO_MODE_LARA_ROLL_PROMPT": "Вращать Лару",
-        "PHOTO_MODE_LARA_ROTATE_90_PROMPT": "Поворот Лары на 90°",
-        "PHOTO_MODE_LARA_ROTATE_PROMPT": "Повернуть Лару",
-        "PHOTO_MODE_SNAP_PROMPT": "Сделать скриншот",
-        "PHOTO_MODE_TITLE_CAMERA_POS": "Фоторежим",
-        "PHOTO_MODE_TITLE_LARA_POS": "Положение Лары",
-        "PHOTO_MODE_TOGGLE_HELP": "Вкл/выкл помощь",
-        "SETTING_AIRBAR_COLOR": "Цвет шкалы воздуха",
-        "SETTING_AIRBAR_COLOR_DESCRIPTION": "Цвет шкалы воздуха.",
-        "SETTING_AIRBAR_LOCATION": "Положение шкалы воздуха",
-        "SETTING_AIRBAR_LOCATION_DESCRIPTION": "Место, где отображается шкала воздуха.",
-        "SETTING_AIRBAR_SHOW_MODE": "Режим шкалы воздуха",
-        "SETTING_AIRBAR_SHOW_MODE_DESCRIPTION": "Изменяет логику отображения шкалы воздуха.\n\n- Стандарт: показывать шкалу воздуха только в воде и мигать, когда уровень кислорода у Лары составляет 20% или ниже.\n- Стандарт, без мигания: то же, что и стандарт, но мигание отключено.\n- Только мигание: показывать шкалу воздуха *только* когда уровень кислорода у Лары составляет 20% или ниже (для испытаний).\n- Никогда: никогда не отображать шкалу воздуха (для испытаний).",
-        "SETTING_ALLY_HEALTHBAR_COLOR": "Цвет шкалы здоровья союзников",
-        "SETTING_ALLY_HEALTHBAR_COLOR_DESCRIPTION": "Цвет шкалы здоровья союзников. Отображается на месте шкалы здоровья врагов.",
-        "SETTING_AMBIENT_VOLUME": "\\{review}Громкость окружения",
-        "SETTING_AMBIENT_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость окружения.",
-        "SETTING_ANISOTROPY_FILTER": "Анизотропный фильтр",
-        "SETTING_ANISOTROPY_FILTER_DESCRIPTION": "Улучшает фильтрацию текстур на расстоянии.",
-        "SETTING_ASPECT_MODE": "Соотношение сторон",
-        "SETTING_ASPECT_MODE_DESCRIPTION": "Принудительно устанавливает пропорции игры с помощью Letterbox.",
-        "SETTING_BAR_LOOK": "\\{review}Внешний вид панелей",
-        "SETTING_BAR_LOOK_DESCRIPTION": "\\{review}Управляет визуальным отображением панелей интерфейса.\n- TR1: использовать стиль TR1.\n- TR2: использовать стиль TR2 (версия для ПК).\n- PS1: использовать стиль TR2/TR3 (версия для PlayStation 1).\nЭтот параметр отключает выбор цвета панелей.",
-        "SETTING_BORDERS": "Рамка",
-        "SETTING_BORDERS_DESCRIPTION": "Добавляет черные рамки вокруг игрового окна.",
-        "SETTING_BRIGHTNESS": "Яркость",
-        "SETTING_BRIGHTNESS_DESCRIPTION": "Изменяет яркость игры.",
-        "SETTING_CAMERA_MODE": "Режим камеры",
-        "SETTING_CAMERA_MODE_DESCRIPTION": "Регулирует поведение камеры во время таких действий, как нажатие клавиш.",
-        "SETTING_CAMERA_SPEED": "Скорость камеры",
-        "SETTING_CAMERA_SPEED_DESCRIPTION": "Изменяет скорость камеры в ручном режиме.",
-        "SETTING_CHANGE_PIERRE_SPAWN": "Изменить режим возрождения Пьера",
-        "SETTING_CHANGE_PIERRE_SPAWN_DESCRIPTION": "Заставляет только что возродившегося (убегающего) Пьера заменить уже существующего (убегающего) Пьера.",
-        "SETTING_CUTSCENE_VOLUME": "\\{review}Громкость катсцен",
-        "SETTING_CUTSCENE_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость катсцен в игре.",
-        "SETTING_DISABLE_HEALING_BETWEEN_LEVELS": "Постоянный урон",
-        "SETTING_DISABLE_HEALING_BETWEEN_LEVELS_DESCRIPTION": "Не исцелять Лару в начале нового уровня (для прохождений No Heal).",
-        "SETTING_DISABLE_MAGNUMS": "Убрать магнумы",
-        "SETTING_DISABLE_MAGNUMS_DESCRIPTION": "Убрать из игры все магнумы, и боеприпасы к ним.",
-        "SETTING_DISABLE_MEDPACKS": "Убрать аптечки",
-        "SETTING_DISABLE_MEDPACKS_DESCRIPTION": "Убрать из игры все аптечки (для прохождений No Meds).",
-        "SETTING_DISABLE_SHOTGUN": "Убрать дробовик",
-        "SETTING_DISABLE_SHOTGUN_DESCRIPTION": "Убрать из игры все дробовики, и патроны к ним.",
-        "SETTING_DISABLE_TREX_COLLISION": "Убрать коллизии с тираннозавром",
-        "SETTING_DISABLE_TREX_COLLISION_DESCRIPTION": "Устраняет все столкновения с тираннозавром после его смерти. Это помогает, когда тело тираннозавра блокирует проход.",
-        "SETTING_DISABLE_UZIS": "Убрать узи",
-        "SETTING_DISABLE_UZIS_DESCRIPTION": "Убрать из игры все узи, и боеприпасы к ним.",
-        "SETTING_ENABLE_3D_PICKUPS": "3D-предметы",
-        "SETTING_ENABLE_3D_PICKUPS_DESCRIPTION": "Отображать 3D-модели вместо спрайтов для подбираемых предметов.",
-        "SETTING_ENABLE_ALLY_TARGETING": "Разрешить нацеливание на союзников",
-        "SETTING_ENABLE_ALLY_TARGETING_DESCRIPTION": "Позволяет Ларе нацеливаться на союзников, таких как монахи. Если этот параметр отключен, союзники будут неуязвимы для боеприпасов Лары.",
-        "SETTING_ENABLE_AUTO_ITEM_SELECTION": "Автоматический выбор предмета",
-        "SETTING_ENABLE_AUTO_ITEM_SELECTION_DESCRIPTION": "Когда Лара нажимает кнопку действия возле замочной скважины или головоломки, и у неё в инвентаре есть соответствующий предмет, этот предмет будет предварительно выбран.",
-        "SETTING_ENABLE_BAREFOOT_SFX": "\\{review}Эффекты босиком",
-        "SETTING_ENABLE_BAREFOOT_SFX_DESCRIPTION": "\\{review}Включает соответствующие звуки шагов на уровнях, где Лара босиком.",
-        "SETTING_ENABLE_BRAID": "Коса Лары",
-        "SETTING_ENABLE_BRAID_DESCRIPTION": "Показывать косу Лары",
-        "SETTING_ENABLE_BREEZE": "Эффект ветра",
-        "SETTING_ENABLE_BREEZE_DESCRIPTION": "Добавляет эффект ветра на косе Лары в соответствующих комнатах.",
-        "SETTING_ENABLE_BUFFERING": "Буферизация ввода",
-        "SETTING_ENABLE_BUFFERING_DESCRIPTION": "Включает буферизацию F-клавиш (1 кадр) и инвентаря (2 кадра) для достижения точного управления движениями Лары.",
-        "SETTING_ENABLE_CHEATS": "Читы",
-        "SETTING_ENABLE_CHEATS_DESCRIPTION": "Включает различные читы:\n\n- L: немедленно завершить уровень.\n- I: дать Ларе всё оружие, запас боеприпасов и аптечек, а также все сюжетные предметы для текущего уровня.\n- O: включить режим полёта (плавание в воздухе).\n  - Клавиша ХОДЬБА: выйти из режима полёта.\n  - Клавиша ОРУЖИЕ: открыть ближайшую дверь (не работает в некоторых местах).",
-        "SETTING_ENABLE_COMPASS_STATS": "Статистика уровня в компасе",
-        "SETTING_ENABLE_COMPASS_STATS_DESCRIPTION": "Отображать статистику уровня при выборе компаса.",
-        "SETTING_ENABLE_CONSOLE": "Консоль",
-        "SETTING_ENABLE_CONSOLE_DESCRIPTION": "Включает консоль разработчика.",
-        "SETTING_ENABLE_CONTROLLED_DROPS": "Контролируемое падение",
-        "SETTING_ENABLE_CONTROLLED_DROPS_DESCRIPTION": "Позволяет Ларе развернуться в воздухе и ухватиться за выступ, с которого она только что сошла, если удерживать клавишу действия во время падения.",
-        "SETTING_ENABLE_CREDITS": "Включить титры",
-        "SETTING_ENABLE_CREDITS_DESCRIPTION": "Отображать экраны с титрами после завершения игры. Не влияет на финальный экран статистики.",
-        "SETTING_ENABLE_CUTSCENES": "Заставки",
-        "SETTING_ENABLE_CUTSCENES_DESCRIPTION": "Воспроизводить внутриигровые заставки.",
-        "SETTING_ENABLE_DEATHS_COUNTER": "Счётчик смертей Лары",
-        "SETTING_ENABLE_DEATHS_COUNTER_DESCRIPTION": "Отображать счётчик смертей на компасе и в статистике уровня. Счётчик смертей обновляется в текущем загруженном сохранении сразу после смерти Лары.",
-        "SETTING_ENABLE_DEMO": "Демо режим",
-        "SETTING_ENABLE_DEMO_DESCRIPTION": "Показывать демонстрации в главном меню.",
-        "SETTING_ENABLE_ENEMY_ROTATION": "Разнообразить угол наклона врагов",
-        "SETTING_ENABLE_ENEMY_ROTATION_DESCRIPTION": "Применяет дополнительный случайный угол наклона к некоторым врагам при их инициализации.",
-        "SETTING_ENABLE_ENHANCED_SAVES": "Сохранить эффекты",
-        "SETTING_ENABLE_ENHANCED_SAVES_DESCRIPTION": "Улучшает сохранения игры, благодаря чему графические эффекты, туман от водопада, излучатели пламени и многое другое сохраняется, а не исчезает при загрузке.",
-        "SETTING_ENABLE_EXIT_FADE_EFFECTS": "Затухание при выходе",
-        "SETTING_ENABLE_EXIT_FADE_EFFECTS_DESCRIPTION": "Включает эффекты затухания при выходе из игры на рабочий стол.",
-        "SETTING_ENABLE_FADE_EFFECTS": "Плавные переходы",
-        "SETTING_ENABLE_FADE_EFFECTS_DESCRIPTION": "Добавляет плавные переходы, например, между экранами инвентаря и паузы, или экранами титров.",
-        "SETTING_ENABLE_FIRE_LIGHTING": "Свет от огня",
-        "SETTING_ENABLE_FIRE_LIGHTING_DESCRIPTION": "Создаёт динамическое освещение рядом с активным пламенем.",
-        "SETTING_ENABLE_FMV": "Видеоролики",
-        "SETTING_ENABLE_FMV_DESCRIPTION": "Воспроизводить видеоролики.",
-        "SETTING_ENABLE_GAME_MODES": "Выбор режима игры",
-        "SETTING_ENABLE_GAME_MODES_DESCRIPTION": "Позволяет выбирать дополнительные режимы игры в меню паспорта новой игры.\n\n- Новая игра+: разблокирует всё оружие с бесконечным боезапасом; у врагов вдвое больше здоровья.\n- Японская новая игра: оружие наносит двойной урон и сигнальных ракет 8, а не 6.\n- Японская новая игра+: комбинация Новой игры+ и Японской новой игры.",
-        "SETTING_ENABLE_GUN_LIGHTING": "Свет от выстрелов",
-        "SETTING_ENABLE_IDLE_POSE_CAMERA": "\\{review}Камера позы",
-        "SETTING_ENABLE_IDLE_POSE_CAMERA_DESCRIPTION": "\\{review}Настраивает камеру так, чтобы она была направлена на Лару во время анимации позы. Нажмите кнопку «осмотреться», чтобы сбросить камеру.",
-        "SETTING_ENABLE_INVERTED_LOOK": "Инвертировать обзор",
-        "SETTING_ENABLE_INVERTED_LOOK_DESCRIPTION": "Инвертировать вертикальную ось во время обзора.",
-        "SETTING_ENABLE_ITEM_EXAMINING": "Описание предметов",
-        "SETTING_ENABLE_ITEM_EXAMINING_DESCRIPTION": "Для пользовательских уровней - позволяет отображать описания предметов в инвентаре, если автор уровня предоставил эти данные.",
-        "SETTING_ENABLE_JUMP_TWISTS": "Акробатика",
-        "SETTING_ENABLE_JUMP_TWISTS_DESCRIPTION": "Позволяет делать прыжки с поворотами и сальто (нажмите кнопку КУВЫРОК во время прыжка и ныряния).",
-        "SETTING_ENABLE_LARA_MIC": "Микрофон рядом с Ларой",
-        "SETTING_ENABLE_LARA_MIC_DESCRIPTION": "Устанавливает микрофон в положение Лары. Если эта функция отключена, микрофон будет в положении камеры.",
-        "SETTING_ENABLE_LEAN_JUMPING": "Компактные прыжки",
-        "SETTING_ENABLE_LEAN_JUMPING_DESCRIPTION": "Позволяет Ларе продвигаться вперед или назад дальше при выполнении нейтральных прыжков с нажатой соответствующей клавишей ввода.",
-        "SETTING_ENABLE_LEDGE_JUMPS": "\\{review}Прыжки с выступа",
-        "SETTING_ENABLE_LEDGE_JUMPS_DESCRIPTION": "\\{review}Позволяет Ларе прыгнуть вверх или назад, когда она висит на уступе, если перед ней есть твёрдая поверхность, от которой можно оттолкнуться.",
-        "SETTING_ENABLE_LEGAL": "Ролики правообладателей",
-        "SETTING_ENABLE_LEGAL_DESCRIPTION": "Показывать логотипы и ролики правообладателей при запуске игры.",
-        "SETTING_ENABLE_LOADING_SCREENS": "Загрузочные экраны",
-        "SETTING_ENABLE_LOADING_SCREENS_DESCRIPTION": "Показывать загрузочные экраны в стиле PS1 перед каждым уровнем.",
-        "SETTING_ENABLE_MUSIC_IN_MENU": "Музыка в главном меню",
-        "SETTING_ENABLE_MUSIC_IN_MENU_DESCRIPTION": "Воспроизводить музыку в главном меню.",
-        "SETTING_ENABLE_NEUTRAL_TWISTS": "Нейтральные перевороты",
-        "SETTING_ENABLE_NEUTRAL_TWISTS_DESCRIPTION": "Позволяет Ларе переворачиваться в воздухе, выполняя нейтральный прыжок. Нажмите клавиши ПРЫЖОК и КУВЫРОК одновременно, не двигаясь с места.",
-        "SETTING_ENABLE_PICKUP_AIDS": "Помощь при подборе",
-        "SETTING_ENABLE_PICKUP_AIDS_DESCRIPTION": "Включить эффект прерывистого мерцания возле подбираемых предметов, чтобы выделить их присутствие.",
-        "SETTING_ENABLE_PITCHED_SOUNDS": "Разнообразные звуки",
-        "SETTING_ENABLE_PITCHED_SOUNDS_DESCRIPTION": "Случайным образом слегка изменять тон звуковых эффектов, чтобы разнообразить звучание игры.",
-        "SETTING_ENABLE_PS1_CRYSTALS": "Оттенок кристалла PS1",
-        "SETTING_ENABLE_PS1_CRYSTALS_DESCRIPTION": "Кристаллы сохранения будут отображаться с фиолетовым оттенком, больше похожим на кристаллы PS1.",
-        "SETTING_ENABLE_RESPONSIVE_PASSPORT": "Отзывчивый паспорт",
-        "SETTING_ENABLE_RESPONSIVE_PASSPORT_DESCRIPTION": "Отключает блокировку ввода данных пользователем при перелистывании страниц паспорта, вместо этого планирует перелистывание страниц.",
-        "SETTING_ENABLE_RESPONSIVE_SPRINT": "\\{review}Реактивный бег",
-        "SETTING_ENABLE_RESPONSIVE_SPRINT_DESCRIPTION": "\\{review}Включает более отзывчивый режим бега для Лары.\n\n- позволяет начинать бег, когда у Лары есть энергия, а не только при полном запасе выносливости.\n- позволяет бежать по лестнице без прерывания обычной анимацией бега.",
-        "SETTING_ENABLE_ROUND_SHADOW": "Круглые тени",
-        "SETTING_ENABLE_ROUND_SHADOW_DESCRIPTION": "Отображать круглые тени вместо стандартных восьмиугольных.",
-        "SETTING_ENABLE_SAVE_CRYSTALS": "Кристаллы сохранения",
-        "SETTING_ENABLE_SAVE_CRYSTALS_DESCRIPTION": "Ограничить сохранения только началом уровней и кристаллами сохранения. Количество кристаллов сохранения на уровнях ограничено, они одноразовые, как и в версии для PS1. Изменение этой настройки потребует перезапуска уровня.",
-        "SETTING_ENABLE_SHOTGUN_FLASH": "Вспышки из дробовика",
-        "SETTING_ENABLE_SHOTGUN_FLASH_DESCRIPTION": "Показывать вспышки при выстреле из дробовика, как и из другого оружия.",
-        "SETTING_ENABLE_SKYBOX": "Скайбоксы",
-        "SETTING_ENABLE_SKYBOX_DESCRIPTION": "Показывать текстуры неба и горизонта на поддерживаемых уровнях.",
-        "SETTING_ENABLE_SLIDE_TO_RUN": "Бег после скольжения",
-        "SETTING_ENABLE_SLIDE_TO_RUN_DESCRIPTION": "Позволяет Ларе начать бежать сразу после того, как она достигнет земли после скольжения вперёд по склону. Удерживайте кнопку ВПЕРЁД, чтобы активировать.",
-        "SETTING_ENABLE_SMOOTH_BARS": "Сглаженные шкалы",
-        "SETTING_ENABLE_SMOOTH_BARS_DESCRIPTION": "Использовать плавные цветовые переходы на шкалах здоровья, воздуха и врагов.",
-        "SETTING_ENABLE_SMOOTH_WALL_DEFLECT": "Мягкое столкновение со стеной",
-        "SETTING_ENABLE_SMOOTH_WALL_DEFLECT_DESCRIPTION": "Позволяет Ларе быстрее восстанавливаться после удара о стену, и клавиша направления удерживается вместе с клавишей Вперёд.",
-        "SETTING_ENABLE_SPRINT": "\\{review}Бег",
-        "SETTING_ENABLE_SPRINT_DESCRIPTION": "\\{review}Позволяет Ларе бегать на спринте, как в TR3 и новее.",
-        "SETTING_ENABLE_STEP_ROLL_BOOST": "Ускорение подъёма",
-        "SETTING_ENABLE_STEP_ROLL_BOOST_DESCRIPTION": "Позволяет Ларе одним щелчком подняться выше, если перекат нажат у края.",
-        "SETTING_ENABLE_SWING_CANCEL": "Отмена раскачивания",
-        "SETTING_ENABLE_SWING_CANCEL_DESCRIPTION": "Позволяет отменить анимацию раскачивания Лары на выступе, если отпустить и быстро схватиться за него снова.",
-        "SETTING_ENABLE_TARGET_CHANGE": "Изменить цель",
-        "SETTING_ENABLE_TARGET_CHANGE_DESCRIPTION": "Позволяет менять цель в стиле TR4+. Нажмите кнопку «Изменить цель» во время прицеливания, чтобы сменить цель.",
-        "SETTING_ENABLE_TIMER_IN_INVENTORY": "Таймер в инвентаре",
-        "SETTING_ENABLE_TIMER_IN_INVENTORY_DESCRIPTION": "Заставляет внутриигровой таймер работать даже во время отображения инвентаря в игре.",
-        "SETTING_ENABLE_TOTAL_STATS": "Экран финальной статистики",
-        "SETTING_ENABLE_TOTAL_STATS_DESCRIPTION": "Включает экран общей статистики игры, который воспроизводится после титров.",
-        "SETTING_ENABLE_TR2_JUMPING": "Отзывчивые прыжки",
-        "SETTING_ENABLE_TR2_JUMPING_DESCRIPTION": "Позволяет Ларе прыгать в любой точке во время бега, аналогично TR2+.",
-        "SETTING_ENABLE_TR2_SWIMMING": "Плавное плавание",
-        "SETTING_ENABLE_TR2_SWIMMING_DESCRIPTION": "Добавляет кривую ускорения скорости поворота Лары под водой для более плавного движения, как в оригинальной версии TR2+. Отключение этой опции увеличит скорость поворота Лары под водой, как в оригинальной версии TR1.",
-        "SETTING_ENABLE_TR2_SWIM_CANCEL": "Отзывчивая отмена плавания",
-        "SETTING_ENABLE_TR2_SWIM_CANCEL_DESCRIPTION": "Позволяет Lara быстрее останавливаться под водой при отпускании кнопки плавания, аналогично TR2+.",
-        "SETTING_ENABLE_TR3_SIDESTEPS": "Улучшенные шаги",
-        "SETTING_ENABLE_TR3_SIDESTEPS_DESCRIPTION": "Позволяет делать шаги в сторону в стиле TR3+, например, Shift+стрелки. Отдельные кнопки для шагов в сторону по-прежнему будут работать.",
-        "SETTING_ENABLE_UNDERWATER_ANIM_SFX": "Подводные звуковые эффекты",
-        "SETTING_ENABLE_UNDERWATER_ANIM_SFX_DESCRIPTION": "Позволяет управлять воспроизведением определенных анимационных звуковых эффектов (для таких объектов, как двери и люки), когда камера находится под водой.",
-        "SETTING_ENABLE_UW_ROLL": "Переворот под водой",
-        "SETTING_ENABLE_UW_ROLL_DESCRIPTION": "Позволяет Ларе переворачиваться под водой.",
-        "SETTING_ENABLE_WADING": "Идти вброд",
-        "SETTING_ENABLE_WADING_DESCRIPTION": "Позволяет Ларе преодолевать неглубокую воду, подобно TR2+, а не застревать на поверхности воды.",
-        "SETTING_ENABLE_WALK_TO_ITEMS": "Анимированные взаимодействия",
-        "SETTING_ENABLE_WALK_TO_ITEMS_DESCRIPTION": "Лара подходит к предметам и переключателям, когда они находятся поблизости, вместо телепортации к ним.",
-        "SETTING_ENEMY_HEALTHBAR_COLOR": "Цвет шкалы здоровья врагов",
-        "SETTING_ENEMY_HEALTHBAR_COLOR_DESCRIPTION": "Цвет шкалы здоровья противников.",
-        "SETTING_ENEMY_HEALTHBAR_LOCATION": "Положение шкалы здоровья врагов",
-        "SETTING_ENEMY_HEALTHBAR_LOCATION_DESCRIPTION": "Место, где отображается шкала здоровья противника.",
-        "SETTING_ENEMY_HEALTHBAR_SHOW_MODE": "Шкала здоровья врагов",
-        "SETTING_ENEMY_HEALTHBAR_SHOW_MODE_DESCRIPTION": "Отображать индикатор здоровья для активного противника.",
-        "SETTING_FIX_ALLIGATOR_AI": "Исправить поведение аллигаторов",
-        "SETTING_FIX_ALLIGATOR_AI_DESCRIPTION": "Исправляет ошибку, из-за которой аллигаторы не наносили урона, если Лара оставалась неподвижной в воде.",
-        "SETTING_FIX_ANIMATED_SPRITES": "Исправить анимацию спрайтов",
-        "SETTING_FIX_BEAR_AI": "Исправить атаку медведя",
-        "SETTING_FIX_BRIDGE_COLLISION": "Исправить коллизии мостов",
-        "SETTING_FIX_BRIDGE_COLLISION_DESCRIPTION": "Исправляет ошибки, из-за которых Лара не могла ухватиться за части некоторых мостов и невидимые стены на краю. Также исправляет проблемы столкновений с разводными мостами, люками и мостами, расположенными друг над другом, на склонах и у земли.",
-        "SETTING_FIX_DESCENDING_GLITCH": "Исправить хрупкий пол",
-        "SETTING_FIX_DESCENDING_GLITCH_DESCRIPTION": "Исправляет ошибку, когда при шагании в стороны или назад по разрушаемым плиткам, Лара немедленно спускалась на плитку под ней.",
-        "SETTING_FIX_FLARE_THROW_PRIORITY": "Исправить приоритет сигнальной ракеты",
-        "SETTING_FIX_FLARE_THROW_PRIORITY_DESCRIPTION": "Исправляет ошибку, из-за которой Лара отдавала приоритет броску использованной сигнальной ракеты, находясь в воздухе, из-за чего она не могла хвататься за уступы.",
-        "SETTING_FIX_FLOOR_DATA_ISSUES": "Исправить данные пола",
-        "SETTING_FIX_FLOOR_DATA_ISSUES_DESCRIPTION": "Исправляет проблемы с данными/триггерами пола.",
-        "SETTING_FIX_FREE_FLARE_GLITCH": "Исправить бесплатную ракету",
-        "SETTING_FIX_FREE_FLARE_GLITCH_DESCRIPTION": "Исправляет возможность создания бесплатной сигнальной ракеты при нажатии на кнопку запуска ракеты во время подбора любого предмета.",
-        "SETTING_FIX_GLIDE_CAMERAS": "Исправить скользящие камеры",
-        "SETTING_FIX_GLIDE_CAMERAS_DESCRIPTION": "Исправляет ошибку, из-за которой скользящие камеры предпочитали таймер, установленный в триггерах уровня, а не устанавливали скорость по умолчанию после первого кадра.",
-        "SETTING_FIX_ITEM_DUPLICATION_GLITCH": "Исправить дублирование предметов",
-        "SETTING_FIX_ITEM_DUPLICATION_GLITCH_DESCRIPTION": "Исправляет возможность дублирования использования ключевых предметов в инвентаре.",
-        "SETTING_FIX_ITEM_ROTS": "Исправить поворот предметов",
-        "SETTING_FIX_ITEM_ROTS_DESCRIPTION": "Исправляет проблемы с некоторыми неправильно повёрнутыми предметами при использовании опции 3D-предметов.",
-        "SETTING_FIX_M16_ACCURACY": "Исправить точность M16",
-        "SETTING_FIX_M16_ACCURACY_DESCRIPTION": "Исправлять точность стрельбы из М16 во время бега Лары.",
-        "SETTING_FIX_PICKUP_DRIFT_GLITCH": "Исправить дрейф при подборе",
-        "SETTING_FIX_PICKUP_DRIFT_GLITCH_DESCRIPTION": "Исправлять ошибку дрейфа Лары под водой при подборе предметов, которые могли толкать её в стены.",
-        "SETTING_FIX_QWOP_GLITCH": "Исправить QWOP-состояние",
-        "SETTING_FIX_QWOP_GLITCH_DESCRIPTION": "Исправляет странную анимацию бега, известную как QWOP-состояние, которое иногда возникает, когда Лара приземляется на пол во время прыжка.",
-        "SETTING_FIX_SECRETS_KILLING_MUSIC": "Исправить звук секрета",
-        "SETTING_FIX_SECRETS_KILLING_MUSIC_DESCRIPTION": "Исправляет ситуацию, когда звук нахождения секрета прерывает активную музыкальную дорожку.",
-        "SETTING_FIX_SHOTGUN_TARGETING": "Улучшить прицел дробовика",
-        "SETTING_FIX_SPEECHES_KILLING_MUSIC": "Исправить звук разговора",
-        "SETTING_FIX_SPEECHES_KILLING_MUSIC_DESCRIPTION": "Исправляет ситуацию, когда звук разговора врагов прерывает активную музыкальную дорожку.",
-        "SETTING_FIX_STEP_GLITCH": "Исправить глюк ступеней",
-        "SETTING_FIX_STEP_GLITCH_DESCRIPTION": "Исправляет ошибку, из-за которой Лара иногда вдавливалась в стены рядом со ступенями, если она бежала по ним определенным образом.",
-        "SETTING_FIX_TEXTURE_ISSUES": "Исправить ошибки текстур",
-        "SETTING_FIX_TEXTURE_ISSUES_DESCRIPTION": "Исправляет проблемы с отсутствующими или неверными текстурами/сетками.",
-        "SETTING_FIX_TIHOCAN_SECRET_SOUND": "Исправить звук золотого ключа",
-        "SETTING_FIX_TIHOCAN_SECRET_SOUND_DESCRIPTION": "Предотвращает неправильное воспроизведение секретного звука при использовании золотого ключа в Гробнице Тихокана.",
-        "SETTING_FIX_WADE_WALL_HIT": "Исправить переход вброд",
-        "SETTING_FIX_WADE_WALL_HIT_DESCRIPTION": "Исправлять ошибку, из-за которой Лара не реагировала на удары о стену во время перехода вброд.",
-        "SETTING_FIX_WALK_RUN_JUMP": "Исправить прыжок после ходьбы-бега",
-        "SETTING_FIX_WALK_RUN_JUMP_DESCRIPTION": "Исправлять ошибку, из-за которой Лара иногда не могла прыгнуть сразу после перехода от анимации ходьбы к анимации бега.",
-        "SETTING_FIX_WATER_EXIT": "Исправить выход из воды",
-        "SETTING_FIX_WATER_EXIT_DESCRIPTION": "Исправлять ошибку, из-за которой Лара могла напрямую перейти из водной комнаты в соседнюю сухую комнату или в сухую комнату ниже. Кроме того, это не позволит Ларе выбраться из воды на неустойчивые склоны.",
-        "SETTING_FMV_VOLUME": "\\{review}Громкость FMV",
-        "SETTING_FMV_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость видеороликов.",
-        "SETTING_FOG_COLOR_B": "\\{review}Цвет тумана (B)",
-        "SETTING_FOG_COLOR_B_DESCRIPTION": "\\{review}Синий компонент цвета тумана.",
-        "SETTING_FOG_COLOR_G": "\\{review}Цвет тумана (G)",
-        "SETTING_FOG_COLOR_G_DESCRIPTION": "\\{review}Зеленый компонент цвета тумана.",
-        "SETTING_FOG_COLOR_R": "\\{review}Цвет тумана (R)",
-        "SETTING_FOG_COLOR_R_DESCRIPTION": "\\{review}Красный компонент цвета тумана.",
-        "SETTING_FOG_END": "Конец тумана",
-        "SETTING_FOG_END_DESCRIPTION": "Расстояние (в тайлах), на котором туман полностью скрывает обзор.",
-        "SETTING_FOG_START": "Начало тумана",
-        "SETTING_FOG_START_DESCRIPTION": "Расстояние (в тайлах), на котором начинает появляться туман.",
-        "SETTING_FOG_TRANSPARENCY": "\\{review}Прозрачность тумана",
-        "SETTING_FOG_TRANSPARENCY_DESCRIPTION": "\\{review}Включить смешивание удаленной геометрии с полностью прозрачными поверхностями.",
-        "SETTING_FOV": "Угол обзора",
-        "SETTING_FOV_DESCRIPTION": "Поле зрения в градусах, которое переопределяет жёстко заданное значение по умолчанию. Значения по умолчанию: 80 (по горизонтали) и 65 (по вертикали).",
-        "SETTING_FOV_VERTICAL": "Вертикальный угол обзора",
-        "SETTING_FOV_VERTICAL_DESCRIPTION": "Интерпретирует поле зрения как вертикальное, а не горизонтальное. Полезно при широкоэкранном разрешении, особенно при работе с несколькими экранами, поскольку при этом не обрезаются верхняя и нижняя части экрана, а искажается левая и правая сторона.",
-        "SETTING_FPS": "FPS",
-        "SETTING_FPS_DESCRIPTION": "Устанавливает количество кадров в секунду в игре.",
-        "SETTING_HARPOON_RECOIL": "Частота перезарядки гарпуна",
-        "SETTING_HARPOON_RECOIL_DESCRIPTION": "Устанавливает частоту перезарядки гарпуна Ларой, исходя из текущего количества патронов. Например, если установлено значение 3, Ларе придётся перезаряжать гарпунное ружьё после каждого третьего выстрела. Установите значение 0, чтобы полностью отключить перезарядку.",
-        "SETTING_HEALTHBAR_COLOR": "Цвет шкалы здоровья",
-        "SETTING_HEALTHBAR_COLOR_DESCRIPTION": "Цвет шкалы здоровья.",
-        "SETTING_HEALTHBAR_LOCATION": "Положение шкалы здоровья",
-        "SETTING_HEALTHBAR_LOCATION_DESCRIPTION": "Место, где отображается шкала здоровья Лары.",
-        "SETTING_HEALTHBAR_SHOW_MODE": "Режим шкалы здоровья",
-        "SETTING_HEALTHBAR_SHOW_MODE_DESCRIPTION": "Изменяет логику отображения шкалы здоровья.\n\n- Стандарт: показывать шкалу здоровья в начале уровня, при попадании, или при использовании оружия; мигать, если здоровье 20% или ниже.\n- Стандарт, без мигания: то же, что и стандарт, но мигание отключено.\n- Стандарт или мигание: то же, что и стандарт, но показывать шкалу, даже если она мигает.\n- Только мигание: показывать шкалу здоровья *только* когда здоровье Лары 20% или ниже (для испытаний).\n- Всегда: всегда показывать шкалу здоровья.\n- Никогда: никогда не отображать шкалу здоровья (для испытаний).",
-        "SETTING_IDLE_POSE_TIMEOUT": "\\{review}Таймер ожидания",
-        "SETTING_IDLE_POSE_TIMEOUT_DESCRIPTION": "\\{review}Позволяет Ларе перейти в анимацию позы после заданного количества секунд бездействия. Установите 0, чтобы отключить.",
-        "SETTING_INVENTORY_AMBIENT_VOLUME": "\\{review}Громкость окружения (инвентарь)",
-        "SETTING_INVENTORY_AMBIENT_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость окружения в инвентаре.",
-        "SETTING_INVENTORY_BACKGROUND_STYLE": "\\{review}Фон инвентаря",
-        "SETTING_INVENTORY_BACKGROUND_STYLE_DESCRIPTION": "\\{review}Изменяет способ отображения фона для кольца инвентаря.",
-        "SETTING_INVENTORY_MUSIC_VOLUME": "\\{review}Громкость музыки (инвентарь)",
-        "SETTING_INVENTORY_MUSIC_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость музыки в инвентаре.",
-        "SETTING_JUMP_LOCK_MODE": "Блокировка прыжков",
-        "SETTING_JUMP_LOCK_MODE_DESCRIPTION": "Для отзывчивых прыжков: позволяет контролировать, через какое время после начала бега Лара может прыгать.\n\n- Оригинал: соответствует оригинальному времени TR2.\n- Оптимально: прыжок возможен на 2 кадра раньше.\n- Отключена: прыжок возможен сразу после анимации начала бега.",
-        "SETTING_LIGHTING_CONTRAST": "Контрастность динамического освещения",
-        "SETTING_LIGHTING_CONTRAST_DESCRIPTION": "Увеличивает контрастность динамических источников света, таких как вспышки и выстрелы.",
-        "SETTING_LOAD_MUSIC_TRIGGERS": "Исправить музыкальные триггеры",
-        "SETTING_LOAD_MUSIC_TRIGGERS_DESCRIPTION": "Загружает ранее запущенную одноразовую музыку, поэтому дорожки одноразовой музыки не воспроизводятся повторно.",
-        "SETTING_LOOK_MODE": "Режим обзора",
-        "SETTING_LOOK_MODE_DESCRIPTION": "Позволяет контролировать, когда Лара может использовать обзор.\n\n- Ограниченный: обзор разрешён только когда Лара неподвижна и никогда под водой.\n- Расширенный: обзор разрешён во время большинства анимаций, за исключением таких, как толкание блока.\n- Неограниченный: взгляд разрешён в любое время во время обычного управления Ларой.",
-        "SETTING_MASTER_VOLUME": "\\{review}\\{icon music} Главная громкость",
-        "SETTING_MASTER_VOLUME_DESCRIPTION": "\\{review}Регулирует общую громкость в игре. Остальные настройки зависят от этой громкости.",
-        "SETTING_MAXIMUM_SAVE_SLOTS": "Количество слотов сохранения",
-        "SETTING_MAXIMUM_SAVE_SLOTS_DESCRIPTION": "Изменяет количество доступных слотов сохранения.",
-        "SETTING_MENU_STYLE": "Стиль меню",
-        "SETTING_MENU_STYLE_DESCRIPTION": "Изменияет стиль меню.\n\n - PC: стиль меню соответствует версии для ПК.\n - PS1: стиль меню соответствует версии для PlayStation.",
-        "SETTING_MUSIC_LOAD_CONDITION": "Восстанавливать музыку",
-        "SETTING_MUSIC_LOAD_CONDITION_DESCRIPTION": "Загружать музыкальную дорожку, которая воспроизводилась во время сохранения игры.\n\n- Никогда: не восстанавливать музыкальные дорожки при загрузке.\n- Кроме фона: восстанавливать только дорожки, не связанные с фоновой музыкой.\n- Всегда: восстанавливать любые музыкальные дорожки.",
-        "SETTING_MUSIC_VOLUME": "\\{review}Громкость музыки",
-        "SETTING_MUSIC_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость музыки.",
-        "SETTING_MUTE_OUT_OF_FOCUS": "Отключить звук при потере фокуса",
-        "SETTING_MUTE_OUT_OF_FOCUS_DESCRIPTION": "Отключать всю музыку и звуковые эффекты, когда окно игры не активно.",
-        "SETTING_PAUSE_MUSIC_IN_INVENTORY": "Остановить музыку в инвентаре",
-        "SETTING_PAUSE_MUSIC_IN_INVENTORY_DESCRIPTION": "Останавливать игровые звуки, фоновую музыку и музыку на экране инвентаря.",
-        "SETTING_PS_UZI_SFX": "Звук узи PS1",
-        "SETTING_PS_UZI_SFX_DESCRIPTION": "Изменить звуки узи в соответствии с версией для PlayStation.",
-        "SETTING_QUICK_GUNS_MODE": "Быстрые клавиши оружия",
-        "SETTING_QUICK_GUNS_MODE_DESCRIPTION": "Управляет поведением клавиш быстрого выбора оружия.\n\n- Только достать: нажатие клавиши заставит Лару вытащить назначенное оружие.\n- Достать или убрать: Лара достаёт назначенное оружие, либо, если оно уже есть у неё в руках, убирает его.",
-        "SETTING_REFLECTIONS": "Отражения",
-        "SETTING_REFLECTIONS_DESCRIPTION": "Показывать отражения на определенных объектах.",
-        "SETTING_REMEMBER_GUNS_BETWEEN_LEVELS": "Помнить оружие между уровнями",
-        "SETTING_REMEMBER_GUNS_BETWEEN_LEVELS_DESCRIPTION": "При переходе на новый уровень Лара запоминает, каким оружием она пользовалась в последний раз на предыдущем уровне. Если отключить, Лара вернётся к пистолетам.",
-        "SETTING_RESTORE_PS1_ENEMIES": "Восстановить врагов PS1",
-        "SETTING_RESTORE_PS1_ENEMIES_DESCRIPTION": "Добавляет мумию, которая появляется на уровне Город Хамун в версии игры для PlayStation, комната 25.\nИзменение этой опции потребует перезапуска уровня.",
-        "SETTING_SCREENSHOT_FORMAT": "Формат снимка экрана",
-        "SETTING_SCREENSHOT_FORMAT_DESCRIPTION": "Формат снимка экрана.",
-        "SETTING_SOUND_VOLUME": "\\{icon sound} Громкость звуков",
-        "SETTING_SOUND_VOLUME_DESCRIPTION": "Громкость звуковых эффектов.",
-        "SETTING_SPRINTBAR_COLOR": "\\{review}Цвет индикатора бега",
-        "SETTING_SPRINTBAR_COLOR_DESCRIPTION": "\\{review}Цвет полоски спринта.",
-        "SETTING_SPRINTBAR_LOCATION": "\\{review}Расположение индикатора бега",
-        "SETTING_SPRINTBAR_LOCATION_DESCRIPTION": "\\{review}Расположение, где отображается полоска спринта.",
-        "SETTING_SPRINTBAR_SHOW_MODE": "\\{review}Режим отображения индикатора бега",
-        "SETTING_SPRINTBAR_SHOW_MODE_DESCRIPTION": "\\{review}Изменяет способ отображения полоски спринта.\n\n- По умолчанию: показывать полоску, когда Лара бежит или восстанавливается после бега.\n- Никогда: никогда не показывать полоску спринта.",
-        "SETTING_SPRITE_LOCK_MODE": "\\{review}Режим блокировки спрайтов",
-        "SETTING_SPRITE_LOCK_MODE_DESCRIPTION": "\\{review}Управляет осями, которые блокируются при отображении спрайтов на экране.\n\n- Нет: отображать спрайты в обычном виде.\n- Крен: блокировать ось крена – полезно только в режиме фото.\n- Крен и тангаж: обеспечивать, чтобы спрайты стояли вертикально и не лежали на земле при взгляде сверху.\n- Перспектива: блокировать оси крена и тангажа, а также слегка поворачивать спрайты к центру экрана.",
-        "SETTING_START_LARA_HITPOINTS": "Начальное здоровье Лары",
-        "SETTING_START_LARA_HITPOINTS_DESCRIPTION": "Устанавливает значение здоровья Лары в начале каждого уровня.",
-        "SETTING_STATS_BACKGROUND_STYLE": "\\{review}Фон статистики",
-        "SETTING_STATS_BACKGROUND_STYLE_DESCRIPTION": "\\{review}Изменяет способ отображения фона для статистики в конце уровня.",
-        "SETTING_STATS_LEVEL_HEADER": "Номер уровня",
-        "SETTING_STATS_LEVEL_HEADER_DESCRIPTION": "Показывать номер текущего уровня в верхней части статистики уровня.",
-        "SETTING_STAT_DETAIL_MODE": "Детализация статистики",
-        "SETTING_STAT_DETAIL_MODE_DESCRIPTION": "Позволяет выбрать детализацию статистики.\n\n- Минимальная: показывает убийства, подобранные предметы, секреты и затраченное время.\n- Подробная: добавляет к минимальной статистике общее количество предметов и врагов на уровне.\n- Полная: добавляет к подробной статистике количество выстрелов и попаданий, использованные аптечки, и пройденное расстояние.",
-        "SETTING_TARGET_MODE": "Режим захвата цели",
-        "SETTING_TARGET_MODE_DESCRIPTION": "Изменяет поведение захвата цели оружием.\n\n- Полный захват: всегда удерживать захват цели, даже если враг уходит из поля зрения или умирает (TR1).\n- Полузахват: удерживать захват цели, если враг уходит из поля зрения, но терять захват, если враг умирает.\n- Без захвата: терять захват цели, если враг уходит из поля зрения или умирает (TR4+).",
-        "SETTING_TEXTURE_FILTER": "Фильтрация текстур",
-        "SETTING_TEXTURE_FILTER_DESCRIPTION": "Переключает между сглаженными и пикселизировнными игровыми текстурами.",
-        "SETTING_TRAPEZOID_FILTER": "Четырёхугольная интерполяция",
-        "SETTING_TRAPEZOID_FILTER_DESCRIPTION": "Исправляет отображение четырёхугольников.",
-        "SETTING_UI_BAR_SCALE": "Размер шкалы",
-        "SETTING_UI_BAR_SCALE_DESCRIPTION": "Изменяет размер шкал здоровья, воздуха и врагов.",
-        "SETTING_UI_FILTER": "Фильтрация интерфейса",
-        "SETTING_UI_FILTER_DESCRIPTION": "Переключает между сглаженными и пикселизированными текстурами элементов интерфейса.",
-        "SETTING_UI_LANGUAGE": "Язык",
-        "SETTING_UI_LANGUAGE_DESCRIPTION": "Изменить язык интерфейса.",
-        "SETTING_UI_PICKUP_SCALE": "\\{review}Масштаб подбора",
-        "SETTING_UI_PICKUP_SCALE_DESCRIPTION": "\\{review}Изменяет размер предметов, анимированных в интерфейсе, когда Лара что-то подбирает.",
-        "SETTING_UI_SCROLL_WRAPAROUND": "Закольцевать список",
-        "SETTING_UI_SCROLL_WRAPAROUND_DESCRIPTION": "Переходить к началу списка при достижении последнего пункта",
-        "SETTING_UI_TEXT_SCALE": "Размер текста",
-        "SETTING_UI_TEXT_SCALE_DESCRIPTION": "Изменяет размер текста интерфейса.",
-        "SETTING_UNDERWATER_AMBIENT_VOLUME": "\\{review}Громкость окружения (под водой)",
-        "SETTING_UNDERWATER_AMBIENT_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость окружения под водой.",
-        "SETTING_UNDERWATER_MUSIC_VOLUME": "\\{review}Громкость музыки (под водой)",
-        "SETTING_UNDERWATER_MUSIC_VOLUME_DESCRIPTION": "\\{review}Регулирует громкость музыки под водой.",
-        "SETTING_UPSCALING_FACTOR": "Коэффициент масштабирования",
-        "SETTING_UPSCALING_FACTOR_DESCRIPTION": "Увеличивает масштаб игры на заданный коэффициент, сохраняя пикселизированный вид.",
-        "SETTING_UPSCALING_FILTER": "Фильтр масштабирования",
-        "SETTING_UPSCALING_FILTER_DESCRIPTION": "Переключает сглаженный или пиксельный вид для всего экрана.",
-        "SETTING_USE_PS1_FOV": "Использовать поле зрения PS1",
-        "SETTING_USE_PS1_FOV_DESCRIPTION": "Использовать формулу поля зрения из версии PS1.",
-        "SETTING_VSYNC": "Вертикальная синхронизация",
-        "SETTING_VSYNC_DESCRIPTION": "Включает или выключает вертикальную синхронизацию.",
-        "SETTING_WALL_GLITCH_MODE": "Режим глюка стены",
-        "SETTING_WALL_GLITCH_MODE_DESCRIPTION": "Позволяет использовать поведение глюка стены TR1 в TR2 и наоборот; Исправлен: исправлять все типы глюков стены.",
-        "SETTING_WATER_COLOR_B": "Цвет воды (синий)",
-        "SETTING_WATER_COLOR_B_DESCRIPTION": "Синяя составляющая цвета воды.",
-        "SETTING_WATER_COLOR_G": "Цвет воды (зелёный)",
-        "SETTING_WATER_COLOR_G_DESCRIPTION": "Зелёная составляющая цвета воды.",
-        "SETTING_WATER_COLOR_R": "Цвет воды (красный)",
-        "SETTING_WATER_COLOR_R_DESCRIPTION": "Красная составляющая цвета воды.",
-        "SOUND_SETTINGS_MISC_TAB": "\\{review}Разное",
-        "SOUND_SETTINGS_TITLE": "Настройки звука",
-        "SOUND_SETTINGS_VOLUME_TAB": "\\{review}Громкость",
-        "STATS_BASIC_FMT": "%d",
-        "STATS_BONUS_STATISTICS": "Бонусная статистика",
-        "STATS_DETAIL_FMT": "%d из %d",
-        "STATS_FINAL_STATISTICS": "Финальная статистика",
+    "general": {
+        "actions": {
+            "examine_item": "Осмотреть",
+            "hide_dialog": "Скрыть диалог",
+            "reset_defaults": "Сброс",
+            "rotate": "Повернуть",
+            "unbind": "Очистить",
+            "use_item": "Использовать",
+        },
+        "config_presets": {
+            "applied": "\\{review}Предустановка применена.",
+            "confirm_description": "\\{review}Следующие настройки будут изменены:",
+            "confirm_restart_note": "\\{review}Примечание: для вступления изменений в силу может потребоваться перезапуск игры.",
+            "empty": "\\{review}Пресеты не найдены.",
+            "no_changes": "\\{review}Нет изменений для применения.",
+            "title_fmt": "\\{review}Применить предустановку %s?",
+        },
+        "globe_select": {
+            "area_1": "\\{review}Зона 1",
+            "area_2": "\\{review}Зона 2",
+            "area_3": "\\{review}Зона 3",
+            "area_4": "\\{review}Зона 4",
+            "area_5": "\\{review}Зона 5",
+            "area_6": "\\{review}Зона 6",
+        },
+        "inventory_ring": {
+            "heading_adventure": "\\{review}Приключение",
+            "heading_fmt": "%s",
+            "heading_game_over": "Конец игры",
+            "heading_inventory": "Инвентарь",
+            "heading_items": "Предметы",
+            "heading_option": "Настройки",
+            "item_count_fmt": "\\{small}%s",
+            "object_name_fmt": "%s",
+        },
+        "misc": {
+            "demo_mode": "Демо режим",
+            "direction_keys_controller": "Крестовина",
+            "direction_keys_keyboard": "Стрелки",
+            "empty_slot_fmt": "- ПУСТОЙ СЛОТ %d -",
+            "exit": "Выход",
+            "hold_fmt": "удерж. %s",
+            "off": "Выкл",
+            "on": "Вкл",
+            "pagination_nav": "%d / %d",
+        },
+        "osd": {
+            "ambiguous_input_2": "Неоднозначный ввод: %s и %s",
+            "ambiguous_input_3": "Неоднозначный ввод: %s, %s, ...",
+            "bilinear_filter_off": "\\{review}Билинейная фильтрация: выкл",
+            "bilinear_filter_on": "\\{review}Билинейная фильтрация: вкл",
+            "command_bad_invocation": "Недопустимый вызов: %s",
+            "command_bool": "вкл, выкл",
+            "command_decimal": "[десятичн.]",
+            "command_integer": "[цел.]",
+            "command_percent": "[цел.]",
+            "command_unavailable": "Команда недоступна",
+            "command_valid_values": "Корректные значения: %s",
+            "complete_level": "Уровень завершён!",
+            "config_option_get": "%s установлен на %s",
+            "config_option_set": "%s изменён на %s",
+            "config_option_unknown_option": "Неизвестная опция: %s",
+            "current_health_get": "Текущее здоровье Лары: %d",
+            "current_health_set": "Здоровье Лары установлено на %d",
+            "door_close": "Сезам, закройся!",
+            "door_open": "Сезам, откройся!",
+            "door_open_fail": "Рядом с Ларой нет дверей",
+            "flipmap_fail_already_off": "Перевёрнутая карта уже выключена",
+            "flipmap_fail_already_on": "Перевёрнутая карта уже включена",
+            "flipmap_off": "Перевёрнутая карта выключена",
+            "flipmap_on": "Перевёрнутая карта включена",
+            "fly_mode_off": "Режим полёта выключен",
+            "fly_mode_on": "Режим полёта включен",
+            "fps_counter_off": "Счётчик FPS выключен",
+            "fps_counter_on": "Счётчик FPS включен",
+            "give_item": "%s добавлен в инвентарь Лары",
+            "give_item_all_guns": "Оружие к бою - Лара вооружена до зубов!",
+            "give_item_all_keys": "Сюрприз! Все необходимые Ларе предметы теперь в её рюкзаке.",
+            "give_item_cheat": "Рюкзак Лары только что стал намного тяжелее!",
+            "heal_already_full_hp": "Лара уже полностью здорова",
+            "heal_success": "Лара исцелена!",
+            "invalid_cutscene": "Невалидная заставка",
+            "invalid_demo": "С этим демо что-то не так...",
+            "invalid_item": "Неизвестный предмет: %s",
+            "invalid_level": "Невалидный уровень",
+            "invalid_object": "Невалидный объект",
+            "invalid_room": "Невалидная комната: %d. Валидные комнаты 0-%d",
+            "invalid_sample": "Невалидный звук: %d",
+            "kill": "Пока-пока!",
+            "kill_all": "Бах! Все враги убиты: %d!",
+            "kill_all_fail": "Ого! Врагов больше не осталось...",
+            "kill_fail": "Поблизости нет врагов...",
+            "lighting_contrast_fmt": "\\{review}Контраст освещения: %s",
+            "load_game": "Игра загружена из слота %d",
+            "load_game_fail_invalid_slot": "Неверный слот сохранения %d",
+            "load_game_fail_unavailable_slot": "Слот сохранения %d недоступен",
+            "object_not_found": "Объект не найден",
+            "play_cutscene": "Загрузка заставки %d",
+            "play_demo": "Загрузка демо %d",
+            "play_level": "Загрузка %s",
+            "pos_lara_missing": "Лара отсутствует",
+            "pos_lara_pos_fmt": "Комната: %d\nПозиция: %.3f, %.3f, %.3f\nВращение: %.3f,%.3f,%.3f",
+            "pos_level_fmt": "Уровень %d",
+            "pos_level_fmt_cutscene": "Заставка %d",
+            "pos_level_fmt_demo": "Демо %d",
+            "quick_load": "\\{review}Быстро загруженный слот %d",
+            "quick_load_fail_no_bound_slot": "\\{review}В данный момент не привязан ни один слот сохранения",
+            "quick_load_fail_unavailable_bound_slot": "\\{review}Привязанный слот сохранения недоступен",
+            "quick_save": "\\{review}Быстро сохранено",
+            "quick_save_fail_no_slots": "\\{review}Слоты быстрого сохранения не настроены",
+            "save_game": "Игра сохранена в слот %d",
+            "save_game_fail_invalid_slot": "Неверный слот сохранения %d",
+            "sound_available_samples": "Доступные звуки : %s",
+            "sound_playing_sample": "Воспроизведение звука %d",
+            "speed_get": "Текущая скорость: %d",
+            "speed_set": "Скорость установлена на %d",
+            "strings_failed": "Ошибка перезагрузки языковых файлов",
+            "strings_reloaded": "Языковые файлы перезагружены",
+            "textures_off": "\\{review}Текстуры: выключены",
+            "textures_on": "\\{review}Текстуры: включены",
+            "trapezoid_filter_off": "Четырёхугольная интерполяция выключена",
+            "trapezoid_filter_on": "Четырёхугольная интерполяция включена",
+            "ui_off": "Интерфейс выключен",
+            "ui_on": "Интерфейс включен",
+            "unknown_command": "Неизвестная команда: %s",
+            "upscaling_factor": "Коэффициент масштабирования: x%d",
+            "wireframe_mode_off": "\\{review}Режим каркаса: выкл",
+            "wireframe_mode_on": "\\{review}Режим каркаса: вкл",
+        },
+        "overlay": {
+            "debug_animation": "Анимация: ",
+            "debug_animation_state": "\\{review}Состояние: ",
+            "debug_camera_pos": "\\{review}Положение камеры: ",
+            "debug_camera_target": "\\{review}Цель камеры: ",
+            "debug_immune": "Неуязвимость вкл.",
+            "debug_position": "Позиция: ",
+            "debug_rotation": "Поворот: ",
+            "debug_speed": "Скорость: ",
+            "item_count_fmt_pc": "\\{small}%s",
+            "item_count_fmt_ps1": "\\{small}%s",
+        },
+        "passport": {
+            "exit_game": "Выход",
+            "exit_to_title": "Выйти в меню",
+            "load_game": "Загрузить игру",
+            "mode_new_game": "Новая игра",
+            "mode_new_game_jp": "Японская новая игра",
+            "mode_new_game_jp_plus": "Японская новая игра+",
+            "mode_new_game_plus": "Новая игра+",
+            "new_game": "Новая игра",
+            "play_previous_levels": "\\{review}Играть в предыдущие уровни",
+            "restart_level": "Перезапустить уровень",
+            "save_game": "Сохранить игру",
+            "save_slot_unsupported": "\\{review}Это сохранение не поддерживает эту функцию.",
+            "select_level": "Выбор уровня",
+            "select_mod": "\\{review}Выбрать игру",
+            "select_mode": "Выбор режима",
+            "select_save": "\\{review}Выбрать сохранение",
+            "story_so_far": "История до сих пор...",
+            "switch_mod": "\\{review}Сменить игру",
+        },
+        "pause": {
+            "are_you_sure": "Вы уверены?",
+            "continue": "Остаться",
+            "exit_to_title": "Выйти в меню?",
+            "no": "Нет",
+            "paused": "Пауза",
+            "quit": "Выйти в меню",
+            "yes": "Да",
+        },
+        "photo_mode": {
+            "advance_frame": "Дополнительный кадр",
+            "camera_move_prompt": "Двигать камеру",
+            "camera_reset_prompt": "Сбросить камеру",
+            "camera_roll_prompt": "Вращать камеру",
+            "camera_rotate_90_prompt": "Поворот на 90°",
+            "camera_rotate_prompt": "Повернуть камеру",
+            "change_lara_pose": "Изменить позу Лары",
+            "fov_prompt": "Изменить угол обзора",
+            "lara_move_prompt": "Двигать Лару",
+            "lara_reset_prompt": "Сбросить Лару",
+            "lara_roll_prompt": "Вращать Лару",
+            "lara_rotate_90_prompt": "Поворот Лары на 90°",
+            "lara_rotate_prompt": "Повернуть Лару",
+            "snap_prompt": "Сделать скриншот",
+            "title_camera_pos": "Фоторежим",
+            "title_lara_pos": "Положение Лары",
+            "toggle_help": "Вкл/выкл помощь",
+        },
+        "settings": {
+            "common": {
+                "all_hidden_disclaimer": "\\{review}Настройки отключены для этого набора уровней.",
+                "chroma": "Chroma",
+                "edit_value": "Изменить значение",
+                "frozen_option_disclaimer": "Этот параметр принудительно установлен редактором уровней и не может быть изменён.",
+                "hue": "Оттенок",
+                "lightness": "Светлота",
+                "restore_default": "По умолчанию",
+                "toggle_help": "Показать помощь",
+            },
+            "controls": {
+                "backend": {
+                    "controller": "Контроллер",
+                    "keyboard": "Клавиатура",
+                },
+                "customize": "Настроить управление",
+                "layout": {
+                    "custom_1": "Пользовательская схема 1",
+                    "custom_2": "Пользовательская схема 2",
+                    "custom_3": "Пользовательская схема 3",
+                    "default": "По умолчанию",
+                },
+                "tabs": {
+                    "basics": "Движение",
+                    "items": "Предметы",
+                    "misc": "Разное",
+                    "system": "Система",
+                }
+            },
+            "gameplay": {
+                "tabs": {
+                    "controls": "Управление",
+                    "fixes": "Исправления",
+                    "general": "Основные",
+                    "mods": "Модификации",
+                    "presets": "\\{review}Пресеты",
+                },
+                "title": "Игровой процесс",
+            },
+            "graphic_settings": {
+                "tabs": {
+                    "bars": "\\{review}Брусья",
+                    "rendering": "Графика",
+                    "ui": "Интерфейс",
+                    "visuals": "Визуальные эффекты",
+                },
+                "title": "Настройки изображения",
+            },
+            "sound": {
+                "tabs": {
+                    "misc": "\\{review}Разное",
+                    "volume": "\\{review}Громкость",
+                },
+                "title": "Настройки звука",
+            }
+        },
+        "stats": {
+            "ammo": "Попадания/выстрелы",
+            "ammo_hits": "\\{review}Попадания",
+            "ammo_used": "\\{review}Использовано боеприпасов",
+            "assault_best_time_fmt": "\\{review}%s",
+            "assault_finish": "\\{review}Завершить",
+            "assault_no_times_set": "\\{review}Время не установлено",
+            "assault_other_times_fmt": "\\{review}%s",
+            "assault_title": "\\{review}ЛУЧШИЕ ВРЕМЕНА",
+            "basic_fmt": "%d",
+            "bonus_statistics": "Бонусная статистика",
+            "deaths": "Смертей",
+            "detail_fmt": "%d из %d",
+            "distance_travelled": "Пройденное расстояние",
+            "final_statistics": "Финальная статистика",
+            "gym_assault_course": "\\{review}Полоса препятствий",
+            "gym_racetrack_course": "\\{review}Гоночная трасса",
+            "kills": "Убито",
+            "level": "Уровень",
+            "medipacks_used": "Использовано аптечек",
+            "none": "\\{review}Нет",
+            "pickups": "Предметы",
+            "secrets": "Секреты",
+            "time_taken": "Время",
+        }
+    },
+    "console": {
+        "cmd": {
+            "braid": {
+                "help": "Переключает косу Лары.",
+            },
+            "cheats": {
+                "help": "Вкл/выкл внутриигровые читы.",
+            },
+            "clear": {
+                "help": "\\{review}Очищает видимые журналы консоли.",
+            },
+            "debug": {
+                "help": "Переключает визуальную отладочную информацию.",
+            },
+            "drain": {
+                "help": "Осушает текущую комнату, удаляет воду.",
+            },
+            "end_level": {
+                "help": "Завершает текущий уровень.",
+            },
+            "exit": {
+                "help": "Выходит из игры.",
+            },
+            "flipmap": {
+                "help": "Переключает переворачивание карты.",
+            },
+            "flood": {
+                "help": "Затапливает текущую комнату водой.",
+            },
+            "fly": {
+                "help": "Переключает режим полета.",
+            },
+            "fps": {
+                "help": "Изменяет значение FPS.",
+            },
+            "give": {
+                "help": "Добавляет указанный предмет в инвентарь Лары.",
+                "invalid_secret": "Невалидный секрет: %s (валидные секреты: %s)",
+                "secret_given": "Добавлен секрет %s",
+                "secret_list": "Собрано секретов: %d из %d (%s)",
+                "secret_none": "Собрано секретов: %d из %d",
+                "secret_taken": "Удалён секрет %s",
+            },
+            "give_secret": {
+                "help": "Перечисляет секреты Лары, или добавляет/удаляет секрет по номеру.",
+            },
+            "heal": {
+                "help": "Восстанавливает здоровье Лары.",
+            },
+            "help": {
+                "help": "Показывает справку по всем командам или подробную справку по одной.",
+                "list": "Доступные команды:",
+            },
+            "hp": {
+                "help": "Устанавливает здоровье Лары на указанное значение.",
+            },
+            "immune": {
+                "help": "Переключает неуязвимость (в некоторых ситуациях Лара всё ещё может умереть).",
+                "off": "Лара теперь уязвима",
+                "on": "Теперь Лара неуязвима для повреждений",
+            },
+            "inf_sprint": {
+                "help": "\\{review}Переключает бесконечный бег.",
+                "off": "\\{review}Лара больше не может бегать вечно",
+                "on": "\\{review}Лара теперь может бегать вечно",
+            },
+            "kill": {
+                "help": "Убивает ближайших врагов.",
+            },
+            "lighting": {
+                "help": "Переключает освещение.",
+            },
+            "load": {
+                "help": "\\{review}Загружает игру из указанного слота сохранения или из быстрого сохранения.",
+            },
+            "lua": {
+                "help": "Выполняет заданную строку кода Lua.",
+                "runtime_error": "Ошибка выполнения Lua: %s",
+                "syntax_error": "Ошибка синтаксиса Lua: %s",
+            },
+            "mod": {
+                "help": "\\{review}Переключается на указанный мод и перезапускает игру.",
+            },
+            "music": {
+                "help": "Воспроизводит музыкальную дорожку с указанным идентификатором.",
+            },
+            "play_cutscene": {
+                "help": "Воспроизводит кат-сцену с указанным номером.",
+            },
+            "play_demo": {
+                "help": "Воспроизводит демо с указанным номером.",
+            },
+            "play_gym": {
+                "help": "Воспроизводит уровень Тренажёрный зал",
+            },
+            "play_level": {
+                "help": "Воспроизводит уровень с указанным именем или номером",
+            },
+            "play_music": {
+                "invalid_track": "Невалидная музыка",
+                "stopped": "\\{review}Музыка остановлена",
+                "track": "Воспроизведение музыки %d",
+            },
+            "pos": {
+                "help": "Показывает позицию Лары",
+            },
+            "save": {
+                "help": "\\{review}Сохраняет игру в указанный слот сохранения или в следующий слот быстрого сохранения.",
+            },
+            "screenshot": {
+                "help": "\\{review}Сохраняет скриншот на диск с возможным указанием пути.",
+            },
+            "set": {
+                "help": "Отображает или обновляет указанный параметр конфигурации",
+            },
+            "sfx": {
+                "help": "Воспроизводит звуковой эффект с указанным идентификатором",
+            },
+            "spawn": {
+                "fail": "\\{review}Не удалось создать запрошенный объект",
+                "success": "\\{review}Запрошенный объект появился рядом с Ларой",
+            },
+            "speed": {
+                "help": "Изменяет скорость игры",
+            },
+            "strings": {
+                "help": "Перезагружает текущие языковые файлы с диска.",
+            },
+            "teleport": {
+                "item": "Телепортировано к объекту: %d",
+                "item_fail": "Невозможно телепортировать к объекту: %d",
+                "object": "Телепортировано к объекту: %s",
+                "object_fail": "Невозможно телепортировать к объекту: %s",
+                "pos": "Телепортировано в позицию: %.3f %.3f %.3f",
+                "pos_fail": "Невозможно телепортировать в позицию: %.3f %.3f %.3f",
+                "room": "Телепортировано в комнату: %d",
+                "room_fail": "Невозможно телепортировать в комнату: %d",
+            },
+            "textures": {
+                "help": "\\{review}Переключает отображение текстур.",
+            },
+            "title": {
+                "help": "Возвращает на титульный экран",
+            },
+            "tp": {
+                "help": "Телепортирует Лару в указанную позицию или номер комнаты.",
+            },
+            "trigger": {
+                "help": "\\{review}Активирует или деактивирует предмет по идентификатору, имени предмета или имени объекта.",
+                "invalid_item": "\\{review}Недопустимый предмет: %s",
+                "no_match": "\\{review}Неизвестная цель: %s",
+                "not_found": "\\{review}Совпадающие предметы не найдены для: %s",
+                "triggered": "\\{review}Активированный предмет(ы): %s",
+                "untriggered": "\\{review}Неактивированный предмет(ы): %s",
+            },
+            "vsync": {
+                "help": "Переключает вертикальную синхронизацию.",
+            },
+            "weather": {
+                "help": "\\{review}Изменяет текущий тип погоды.",
+                "invalid": "\\{review}Неверная погода: %s (допустимо: %s)",
+                "set": "\\{review}Погода установлена на %s",
+            },
+            "winston": {
+                "dead": "\\{review}Ваш дворецкий мёртв. Ты монстр!",
+                "spawn_failed": "\\{review}Не удалось вызвать Уинстона",
+                "spawned": "\\{review}Вызван Уинстон рядом с Ларой",
+                "teleported": "\\{review}Вызван Уинстон рядом с Ларой",
+            },
+            "wireframe": {
+                "help": "Переключает рендеринг каркаса.",
+            }
+        }
+    },
+    "dynamic": {
+        "config_presets": {
+            "tr1_pc": "\\{review}TR1 PC",
+            "tr1_ps1": "\\{review}TR1 PS1",
+            "tr2_pc": "\\{review}TR2 PC",
+            "tr2_ps1": "\\{review}TR2 PS1",
+            "tr3_pc": "\\{review}TR3 PC",
+            "tr3_ps1": "\\{review}TR3 PS1",
+        },
+        "enums": {
+            "bar_look": {
+                "tr1_pc": "TR1 PC",
+                "tr2_pc": "TR2 PC",
+                "tr2_ps1": "\\{review}TR2 PS1",
+                "tr3_pc": "TR3 PC",
+                "tr3_ps1": "TR3 PS1",
+            },
+            "lara_outfit": {
+                "default": "\\{review}По умолчанию",
+                "golden_sophia": "\\{review}Золотая София",
+                "sophia": "\\{review}София",
+                "tr1_bacon_lara": "\\{review}Лара Бекон",
+                "tr1_classic": "\\{review}TR1 Классический",
+                "tr1_combo": "\\{review}TR1 Комбинированный",
+                "tr1_golden_bacon_lara": "\\{review}Золотая Лара Бекон",
+                "tr1_golden_lara": "\\{review}TR1 Золотая Лара",
+                "tr1_gym": "\\{review}TR1 Тренировочный",
+                "tr1_mauled": "\\{review}TR1 Искалеченная",
+                "tr1_ngage": "\\{review}ТР1 Эн-Гейдж",
+                "tr23_golden_lara": "\\{review}TR2/3 Золотая Лара",
+                "tr2_bomber_jacket": "\\{review}Куртка-бомбер",
+                "tr2_classic": "\\{review}TR2 Классический",
+                "tr2_diving_suit": "\\{review}Водолазный костюм 1",
+                "tr2_diving_suit_alpha": "\\{review}Водолазный костюм 2",
+                "tr2_gym": "\\{review}TR2 Тренировочный",
+                "tr2_robe": "\\{review}Платье",
+                "tr2_vegas": "\\{review}Лас-Вегас",
+                "tr3_antarctica": "\\{review}Антарктида",
+                "tr3_catsuit": "\\{review}Кэтсьют",
+                "tr3_classic": "\\{review}TR3 Классический",
+                "tr3_gym": "\\{review}TR3 Тренировочный",
+                "tr3_nevada": "\\{review}Невада",
+                "tr3_south_pacific": "\\{review}Южный Тихий океан",
+            }
+        },
+        "mods": {
+            "tr1": {
+                "title": "\\{review}Tomb Raider I",
+            },
+            "tr1-demo-pc": {
+                "title": "\\{review}Демо Tomb Raider I",
+            },
+            "tr1-ub": {
+                "title": "\\{review}Незавершённое дело",
+            },
+            "tr2": {
+                "title": "\\{review}Tomb Raider II",
+            },
+            "tr2-gm": {
+                "title": "\\{review}Золотая маска",
+            },
+            "tr3": {
+                "title": "\\{review}Tomb Raider III",
+            },
+            "tr3-la": {
+                "title": "\\{review}Потерянный артефакт",
+            }
+        }
+    },
+    "enums": {
+        "ALLY_HOSTILITY_POLICY": {
+            "ALLY_HOSTILITY_POLICY_INDIVIDUAL": "\\{review}Индивидуально",
+            "ALLY_HOSTILITY_POLICY_SHARED": "\\{review}Общее",
+        },
+        "ASPECT_MODE": {
+            "ASPECT_MODE_16_10": "16:10",
+            "ASPECT_MODE_16_9": "16:9",
+            "ASPECT_MODE_4_3": "4:3",
+            "ASPECT_MODE_ANY": "АВТО",
+        },
+        "BACKGROUND_TYPE": {
+            "BK_BLACK": "\\{review}Черный",
+            "BK_IMAGE": "\\{review}Изображение",
+            "BK_MONOCHROME": "\\{review}Монохром",
+            "BK_MONOCHROME_COOL": "\\{review}Монохромный (холодный)",
+            "BK_MONOCHROME_WARM": "\\{review}Монохромный (теплый)",
+            "BK_NONE": "\\{review}Прозрачный",
+            "BK_PATTERN_STATIC": "\\{review}Статический",
+            "BK_PATTERN_WAVE": "\\{review}Волна",
+            "BK_TRANSPARENT_DARK": "\\{review}Очень темно",
+            "BK_TRANSPARENT_MEDIUM": "\\{review}Темно",
+        },
+        "BAR_SHOW_MODE": {
+            "BAR_SHOW_MODE_ALWAYS": "Всегда",
+            "BAR_SHOW_MODE_BOSS_ONLY": "Только боссы",
+            "BAR_SHOW_MODE_NEVER": "Никогда",
+        },
+        "BILLBOARD_LOCK_MODE": {
+            "BILLBOARD_LOCK_NONE": "\\{review}Нет",
+            "BILLBOARD_LOCK_PERSPECTIVE": "\\{review}Перспектива",
+            "BILLBOARD_LOCK_ROLL": "\\{review}Крен",
+            "BILLBOARD_LOCK_ROLL_PITCH": "\\{review}Крен и тангаж",
+        },
+        "CAMERA_MODE": {
+            "CAMERA_MODE_TR1": "TR1",
+            "CAMERA_MODE_TR2": "TR2",
+            "CAMERA_MODE_TR3": "\\{review}TR3",
+        },
+        "INPUT_BACKEND": {
+            "INPUT_BACKEND_CONTROLLER": "\\{review}Контроллер",
+            "INPUT_BACKEND_KEYBOARD": "\\{review}Клавиатура",
+        },
+        "INPUT_ROLE": {
+            "INPUT_ROLE_ACTION": "Действие",
+            "INPUT_ROLE_CAMERA_BACK": "Камера назад",
+            "INPUT_ROLE_CAMERA_DOWN": "Камера вниз",
+            "INPUT_ROLE_CAMERA_FORWARD": "Камера вперёд",
+            "INPUT_ROLE_CAMERA_LEFT": "Камера влево",
+            "INPUT_ROLE_CAMERA_RESET": "\\{review}Сброс камеры",
+            "INPUT_ROLE_CAMERA_RIGHT": "Камера вправо",
+            "INPUT_ROLE_CAMERA_UP": "Камера вверх",
+            "INPUT_ROLE_CHANGE_OUTFIT": "\\{review}Сменить костюм",
+            "INPUT_ROLE_CHANGE_TARGET": "Изменить цель",
+            "INPUT_ROLE_CROUCH": "\\{review}Присесть",
+            "INPUT_ROLE_CYCLE_LIGHTING_CONTRAST": "\\{review}Цикл контраста освещения",
+            "INPUT_ROLE_DOWN": "Назад",
+            "INPUT_ROLE_DRAW_WEAPON": "Оружие",
+            "INPUT_ROLE_ENTER_CONSOLE": "Консоль разработчика",
+            "INPUT_ROLE_EQUIP_AUTOS": "Оснастить автоматические пистолеты",
+            "INPUT_ROLE_EQUIP_DESERT_EAGLE": "\\{review}Оснастить Дезерт Игл",
+            "INPUT_ROLE_EQUIP_GRENADE_LAUNCHER": "\\{review}Оснастить гранатомет",
+            "INPUT_ROLE_EQUIP_HARPOON": "\\{review}Оснастить гарпуном",
+            "INPUT_ROLE_EQUIP_M16": "\\{review}Оснастить M16",
+            "INPUT_ROLE_EQUIP_MAGNUMS": "Магнумы",
+            "INPUT_ROLE_EQUIP_MP5": "\\{review}Оснастить MP5",
+            "INPUT_ROLE_EQUIP_PISTOLS": "Пистолеты",
+            "INPUT_ROLE_EQUIP_ROCKET_LAUNCHER": "\\{review}Экипировать ракетную установку",
+            "INPUT_ROLE_EQUIP_SHOTGUN": "Дробовик",
+            "INPUT_ROLE_EQUIP_UZIS": "Узи",
+            "INPUT_ROLE_FLY_CHEAT": "Чит Полёт",
+            "INPUT_ROLE_FPS": "Показать FPS",
+            "INPUT_ROLE_INVENTORY": "Инвентарь",
+            "INPUT_ROLE_ITEM_CHEAT": "Чит Предметы",
+            "INPUT_ROLE_JUMP": "Прыжок",
+            "INPUT_ROLE_LEFT": "Влево",
+            "INPUT_ROLE_LEVEL_SKIP_CHEAT": "Чит Пропуск уровня",
+            "INPUT_ROLE_LOAD": "\\{review}Загрузить",
+            "INPUT_ROLE_LOOK": "Обзор",
+            "INPUT_ROLE_PAUSE": "Пауза",
+            "INPUT_ROLE_QUICK_LOAD": "\\{review}Быстрая загрузка",
+            "INPUT_ROLE_QUICK_SAVE": "\\{review}Быстрое сохранение",
+            "INPUT_ROLE_RIGHT": "Вправо",
+            "INPUT_ROLE_ROLL": "Кувырок",
+            "INPUT_ROLE_SAVE": "\\{review}Сохранить",
+            "INPUT_ROLE_SCREENSHOT": "\\{review}Скриншот",
+            "INPUT_ROLE_SLOW": "Ходьба",
+            "INPUT_ROLE_SPRINT": "\\{review}Бег",
+            "INPUT_ROLE_STEP_LEFT": "Шаг влево",
+            "INPUT_ROLE_STEP_RIGHT": "Шаг вправо",
+            "INPUT_ROLE_SWITCH_BORDERS": "Изменить размер рамки",
+            "INPUT_ROLE_SWITCH_UPSCALING": "Изменить коэффициент масштабирования",
+            "INPUT_ROLE_TOGGLE_BILINEAR_FILTER": "\\{review}Переключить билинейную фильтрацию",
+            "INPUT_ROLE_TOGGLE_FULLSCREEN": "\\{review}Переключить полноэкранный режим",
+            "INPUT_ROLE_TOGGLE_PHOTO_MODE": "Фоторежим",
+            "INPUT_ROLE_TOGGLE_TEXTURES": "\\{review}Переключить текстуры",
+            "INPUT_ROLE_TOGGLE_TRAPEZOID_FILTER": "Вкл/выкл четырёхугольную интерполяцию",
+            "INPUT_ROLE_TOGGLE_UI": "Вкл/выкл интерфейс",
+            "INPUT_ROLE_TOGGLE_WIREFRAME": "\\{review}Переключить каркасный режим",
+            "INPUT_ROLE_TURBO_CHEAT": "Турбо скорость",
+            "INPUT_ROLE_UP": "Вперёд",
+            "INPUT_ROLE_USE_BIG_MEDI": "Большая аптечка",
+            "INPUT_ROLE_USE_FLARE": "\\{review}Вспышка",
+            "INPUT_ROLE_USE_SMALL_MEDI": "Малая аптечка",
+        },
+        "JUMP_LOCK_MODE": {
+            "JUMP_LOCK_DISABLED": "Отключена",
+            "JUMP_LOCK_LEGACY": "Оригинал",
+            "JUMP_LOCK_TUNED": "Оптимально",
+        },
+        "LIGHTING_CONTRAST": {
+            "LIGHTING_CONTRAST_HIGH": "Высокая",
+            "LIGHTING_CONTRAST_LOW": "Низкая",
+            "LIGHTING_CONTRAST_MEDIUM": "Средняя",
+        },
+        "LOADING_SCREENS_MODE": {
+            "LOADING_SCREENS_ALWAYS": "\\{review}Всегда",
+            "LOADING_SCREENS_DISABLED": "\\{review}Отключено",
+            "LOADING_SCREENS_NEW_GAMES": "\\{review}Новые игры",
+        },
+        "LOOK_MODE": {
+            "LOOK_MODE_ENHANCED": "Расширенный",
+            "LOOK_MODE_RESTRICTED": "Ограниченный",
+            "LOOK_MODE_UNRESTRICTED": "Неограниченный",
+        },
+        "MUSIC_LOAD_CONDITION": {
+            "MUSIC_LOAD_CONDITION_ALWAYS": "Всегда",
+            "MUSIC_LOAD_CONDITION_NEVER": "Никогда",
+            "MUSIC_LOAD_CONDITION_NON_AMBIENT": "Кроме фона",
+        },
+        "PROJECTILE_AREA_DAMAGE": {
+            "PROJECTILE_AREA_DAMAGE_MULTI_SWEEP": "\\{review}Множественное сканирование",
+            "PROJECTILE_AREA_DAMAGE_SINGLE_SWEEP": "\\{review}Однократное сканирование",
+        },
+        "QUICK_GUNS_MODE": {
+            "QUICK_GUNS_MODE_DRAW_AND_HOLSTER": "Достать или убрать",
+            "QUICK_GUNS_MODE_DRAW_ONLY": "Только достать",
+        },
+        "SCREENSHOT_FORMAT": {
+            "SCREENSHOT_FORMAT_JPEG": "JPG",
+            "SCREENSHOT_FORMAT_PNG": "PNG",
+        },
+        "SHADOW_TYPE": {
+            "SHADOW_TYPE_CIRCLE": "\\{review}Круг",
+            "SHADOW_TYPE_OCTAGON": "\\{review}Восьмиугольник",
+            "SHADOW_TYPE_SPRITE": "\\{review}Спрайт",
+        },
+        "STAT_DETAIL_MODE": {
+            "STAT_DETAIL_MODE_DETAILED": "Подробная",
+            "STAT_DETAIL_MODE_FULL": "Полная",
+            "STAT_DETAIL_MODE_MINIMAL": "Минимальная",
+        },
+        "SUNGLASSES_MODE": {
+            "SUNGLASSES_MODE_OFF": "\\{review}Выкл",
+            "SUNGLASSES_MODE_OPAQUE": "\\{review}Непрозрачный",
+            "SUNGLASSES_MODE_TRANSPARENT": "\\{review}Прозрачный",
+        },
+        "TARGET_LOCK_MODE": {
+            "TARGET_LOCK_MODE_FULL": "Полный захват",
+            "TARGET_LOCK_MODE_NONE": "Без захвата",
+            "TARGET_LOCK_MODE_SEMI": "Полузахват",
+        },
+        "TEXTURE_FILTER": {
+            "TEXTURE_FILTER_BILINEAR": "Билинейная",
+            "TEXTURE_FILTER_POINT": "Точечная выборка",
+        },
+        "UI_ELEMENT_LOCATION": {
+            "UI_ELEMENT_LOCATION_BOTTOM_CENTER": "Внизу по центру",
+            "UI_ELEMENT_LOCATION_BOTTOM_LEFT": "Внизу слева",
+            "UI_ELEMENT_LOCATION_BOTTOM_RIGHT": "Внизу справа",
+            "UI_ELEMENT_LOCATION_TOP_CENTER": "Вверху по центру",
+            "UI_ELEMENT_LOCATION_TOP_LEFT": "Вверху слева",
+            "UI_ELEMENT_LOCATION_TOP_RIGHT": "Вверху справа",
+        },
+        "UI_STYLE": {
+            "UI_STYLE_PC": "PC",
+            "UI_STYLE_PS1": "PS1",
+        },
+        "WALL_GLITCH_MODE": {
+            "WALL_GLITCH_FIXED": "Исправлен",
+            "WALL_GLITCH_TR1": "TR1",
+            "WALL_GLITCH_TR2": "TR2",
+        }
+    },
+    "settings": {
+        "audio.ambient_volume": {
+            "title": "\\{review}Громкость окружения",
+            "description": "\\{review}Регулирует громкость окружения.",
+        },
+        "audio.cutscene_volume": {
+            "title": "\\{review}Громкость катсцен",
+            "description": "\\{review}Регулирует громкость катсцен в игре.",
+        },
+        "audio.enable_lara_mic": {
+            "title": "Микрофон рядом с Ларой",
+            "description": "Устанавливает микрофон в положение Лары. Если эта функция отключена, микрофон будет в положении камеры.",
+        },
+        "audio.enable_music_in_inventory": {
+            "title": "Остановить музыку в инвентаре",
+            "description": "Останавливать игровые звуки, фоновую музыку и музыку на экране инвентаря.",
+        },
+        "audio.enable_music_in_menu": {
+            "title": "Музыка в главном меню",
+            "description": "Воспроизводить музыку в главном меню.",
+        },
+        "audio.enable_pitched_sounds": {
+            "title": "Разнообразные звуки",
+            "description": "Случайным образом слегка изменять тон звуковых эффектов, чтобы разнообразить звучание игры.",
+        },
+        "audio.enable_ps1_sfx": {
+            "title": "\\{review}Замены звуковых эффектов PS1",
+            "description": "\\{review}Включает определённые замены звуковых эффектов, используя эквиваленты с PS1.\n\n- Выстрелы из Узи (только TR1)\n- Звуки босых ног Лары (только TR2)",
+        },
+        "audio.enable_underwater_anim_sfx": {
+            "title": "Подводные звуковые эффекты",
+            "description": "Позволяет управлять воспроизведением определенных анимационных звуковых эффектов (для таких объектов, как двери и люки), когда камера находится под водой.",
+        },
+        "audio.fix_chainblock_secret_sound": {
+            "title": "Исправить звук золотого ключа",
+            "description": "Предотвращает неправильное воспроизведение секретного звука при использовании золотого ключа в Гробнице Тихокана.",
+        },
+        "audio.fix_secrets_killing_music": {
+            "title": "Исправить звук секрета",
+            "description": "Исправляет ситуацию, когда звук нахождения секрета прерывает активную музыкальную дорожку.",
+        },
+        "audio.fix_speeches_killing_music": {
+            "title": "Исправить звук разговора",
+            "description": "Исправляет ситуацию, когда звук разговора врагов прерывает активную музыкальную дорожку.",
+        },
+        "audio.fmv_volume": {
+            "title": "\\{review}Громкость FMV",
+            "description": "\\{review}Регулирует громкость видеороликов.",
+        },
+        "audio.inventory_ambient_volume": {
+            "title": "\\{review}Громкость окружения (инвентарь)",
+            "description": "\\{review}Регулирует громкость окружения в инвентаре.",
+        },
+        "audio.inventory_music_volume": {
+            "title": "\\{review}Громкость музыки (инвентарь)",
+            "description": "\\{review}Регулирует громкость музыки в инвентаре.",
+        },
+        "audio.load_music_triggers": {
+            "title": "Исправить музыкальные триггеры",
+            "description": "Загружает ранее запущенную одноразовую музыку, поэтому дорожки одноразовой музыки не воспроизводятся повторно.",
+        },
+        "audio.master_volume": {
+            "title": "\\{review}\\{icon music} Главная громкость",
+            "description": "\\{review}Регулирует общую громкость в игре. Остальные настройки зависят от этой громкости.",
+        },
+        "audio.music_load_condition": {
+            "title": "Восстанавливать музыку",
+            "description": "Загружать музыкальную дорожку, которая воспроизводилась во время сохранения игры.\n\n- Никогда: не восстанавливать музыкальные дорожки при загрузке.\n- Кроме фона: восстанавливать только дорожки, не связанные с фоновой музыкой.\n- Всегда: восстанавливать любые музыкальные дорожки.",
+        },
+        "audio.music_volume": {
+            "title": "\\{review}Громкость музыки",
+            "description": "\\{review}Регулирует громкость музыки.",
+        },
+        "audio.mute_out_of_focus": {
+            "title": "Отключить звук при потере фокуса",
+            "description": "Отключать всю музыку и звуковые эффекты, когда окно игры не активно.",
+        },
+        "audio.sound_volume": {
+            "title": "\\{icon sound} Громкость звуков",
+            "description": "Громкость звуковых эффектов.",
+        },
+        "audio.underwater_ambient_volume": {
+            "title": "\\{review}Громкость окружения (под водой)",
+            "description": "\\{review}Регулирует громкость окружения под водой.",
+        },
+        "audio.underwater_music_volume": {
+            "title": "\\{review}Громкость музыки (под водой)",
+            "description": "\\{review}Регулирует громкость музыки под водой.",
+        },
+        "debug.enable_endless_flare_time": {
+            "title": "\\{review}Бесконечное время горения факелов",
+            "description": "\\{review}Предотвращает затухание ручных факелов. Брошенные факелы по-прежнему будут гаснуть как обычно.",
+        },
+        "debug.enable_endless_sprint": {
+            "title": "\\{review}Бесконечный спринт",
+            "description": "\\{review}Предотвращает усталость Лары при беге. Препятствия по-прежнему остановят её.",
+        },
+        "gameplay.ally_hostility_policy": {
+            "title": "\\{review}Политика враждебности союзников",
+            "description": "\\{review}Управляет реакцией дружественных юнитов при получении урона.\n\n- Индивидуально: каждый союзник меняет враждебность самостоятельно (стиль TR3).\n- Общее: все союзники становятся враждебными вместе (стиль монаха из TR2).",
+        },
+        "gameplay.camera_speed": {
+            "title": "Скорость камеры",
+            "description": "Изменяет скорость камеры в ручном режиме.",
+        },
+        "gameplay.change_pierre_spawn": {
+            "title": "Изменить режим возрождения Пьера",
+            "description": "Заставляет только что возродившегося (убегающего) Пьера заменить уже существующего (убегающего) Пьера.",
+        },
+        "gameplay.disable_extra_guns": {
+            "title": "\\{review}Удалить лишнее оружие",
+            "description": "\\{review}Удаляет все оружие и боеприпасы из игры, кроме пистолетов (для испытаний только с пистолетами).",
+        },
+        "gameplay.disable_healing_between_levels": {
+            "title": "Постоянный урон",
+            "description": "Не исцелять Лару в начале нового уровня (для прохождений No Heal).",
+        },
+        "gameplay.disable_medpacks": {
+            "title": "Убрать аптечки",
+            "description": "Убрать из игры все аптечки (для прохождений No Meds).",
+        },
+        "gameplay.disable_trex_collision": {
+            "title": "Убрать коллизии с тираннозавром",
+            "description": "Устраняет все столкновения с тираннозавром после его смерти. Это помогает, когда тело тираннозавра блокирует проход.",
+        },
+        "gameplay.enable_ally_targeting": {
+            "title": "Разрешить нацеливание на союзников",
+            "description": "Позволяет Ларе нацеливаться на союзников, таких как монахи. Если этот параметр отключен, союзники будут неуязвимы для боеприпасов Лары.",
+        },
+        "gameplay.enable_auto_item_selection": {
+            "title": "Автоматический выбор предмета",
+            "description": "Когда Лара нажимает кнопку действия возле замочной скважины или головоломки, и у неё в инвентаре есть соответствующий предмет, этот предмет будет предварительно выбран.",
+        },
+        "gameplay.enable_back_slope_stumble": {
+            "title": "\\{review}Спотыкание на склоне сзади",
+            "description": "\\{review}Заставляет Лару споткнуться, если она отпрыгивает назад и позади находится склон (TR3). Если отключено, Лара резко останавливается, упираясь в склон (TR1/2).",
+        },
+        "gameplay.enable_boulder_shake": {
+            "title": "\\{review}Включить тряску при движении валуна",
+            "description": "\\{review}Если включено, камера будет трястись, когда валун находится в движении.",
+        },
+        "gameplay.enable_bouncy_grenades": {
+            "title": "\\{review}Прыгающие гранаты",
+            "description": "\\{review}Включает поведение гранат в стиле TR3: они отскакивают от стен и склонов и создают большую зону взрыва, но за счет уменьшенной скорости.",
+        },
+        "gameplay.enable_cheats": {
+            "title": "Читы",
+            "description": "Включает различные читы:\n\n- L: немедленно завершить уровень.\n- I: дать Ларе всё оружие, запас боеприпасов и аптечек, а также все сюжетные предметы для текущего уровня.\n- O: включить режим полёта (плавание в воздухе).\n  - Клавиша ХОДЬБА: выйти из режима полёта.\n  - Клавиша ОРУЖИЕ: открыть ближайшую дверь (не работает в некоторых местах).",
+        },
+        "gameplay.enable_compass_stats": {
+            "title": "Статистика уровня в компасе",
+            "description": "Отображать статистику уровня при выборе компаса.",
+        },
+        "gameplay.enable_console": {
+            "title": "Консоль",
+            "description": "Включает консоль разработчика.",
+        },
+        "gameplay.enable_controlled_drops": {
+            "title": "Контролируемое падение",
+            "description": "Позволяет Ларе развернуться в воздухе и ухватиться за выступ, с которого она только что сошла, если удерживать клавишу действия во время падения.",
+        },
+        "gameplay.enable_crawl_jump": {
+            "title": "\\{review}Прыжок при выходе из лазов",
+            "description": "\\{review}Позволяет Ларе выпрыгивать из лазов.",
+        },
+        "gameplay.enable_crawling": {
+            "title": "\\{review}Ползание",
+            "description": "\\{review}Позволяет Ларе приседать и ползать.",
+        },
+        "gameplay.enable_credits": {
+            "title": "Включить титры",
+            "description": "Отображать экраны с титрами после завершения игры. Не влияет на финальный экран статистики.",
+        },
+        "gameplay.enable_crouch_roll": {
+            "title": "\\{review}Перекат из приседа",
+            "description": "\\{review}Позволяет Ларе делать перекат вперед из приседа по нажатию спринта.",
+        },
+        "gameplay.enable_cutscenes": {
+            "title": "Заставки",
+            "description": "Воспроизводить внутриигровые заставки.",
+        },
+        "gameplay.enable_deaths_counter": {
+            "title": "Счётчик смертей Лары",
+            "description": "Отображать счётчик смертей на компасе и в статистике уровня. Счётчик смертей обновляется в текущем загруженном сохранении сразу после смерти Лары.",
+        },
+        "gameplay.enable_demo": {
+            "title": "Демо режим",
+            "description": "Показывать демонстрации в главном меню.",
+        },
+        "gameplay.enable_enemy_rotation": {
+            "title": "Разнообразить угол наклона врагов",
+            "description": "Применяет дополнительный случайный угол наклона к некоторым врагам при их инициализации.",
+        },
+        "gameplay.enable_enhanced_saves": {
+            "title": "Сохранить эффекты",
+            "description": "Улучшает сохранения игры, благодаря чему графические эффекты, туман от водопада, излучатели пламени и многое другое сохраняется, а не исчезает при загрузке.",
+        },
+        "gameplay.enable_fmv": {
+            "title": "Видеоролики",
+            "description": "Воспроизводить видеоролики.",
+        },
+        "gameplay.enable_game_modes": {
+            "title": "Выбор режима игры",
+            "description": "Позволяет выбирать дополнительные режимы игры в меню паспорта новой игры.\n\n- Новая игра+: разблокирует всё оружие с бесконечным боезапасом; у врагов вдвое больше здоровья.\n- Японская новая игра: оружие наносит двойной урон и сигнальных ракет 8, а не 6.\n- Японская новая игра+: комбинация Новой игры+ и Японской новой игры.",
+        },
+        "gameplay.enable_idle_pose_camera": {
+            "title": "\\{review}Камера позы",
+            "description": "\\{review}Настраивает камеру так, чтобы она была направлена на Лару во время анимации позы. Нажмите кнопку «осмотреться», чтобы сбросить камеру.",
+        },
+        "gameplay.enable_inverted_look": {
+            "title": "Инвертировать обзор",
+            "description": "Инвертировать вертикальную ось во время обзора.",
+        },
+        "gameplay.enable_item_examining": {
+            "title": "Описание предметов",
+            "description": "Для пользовательских уровней - позволяет отображать описания предметов в инвентаре, если автор уровня предоставил эти данные.",
+        },
+        "gameplay.enable_jump_twists": {
+            "title": "Акробатика",
+            "description": "Позволяет делать прыжки с поворотами и сальто (нажмите кнопку КУВЫРОК во время прыжка и ныряния).",
+        },
+        "gameplay.enable_killer_pushblocks": {
+            "title": "\\{review}Включить смертельные толкаемые блоки",
+            "description": "\\{review}Если включено, когда толкаемый блок падает с воздуха и приземляется на Лару, он убьет ее мгновенно. В противном случае Лара зацепится за верх блока и выживет.",
+        },
+        "gameplay.enable_lean_jumping": {
+            "title": "Компактные прыжки",
+            "description": "Позволяет Ларе продвигаться вперед или назад дальше при выполнении нейтральных прыжков с нажатой соответствующей клавишей ввода.",
+        },
+        "gameplay.enable_ledge_jumps": {
+            "title": "\\{review}Прыжки с выступа",
+            "description": "\\{review}Позволяет Ларе прыгнуть вверх или назад, когда она висит на уступе, если перед ней есть твёрдая поверхность, от которой можно оттолкнуться.",
+        },
+        "gameplay.enable_legal": {
+            "title": "Ролики правообладателей",
+            "description": "Показывать логотипы и ролики правообладателей при запуске игры.",
+        },
+        "gameplay.enable_manual_camera": {
+            "title": "\\{review}Ручное управление камерой",
+            "description": "\\{review}Включает клавиши управления камерой (\\{input camera_forward}\\{input camera_back}\\{input camera_left}\\{input camera_right}), используемые для управления камерой в режиме фотографии, для также вращения игровой камеры.",
+        },
+        "gameplay.enable_neutral_twists": {
+            "title": "Нейтральные перевороты",
+            "description": "Позволяет Ларе переворачиваться в воздухе, выполняя нейтральный прыжок. Нажмите клавиши ПРЫЖОК и КУВЫРОК одновременно, не двигаясь с места.",
+        },
+        "gameplay.enable_pickup_aids": {
+            "title": "Помощь при подборе",
+            "description": "Включить эффект прерывистого мерцания возле подбираемых предметов, чтобы выделить их присутствие.",
+        },
+        "gameplay.enable_play_previous_levels": {
+            "title": "\\{review}Играть в предыдущие уровни",
+            "description": "\\{review}Включает функции \"Играть предыдущие уровни\" и \"История на данный момент...\" в меню выбора Новая игра.",
+        },
+        "gameplay.enable_responsive_crawl": {
+            "title": "\\{review}Отзывчивое ползание",
+            "description": "\\{review}Включает улучшения по сравнению с оригинальной механикой ползания.\n\n- Позволяет быстрее возобновить ползание после остановки.\n- Позволяет переходить из бега/спринта в ползание без предварительной остановки.\n- Позволяет переходить из ползания в перекат в приседе (если включён) без необходимости сначала вручную приседать.\n- Позволяет поворачиваться в положении приседа.\n- Восстанавливает анимацию подбора предметов Ларой в положении ползания (кроме фальшфейеров).",
+        },
+        "gameplay.enable_responsive_sprint": {
+            "title": "\\{review}Реактивный бег",
+            "description": "\\{review}Включает более отзывчивый режим бега для Лары.\n\n- позволяет начинать бег, когда у Лары есть энергия, а не только при полном запасе выносливости.\n- позволяет бежать по лестнице без прерывания обычной анимацией бега.",
+        },
+        "gameplay.enable_save_crystals": {
+            "title": "Кристаллы сохранения",
+            "description": "Ограничить сохранения только началом уровней и кристаллами сохранения. Количество кристаллов сохранения на уровнях ограничено, они одноразовые, как и в версии для PS1. Изменение этой настройки потребует перезапуска уровня.",
+        },
+        "gameplay.enable_slide_to_run": {
+            "title": "Бег после скольжения",
+            "description": "Позволяет Ларе начать бежать сразу после того, как она достигнет земли после скольжения вперёд по склону. Удерживайте кнопку ВПЕРЁД, чтобы активировать.",
+        },
+        "gameplay.enable_slow_ledge_swing": {
+            "title": "\\{review}Медленное раскачивание на уступе",
+            "description": "\\{review}Позволяет Ларе медленно раскачиваться, ухватившись за очень тонкий уступ (стиль TR3). Если отключено, Лара слегка качнётся и затем перейдёт в неподвижное висячее положение (стиль TR1/2).",
+        },
+        "gameplay.enable_smooth_wall_deflect": {
+            "title": "Мягкое столкновение со стеной",
+            "description": "Позволяет Ларе быстрее восстанавливаться после удара о стену, и клавиша направления удерживается вместе с клавишей Вперёд.",
+        },
+        "gameplay.enable_soft_statics": {
+            "title": "\\{review}Мягкое столкновение с сеткой",
+            "description": "\\{review}Позволяет Ларе плавно двигаться вдоль статических мешей – как в TR4+ – вместо того чтобы резко останавливаться.",
+        },
+        "gameplay.enable_sprint": {
+            "title": "\\{review}Бег",
+            "description": "\\{review}Позволяет Ларе бегать на спринте, как в TR3 и новее.",
+        },
+        "gameplay.enable_step_roll_boost": {
+            "title": "Ускорение подъёма",
+            "description": "Позволяет Ларе одним щелчком подняться выше, если перекат нажат у края.",
+        },
+        "gameplay.enable_swing_cancel": {
+            "title": "Отмена раскачивания",
+            "description": "Позволяет отменить анимацию раскачивания Лары на выступе, если отпустить и быстро схватиться за него снова.",
+        },
+        "gameplay.enable_target_change": {
+            "title": "Изменить цель",
+            "description": "Позволяет менять цель в стиле TR4+. Нажмите кнопку «Изменить цель» во время прицеливания, чтобы сменить цель.",
+        },
+        "gameplay.enable_timer_in_inventory": {
+            "title": "Таймер в инвентаре",
+            "description": "Заставляет внутриигровой таймер работать даже во время отображения инвентаря в игре.",
+        },
+        "gameplay.enable_toggle_crouch": {
+            "title": "\\{review}Переключение приседания",
+            "description": "\\{review}Позволяет Ларе оставаться присевшей после однократного нажатия кнопки приседания. Нажмите кнопку приседания снова, чтобы встать.",
+        },
+        "gameplay.enable_toggle_sprint": {
+            "title": "\\{review}Переключение бега",
+            "description": "\\{review}Позволяет Ларе продолжать бегать после однократного нажатия кнопки бега. Нажмите кнопку бега снова, чтобы остановиться.",
+        },
+        "gameplay.enable_total_stats": {
+            "title": "Экран финальной статистики",
+            "description": "Включает экран общей статистики игры, который воспроизводится после титров.",
+        },
+        "gameplay.enable_tr2_jumping": {
+            "title": "Отзывчивые прыжки",
+            "description": "\\{review}Позволяет Ларе прыгать в любой точке во время бега.",
+        },
+        "gameplay.enable_tr2_swim_cancel": {
+            "title": "Отзывчивая отмена плавания",
+            "description": "Позволяет Lara быстрее останавливаться под водой при отпускании кнопки плавания.",
+        },
+        "gameplay.enable_tr2_swimming": {
+            "title": "Плавное плавание",
+            "description": "Добавляет кривую ускорения скорости поворота Лары под водой для более плавного движения, как в оригинальной версии TR2+. Отключение этой опции увеличит скорость поворота Лары под водой, как в оригинальной версии TR1.",
+        },
+        "gameplay.enable_uw_roll": {
+            "title": "Переворот под водой",
+            "description": "Позволяет Ларе переворачиваться под водой.",
+        },
+        "gameplay.enable_wading": {
+            "title": "Идти вброд",
+            "description": "\\{review}Позволяет Ларе преодолевать неглубокую воду, а не застревать на поверхности воды.",
+        },
+        "gameplay.enable_walk_to_items": {
+            "title": "Анимированные взаимодействия",
+            "description": "Лара подходит к предметам и переключателям, когда они находятся поблизости, вместо телепортации к ним.",
+        },
+        "gameplay.fix_alligator_ai": {
+            "title": "Исправить поведение аллигаторов",
+            "description": "Исправляет ошибку, из-за которой аллигаторы не наносили урона, если Лара оставалась неподвижной в воде.",
+        },
+        "gameplay.fix_bear_ai": {
+            "title": "Исправить атаку медведя",
+            "description": "Исправляет медвежью атаку, чтобы она не промахивалась по Ларе.",
+        },
+        "gameplay.fix_bridge_collision": {
+            "title": "Исправить коллизии мостов",
+            "description": "Исправляет ошибки, из-за которых Лара не могла ухватиться за части некоторых мостов и невидимые стены на краю. Также исправляет проблемы столкновений с разводными мостами, люками и мостами, расположенными друг над другом, на склонах и у земли.",
+        },
+        "gameplay.fix_descending_glitch": {
+            "title": "Исправить хрупкий пол",
+            "description": "Исправляет ошибку, когда при шагании в стороны или назад по разрушаемым плиткам, Лара немедленно спускалась на плитку под ней.",
+        },
+        "gameplay.fix_flare_throw_priority": {
+            "title": "Исправить приоритет сигнальной ракеты",
+            "description": "Исправляет ошибку, из-за которой Лара отдавала приоритет броску использованной сигнальной ракеты, находясь в воздухе, из-за чего она не могла хвататься за уступы.",
+        },
+        "gameplay.fix_floor_data_issues": {
+            "title": "Исправить данные пола",
+            "description": "Исправляет проблемы с данными/триггерами пола.",
+        },
+        "gameplay.fix_free_flare_glitch": {
+            "title": "Исправить бесплатную ракету",
+            "description": "Исправляет возможность создания бесплатной сигнальной ракеты при нажатии на кнопку запуска ракеты во время подбора любого предмета.",
+        },
+        "gameplay.fix_item_duplication_glitch": {
+            "title": "Исправить дублирование предметов",
+            "description": "Исправляет возможность дублирования использования ключевых предметов в инвентаре.",
+        },
+        "gameplay.fix_lara_pickup_embed": {
+            "title": "\\{review}Исправлен баг подбора",
+            "description": "\\{review}Исправляет ошибку, из-за которой Лара иногда проскальзывала в стены при сборе предметов под водой, а также при сборе предметов над водой под крутыми наклонными потолками.",
+        },
+        "gameplay.fix_m16_accuracy": {
+            "title": "\\{review}Исправить точность M16/MP5",
+            "description": "\\{review}Исправлять точность стрельбы из М16/MP5 во время бега Лары.",
+        },
+        "gameplay.fix_monkey_pickup_priority": {
+            "title": "\\{review}Исправить приоритет подбора обезьян",
+            "description": "\\{review}Атакованные обезьяны будут отдавать приоритет ответной атаке, а не сбору аптечек и ключей.",
+        },
+        "gameplay.fix_pipeman_aim": {
+            "title": "\\{review}Прицел духовой трубки",
+            "description": "\\{review}Исправляет проблему, из-за которой стрелок с духовой трубкой иногда не может правильно прицелиться в Лару.",
+        },
+        "gameplay.fix_qwop_glitch": {
+            "title": "Исправить QWOP-состояние",
+            "description": "Исправляет странную анимацию бега, известную как QWOP-состояние, которое иногда возникает, когда Лара приземляется на пол во время прыжка.",
+        },
+        "gameplay.fix_step_glitch": {
+            "title": "Исправить глюк ступеней",
+            "description": "Исправляет ошибку, из-за которой Лара иногда вдавливалась в стены рядом со ступенями, если она бежала по ним определенным образом.",
+        },
+        "gameplay.fix_wade_wall_hit": {
+            "title": "Исправить переход вброд",
+            "description": "Исправлять ошибку, из-за которой Лара не реагировала на удары о стену во время перехода вброд.",
+        },
+        "gameplay.fix_walk_run_jump": {
+            "title": "Исправить прыжок после ходьбы-бега",
+            "description": "Исправлять ошибку, из-за которой Лара иногда не могла прыгнуть сразу после перехода от анимации ходьбы к анимации бега.",
+        },
+        "gameplay.fix_water_exit": {
+            "title": "Исправить выход из воды",
+            "description": "Исправлять ошибку, из-за которой Лара могла напрямую перейти из водной комнаты в соседнюю сухую комнату или в сухую комнату ниже. Кроме того, это не позволит Ларе выбраться из воды на неустойчивые склоны.",
+        },
+        "gameplay.harpoon_recoil": {
+            "title": "Частота перезарядки гарпуна",
+            "description": "Устанавливает частоту перезарядки гарпуна Ларой, исходя из текущего количества патронов. Например, если установлено значение 3, Ларе придётся перезаряжать гарпунное ружьё после каждого третьего выстрела. Установите значение 0, чтобы полностью отключить перезарядку.",
+        },
+        "gameplay.idle_pose_timeout": {
+            "title": "\\{review}Таймер ожидания",
+            "description": "\\{review}Позволяет Ларе перейти в анимацию позы после заданного количества секунд бездействия. Установите 0, чтобы отключить.",
+        },
+        "gameplay.jump_lock_mode": {
+            "title": "Блокировка прыжков",
+            "description": "Для отзывчивых прыжков: позволяет контролировать, через какое время после начала бега Лара может прыгать.\n\n- Оригинал: соответствует оригинальному времени TR2.\n- Оптимально: прыжок возможен на 2 кадра раньше.\n- Отключена: прыжок возможен сразу после анимации начала бега.",
+        },
+        "gameplay.loading_screens": {
+            "title": "Загрузочные экраны",
+            "description": "\\{review}Управляет экранами загрузки перед загрузкой уровней.\n\n- Отключено: никогда не показывать экраны загрузки.\n- Всегда: показывать экраны загрузки.\n- Новые игры: пропускать экраны загрузки при загрузке сохранения.",
+        },
+        "gameplay.look_mode": {
+            "title": "Режим обзора",
+            "description": "Позволяет контролировать, когда Лара может использовать обзор.\n\n- Ограниченный: обзор разрешён только когда Лара неподвижна и никогда под водой.\n- Расширенный: обзор разрешён во время большинства анимаций, за исключением таких, как толкание блока.\n- Неограниченный: взгляд разрешён в любое время во время обычного управления Ларой.",
+        },
+        "gameplay.maximum_quick_save_slots": {
+            "title": "\\{review}Количество слотов быстрого сохранения",
+            "description": "\\{review}Изменяет количество доступных слотов быстрого сохранения.",
+        },
+        "gameplay.maximum_save_slots": {
+            "title": "Количество слотов сохранения",
+            "description": "Изменяет количество доступных слотов сохранения.",
+        },
+        "gameplay.projectile_area_damage": {
+            "title": "\\{review}Урон по области от снарядов",
+            "description": "\\{review}Управляет тем, как распространяется область действия для Ракетной установки и Гранатомёта.\n\n- Однократное сканирование: поведение TR1 и TR2.\n- Множественное сканирование: поведение TR3.\n\nОпция множественного сканирования часто приводит к двойному урону по отдельным врагам.",
+        },
+        "gameplay.remember_gun_status": {
+            "title": "Помнить оружие между уровнями",
+            "description": "\\{review}При переходе на новый уровень Лара запоминает, каким оружием она пользовалась в последний раз на предыдущем уровне. Если отключить, Лара вернётся к пистолетам в кобуре.",
+        },
+        "gameplay.restore_ps1_enemies": {
+            "title": "Восстановить врагов PS1",
+            "description": "\\{review}Добавляет мумию, которая появляется в версии для PlayStation в городе Хамун, комната 25.\nДля применения изменений потребуется перезапустить игру.",
+        },
+        "gameplay.start_lara_hitpoints": {
+            "title": "Начальное здоровье Лары",
+            "description": "Устанавливает значение здоровья Лары в начале каждого уровня.",
+        },
+        "gameplay.target_mode": {
+            "title": "Режим захвата цели",
+            "description": "Изменяет поведение захвата цели оружием.\n\n- Полный захват: всегда удерживать захват цели, даже если враг уходит из поля зрения или умирает (TR1-3).\n- Полузахват: удерживать захват цели, если враг уходит из поля зрения, но терять захват, если враг умирает.\n- Без захвата: терять захват цели, если враг уходит из поля зрения или умирает (TR4+).",
+        },
+        "gameplay.wall_glitch_mode": {
+            "title": "Режим глюка стены",
+            "description": "Позволяет использовать поведение глюка стены TR1 в TR2 и наоборот; Исправлен: исправлять все типы глюков стены.",
+        },
+        "input.enable_buffering_func_keys": {
+            "title": "\\{review}Буферизация (F-клавиши)",
+            "description": "\\{review}Включает буферизацию клавиши F (1 кадр) для точного управления движением Лары. Эта функция изначально присутствует только в порте TombATI (TR1).",
+        },
+        "input.enable_buffering_inventory": {
+            "title": "\\{review}Буферизация (инвентарь)",
+            "description": "\\{review}Включает буферизацию инвентаря (2 кадра) для точного управления движением Лары.",
+        },
+        "input.enable_responsive_passport": {
+            "title": "Отзывчивый паспорт",
+            "description": "Отключает блокировку ввода данных пользователем при перелистывании страниц паспорта, вместо этого планирует перелистывание страниц.",
+        },
+        "input.enable_tr3_sidesteps": {
+            "title": "Улучшенные шаги",
+            "description": "Позволяет делать шаги в сторону в стиле TR3+, например, Shift+стрелки. Отдельные кнопки для шагов в сторону по-прежнему будут работать.",
+        },
+        "input.quick_guns_mode": {
+            "title": "Быстрые клавиши оружия",
+            "description": "Управляет поведением клавиш быстрого выбора оружия.\n\n- Только достать: нажатие клавиши заставит Лару вытащить назначенное оружие.\n- Достать или убрать: Лара достаёт назначенное оружие, либо, если оно уже есть у неё в руках, убирает его.",
+        },
+        "language": {
+            "title": "Язык",
+            "description": "Изменить язык интерфейса.",
+        },
+        "rendering.anisotropy_filter": {
+            "title": "Анизотропный фильтр",
+            "description": "Улучшает фильтрацию текстур на расстоянии.",
+        },
+        "rendering.aspect_mode": {
+            "title": "Соотношение сторон",
+            "description": "Принудительно устанавливает пропорции игры с помощью Letterbox.",
+        },
+        "rendering.borders": {
+            "title": "Рамка",
+            "description": "Добавляет черные рамки вокруг игрового окна.",
+        },
+        "rendering.enable_trapezoid_filter": {
+            "title": "Четырёхугольная интерполяция",
+            "description": "Исправляет отображение четырёхугольников.",
+        },
+        "rendering.enable_vsync": {
+            "title": "Вертикальная синхронизация",
+            "description": "Включает или выключает вертикальную синхронизацию.",
+        },
+        "rendering.fps": {
+            "title": "FPS",
+            "description": "Устанавливает количество кадров в секунду в игре.",
+        },
+        "rendering.lighting_contrast": {
+            "title": "Контрастность динамического освещения",
+            "description": "Увеличивает контрастность динамических источников света, таких как вспышки и выстрелы.",
+        },
+        "rendering.screenshot_format": {
+            "title": "Формат снимка экрана",
+            "description": "Формат снимка экрана.",
+        },
+        "rendering.sprite_lock_mode": {
+            "title": "\\{review}Режим блокировки спрайтов",
+            "description": "\\{review}Управляет осями, которые блокируются при отображении спрайтов на экране.\n\n- Нет: отображать спрайты в обычном виде.\n- Крен: блокировать ось крена – полезно только в режиме фото.\n- Крен и тангаж: обеспечивать, чтобы спрайты стояли вертикально и не лежали на земле при взгляде сверху.\n- Перспектива: блокировать оси крена и тангажа, а также слегка поворачивать спрайты к центру экрана.",
+        },
+        "rendering.texture_filter": {
+            "title": "Фильтрация текстур",
+            "description": "Переключает между сглаженными и пикселизировнными игровыми текстурами.",
+        },
+        "rendering.ui_filter": {
+            "title": "Фильтрация интерфейса",
+            "description": "Переключает между сглаженными и пикселизированными текстурами элементов интерфейса.",
+        },
+        "rendering.upscaling_factor": {
+            "title": "Коэффициент масштабирования",
+            "description": "Увеличивает масштаб игры на заданный коэффициент, сохраняя пикселизированный вид.",
+        },
+        "rendering.upscaling_filter": {
+            "title": "Фильтр масштабирования",
+            "description": "Переключает сглаженный или пиксельный вид для всего экрана.",
+        },
+        "ui.airbar_color": {
+            "title": "Цвет шкалы воздуха",
+            "description": "Цвет шкалы воздуха.",
+        },
+        "ui.airbar_color_ps1": {
+            "title": "Цвет шкалы воздуха",
+            "description": "Цвет шкалы воздуха.",
+        },
+        "ui.airbar_location": {
+            "title": "Положение шкалы воздуха",
+            "description": "Место, где отображается шкала воздуха.",
+        },
+        "ui.ammo_counter_location": {
+            "title": "\\{review}Расположение счетчика боеприпасов",
+            "description": "\\{review}Место, где отображается счетчик боеприпасов.",
+        },
+        "ui.bar_look": {
+            "title": "\\{review}Внешний вид панелей",
+            "description": "\\{review}Управляет визуальным отображением панелей интерфейса.",
+        },
+        "ui.bar_scale": {
+            "title": "Размер шкалы",
+            "description": "Изменяет размер шкал здоровья, воздуха и врагов.",
+        },
+        "ui.enable_bar_flashing": {
+            "title": "\\{review}Мигающие полосы",
+            "description": "\\{review}Заставляет полосы здоровья и кислорода Лары мигать, когда один из ресурсов на исходе.",
+        },
+        "ui.enable_smooth_bars": {
+            "title": "Сглаженные шкалы",
+            "description": "Использовать плавные цветовые переходы на шкалах здоровья, воздуха и врагов.",
+        },
+        "ui.enable_stats_level_header": {
+            "title": "Номер уровня",
+            "description": "Показывать номер текущего уровня в верхней части статистики уровня.",
+        },
+        "ui.enable_wraparound": {
+            "title": "Закольцевать список",
+            "description": "Переходить к началу списка при достижении последнего пункта",
+        },
+        "ui.enemy_healthbar_color": {
+            "title": "Цвет шкалы здоровья врагов",
+            "description": "Цвет шкалы здоровья противников.",
+        },
+        "ui.enemy_healthbar_color_allies": {
+            "title": "Цвет шкалы здоровья союзников",
+            "description": "Цвет шкалы здоровья союзников. Отображается на месте шкалы здоровья врагов.",
+        },
+        "ui.enemy_healthbar_color_allies_ps1": {
+            "title": "Цвет шкалы здоровья союзников",
+            "description": "Цвет шкалы здоровья союзников. Отображается на месте шкалы здоровья врагов.",
+        },
+        "ui.enemy_healthbar_color_ps1": {
+            "title": "Цвет шкалы здоровья врагов",
+            "description": "Цвет шкалы здоровья противников.",
+        },
+        "ui.enemy_healthbar_location": {
+            "title": "Положение шкалы здоровья врагов",
+            "description": "Место, где отображается шкала здоровья противника.",
+        },
+        "ui.enemy_healthbar_show_mode": {
+            "title": "Шкала здоровья врагов",
+            "description": "Отображать индикатор здоровья для активного противника.",
+        },
+        "ui.exposurebar_color": {
+            "title": "\\{review}Цвет шкалы воздействия",
+            "description": "\\{review}Цвет шкалы воздействия холодной воды.",
+        },
+        "ui.exposurebar_color_ps1": {
+            "title": "\\{review}Цвет шкалы воздействия",
+            "description": "\\{review}Цвет шкалы воздействия холодной воды.",
+        },
+        "ui.exposurebar_location": {
+            "title": "\\{review}Расположение шкалы воздействия",
+            "description": "\\{review}Место, где отображается шкала воздействия холодной воды.",
+        },
+        "ui.healthbar_color": {
+            "title": "Цвет шкалы здоровья",
+            "description": "Цвет шкалы здоровья.",
+        },
+        "ui.healthbar_color_ps1": {
+            "title": "Цвет шкалы здоровья",
+            "description": "Цвет шкалы здоровья.",
+        },
+        "ui.healthbar_location": {
+            "title": "Положение шкалы здоровья",
+            "description": "Место, где отображается шкала здоровья Лары.",
+        },
+        "ui.healthbar_poison_color": {
+            "title": "\\{review}Цвет полосы здоровья при отравлении",
+            "description": "\\{review}Цвет полосы здоровья, когда Лара отравлена.",
+        },
+        "ui.healthbar_poison_color_ps1": {
+            "title": "\\{review}Цвет полосы здоровья при отравлении",
+            "description": "\\{review}Цвет полосы здоровья, когда Лара отравлена.",
+        },
+        "ui.inventory_background_style": {
+            "title": "\\{review}Фон инвентаря",
+            "description": "\\{review}Изменяет способ отображения фона для кольца инвентаря.\n\n- Темный: TR1 (PC).\n- Очень темный: TR1 (PS1).\n- Статичный: TR2 (PC).\n- Волна: TR2 (PS1).\n- Монохромный: TR3.",
+        },
+        "ui.inventory_fade_effects": {
+            "title": "\\{review}Эффекты затухания инвентаря",
+            "description": "\\{review}Тонкая настройка включения или отключения эффектов затухания в кольце инвентаря в игре. Для работы требуется включенная опция Эффекты затухания.",
+        },
+        "ui.menu_style": {
+            "title": "Стиль меню",
+            "description": "Изменияет стиль меню.\n\n - PC: стиль меню соответствует версии для ПК.\n - PS1: стиль меню соответствует версии для PlayStation.",
+        },
+        "ui.pause_background_style": {
+            "title": "\\{review}Пауза фона",
+            "description": "\\{review}Изменяет способ отображения фона для экрана паузы.\n\n- Темный: TR1 (PC).\n- Очень темный: TR1 (PS1).\n- Статичный: TR2 (PC).\n- Волна: TR2 (PS1).\n- Монохромный: TR3.",
+        },
+        "ui.pause_fade_effects": {
+            "title": "\\{review}Эффекты затухания паузы",
+            "description": "\\{review}Тонкая настройка включения или отключения эффектов затухания на экране паузы. Для работы требуется включенная опция Эффекты затухания.",
+        },
+        "ui.pickup_scale": {
+            "title": "\\{review}Масштаб подбора",
+            "description": "\\{review}Изменяет размер предметов, анимированных в интерфейсе, когда Лара что-то подбирает.",
+        },
+        "ui.show_bars": {
+            "title": "\\{review}Показать полосы",
+            "description": "\\{review}Отключает все игровые полосы, скрывая информацию о здоровье Лары и других ресурсах (для сложных прохождений).",
+        },
+        "ui.show_pickups_overlay": {
+            "title": "Отображение подбора",
+            "description": "Показывает предметы в правом нижнем углу, когда Лара что-то подбирает.",
+        },
+        "ui.sprintbar_color": {
+            "title": "\\{review}Цвет индикатора бега",
+            "description": "\\{review}Цвет полоски спринта.",
+        },
+        "ui.sprintbar_color_ps1": {
+            "title": "\\{review}Цвет индикатора бега",
+            "description": "\\{review}Цвет полоски спринта.",
+        },
+        "ui.sprintbar_location": {
+            "title": "\\{review}Расположение индикатора бега",
+            "description": "\\{review}Расположение, где отображается полоска спринта.",
+        },
+        "ui.stat_detail_mode": {
+            "title": "Детализация статистики",
+            "description": "\\{review}Позволяет выбирать различные уровни детализации статистики.\n\n- Минимальный: показывает оригинальное окно статистики.\n- Подробный: показывает все статистические данные из минимального режима, а также максимальные значения рядом с каждым полем.\n- Полный: показывает все данные из подробного режима, а также новые строки, отсутствующие в оригинальном окне.",
+        },
+        "ui.stats_background_style": {
+            "title": "\\{review}Фон статистики",
+            "description": "\\{review}Изменяет способ отображения фона для статистики в конце уровня.\n\n- Темный: TR1 (PC).\n- Очень темный: TR1 (PS1).\n- Статичный: TR2 (PC).\n- Волна: TR2 (PS1).\n- Монохромный: TR3.",
+        },
+        "ui.stats_fade_effects": {
+            "title": "\\{review}Эффекты затухания статистики",
+            "description": "\\{review}Тонкая настройка включения или отключения эффектов затухания на экране статистики в конце уровня. Для работы требуется включенная опция Эффекты затухания.",
+        },
+        "ui.text_scale": {
+            "title": "Размер текста",
+            "description": "Изменяет размер текста интерфейса.",
+        },
+        "visuals.camera_mode": {
+            "title": "Режим камеры",
+            "description": "Регулирует поведение камеры во время таких действий, как нажатие клавиш.",
+        },
+        "visuals.enable_3d_pickups": {
+            "title": "3D-предметы",
+            "description": "Отображать 3D-модели вместо спрайтов для подбираемых предметов.",
+        },
+        "visuals.enable_braid": {
+            "title": "Коса Лары",
+            "description": "Показывать косу Лары",
+        },
+        "visuals.enable_breeze": {
+            "title": "Эффект ветра",
+            "description": "Добавляет эффект ветра на косе Лары в соответствующих комнатах.",
+        },
+        "visuals.enable_exit_fade_effects": {
+            "title": "Затухание при выходе",
+            "description": "Включает эффекты затухания при выходе из игры на рабочий стол.",
+        },
+        "visuals.enable_fade_effects": {
+            "title": "Плавные переходы",
+            "description": "Добавляет плавные переходы, например, между экранами инвентаря и паузы, или экранами титров.",
+        },
+        "visuals.enable_fire_lighting": {
+            "title": "Свет от огня",
+            "description": "Создаёт динамическое освещение рядом с активным пламенем.",
+        },
+        "visuals.enable_footprints": {
+            "title": "\\{review}Следы",
+            "description": "\\{review}Включает отображение следов Лары на определённых поверхностях в поддерживаемых уровнях.",
+        },
+        "visuals.enable_glide_cameras": {
+            "title": "\\{review}Плавные камеры",
+            "description": "\\{review}Включает эффект плавного перемещения для фиксированных камер, направленных на Лару, с использованием сглаженной кривой скорости. Если отключено, такие камеры будут мгновенно переключаться на вид, направленный на Лару.",
+        },
+        "visuals.enable_gun_lighting": {
+            "title": "Свет от выстрелов",
+            "description": "\\{review}Включает динамическое освещение для выстрелов и взрывов.",
+        },
+        "visuals.enable_ps1_crystals": {
+            "title": "Оттенок кристалла PS1",
+            "description": "Кристаллы сохранения будут отображаться с фиолетовым оттенком, больше похожим на кристаллы PS1.",
+        },
+        "visuals.enable_reflections": {
+            "title": "Отражения",
+            "description": "Показывать отражения на определенных объектах.",
+        },
+        "visuals.enable_responsive_mesh_tint": {
+            "title": "\\{review}Адаптивная тонировка мешей",
+            "description": "\\{review}Позволяет отрисовывать отдельные меши Лары с водной тонировкой, если они сами находятся под водой (стиль TR3). В противном случае, если Лара находится в воде, все её меши будут отрисовываться с тонировкой (стиль TR1/2).",
+        },
+        "visuals.enable_shotgun_flash": {
+            "title": "Вспышки из дробовика",
+            "description": "Показывать вспышки при выстреле из дробовика, как и из другого оружия.",
+        },
+        "visuals.enable_skybox": {
+            "title": "Скайбоксы",
+            "description": "Показывать текстуры неба и горизонта на поддерживаемых уровнях.",
+        },
+        "visuals.enable_weather": {
+            "title": "\\{review}Погода",
+            "description": "\\{review}Включает отображение погодных эффектов в поддерживаемых уровнях.",
+        },
+        "visuals.fix_animated_sprites": {
+            "title": "Исправить анимацию спрайтов",
+            "description": "\\{review}Исправляет оригинальные спрайты подводных растений, чтобы они правильно анимировались в водных зонах.",
+        },
+        "visuals.fix_item_rots": {
+            "title": "Исправить поворот предметов",
+            "description": "Исправляет проблемы с некоторыми неправильно повёрнутыми предметами при использовании опции 3D-предметов.",
+        },
+        "visuals.fix_texture_issues": {
+            "title": "Исправить ошибки текстур",
+            "description": "Исправляет проблемы с отсутствующими или неверными текстурами/сетками.",
+        },
+        "visuals.fog_color": {
+            "title": "\\{review}Цвет тумана",
+            "description": "\\{review}Цвет тумана.",
+        },
+        "visuals.fog_end": {
+            "title": "Конец тумана",
+            "description": "Расстояние (в тайлах), на котором туман полностью скрывает обзор.",
+        },
+        "visuals.fog_start": {
+            "title": "Начало тумана",
+            "description": "Расстояние (в тайлах), на котором начинает появляться туман.",
+        },
+        "visuals.fog_transparency": {
+            "title": "\\{review}Прозрачность тумана",
+            "description": "\\{review}Включить смешивание удаленной геометрии с полностью прозрачными поверхностями.",
+        },
+        "visuals.fov": {
+            "title": "\\{review}Поле зрения",
+            "description": "\\{review}Угол обзора в градусах. Большие значения расширяют поле зрения, меньшие — сужают его.",
+        },
+        "visuals.game_brightness": {
+            "title": "Яркость",
+            "description": "Изменяет яркость игры.",
+        },
+        "visuals.gamma": {
+            "title": "\\{review}Гамма",
+            "description": "\\{review}Регулирует гамма-кривую. Более высокие значения означают более яркое освещение. Значение 2.5 соответствует цветам по умолчанию.",
+        },
+        "visuals.lara_outfit": {
+            "title": "\\{review}Костюм Лары",
+            "description": "\\{review}Изменяет внешний вид Лары. При выборе По умолчанию сохраняются обычные смены костюма между уровнями; в противном случае выбранный костюм будет использоваться до ручного изменения.",
+        },
+        "visuals.shadow_type": {
+            "title": "\\{review}Форма теней",
+            "description": "\\{review}Выбирает способ отображения теней объектов.\n\n- Восьмиугольник: старые тени из TR1 и TR2\n- Круг: круглые тени\n- Спрайт: тени на основе текстур из TR3",
+        },
+        "visuals.sunglasses_mode": {
+            "title": "\\{review}Солнцезащитные очки Лары",
+            "description": "\\{review}Изменяет стиль солнцезащитных очков Лары. Примечание: линзы будут отражающими, если соответствующая опция включена.\n\n- Выкл: Лара не будет носить солнцезащитные очки.\n- Непрозрачный: У солнцезащитных очков Лары будут непрозрачные линзы.\n- Прозрачный: У солнцезащитных очков Лары будут полупрозрачные линзы.",
+        },
+        "visuals.ui_brightness": {
+            "title": "Яркость интерфейса",
+            "description": "Изменяет яркость интерфейса.",
+        },
+        "visuals.water_color": {
+            "title": "Цвет воды",
+            "description": "Цвет воды.",
+        }
+    },
+    "objects": {
+        "alarm_sound": {
+            "name": "\\{review}Тревога",
+        },
+        "alligator": {
+            "name": "Аллигатор",
+        },
+        "alphabet": {
+            "name": "\\{review}Шрифт по умолчанию",
+        },
+        "alphabet_small": {
+            "name": "\\{review}Маленький шрифт",
+        },
+        "amber_light": {
+            "name": "\\{review}Янтарный свет",
+        },
+        "animating_1": {
+            "name": "\\{review}Анимация объекта 1",
+        },
+        "animating_2": {
+            "name": "\\{review}Анимация объекта 2",
+        },
+        "animating_3": {
+            "name": "\\{review}Анимация объекта 3",
+        },
+        "animating_4": {
+            "name": "\\{review}Анимация объекта 4",
+        },
+        "animating_5": {
+            "name": "\\{review}Анимация объекта 5",
+        },
+        "animating_6": {
+            "name": "\\{review}Анимация объекта 6",
+        },
+        "ape": {
+            "name": "Обезьяна",
+        },
+        "assault_digits": {
+            "name": "\\{review}Цифры штурма",
+        },
+        "assault_target": {
+            "name": "\\{review}Цель атаки",
+        },
+        "autos": {
+            "name": "\\{review}Автоматические пистолеты",
+        },
+        "autos_ammo": {
+            "name": "\\{review}Обоймы для автоматических пистолетов",
+        },
+        "bacon_lara": {
+            "name": "Двойник Лары",
+        },
+        "baldy": {
+            "name": "Лысый дядька",
+        },
+        "bandit_1": {
+            "name": [
+                "\\{review}Наёмник 1",
+                "\\{review}Маскированный головорез 1",
+            ]
+        },
+        "bandit_2": {
+            "name": [
+                "\\{review}Наёмник 2",
+                "\\{review}Маскированный головорез 2",
+            ]
+        },
+        "bandit_2b": {
+            "name": [
+                "\\{review}Наёмник 3",
+                "\\{review}Маскированный головорез 3",
+            ]
+        },
+        "barracuda": {
+            "name": "\\{review}Барракуда",
+        },
+        "bartoli": {
+            "name": "\\{review}Марко Бартоли",
+        },
+        "bat": {
+            "name": "Летучая мышь",
+        },
+        "bat_emitter": {
+            "name": "\\{review}Излучатель летучих мышей",
+        },
+        "beacon_light": {
+            "name": "\\{review}Маячковый свет",
+        },
+        "bear": {
+            "name": "Медведь",
+        },
+        "bell": {
+            "name": "\\{review}Колокол",
+        },
+        "big_bowl": {
+            "name": "\\{review}Чаша с лавой",
+        },
+        "big_eel": {
+            "name": "\\{review}Большой угорь",
+        },
+        "big_pod": {
+            "name": "Большое гнездо",
+        },
+        "big_spider": {
+            "name": "\\{review}Гигантский паук",
+        },
+        "bird_guardian": {
+            "name": "\\{review}Птице-монстр",
+        },
+        "bird_tweeter_1": {
+            "name": "\\{review}Капающая вода",
+        },
+        "bird_tweeter_2": {
+            "name": "\\{review}Поющие птицы",
+        },
+        "blade": {
+            "name": "\\{review}Клинок на стене",
+        },
+        "blood_1": {
+            "name": "Кровь 1",
+        },
+        "blood_2": {
+            "name": "Кровь 2",
+        },
+        "blue_light": {
+            "name": "\\{review}Синий свет",
+        },
+        "boat": {
+            "name": "Лодка",
+        },
+        "boat_bits": {
+            "name": "\\{review}Обломки лодки",
+        },
+        "body_part": {
+            "name": "Часть тела",
+        },
+        "bridge_flat": {
+            "name": "Плоский мост",
+        },
+        "bridge_tilt_1": {
+            "name": "Наклонный мост 1",
+        },
+        "bridge_tilt_2": {
+            "name": "Наклонный мост 2",
+        },
+        "bubble_1": {
+            "name": "Пузыри 1",
+        },
+        "bubble_2": {
+            "name": "Пузыри 2",
+        },
+        "bubble_emitter": {
+            "name": "Источник пузырей",
+        },
+        "camera_target": {
+            "name": "Цель камеры",
+        },
+        "carcass": {
+            "name": "\\{review}Туша",
+        },
+        "ceiling_spikes": {
+            "name": "\\{review}Острый потолок",
+        },
+        "centaur": {
+            "name": "Кентавр",
+        },
+        "centaur_statue": {
+            "name": "Статуя",
+        },
+        "clock_chimes": {
+            "name": "\\{review}Часы убежища Бартоли",
+        },
+        "cog_1": {
+            "name": "Шестерёнка 1",
+        },
+        "cog_2": {
+            "name": "Шестерёнка 2",
+        },
+        "cog_3": {
+            "name": "Шестерёнка 3",
+        },
+        "combat_end": {
+            "name": "\\{review}Конец боя",
+        },
+        "compass": {
+            "name": "Компас",
+        },
+        "compy": {
+            "name": "\\{review}Компсогнат",
+        },
+        "controls": {
+            "name": "Управление",
+        },
+        "copter": {
+            "name": "\\{review}Вертолет",
+        },
+        "cowboy": {
+            "name": "Ковбой",
+        },
+        "crocodile": {
+            "name": "Крокодил",
+        },
+        "crow": {
+            "name": "\\{review}Ворон",
+        },
+        "cult_1": {
+            "name": "\\{review}Бандит в маске 1",
+        },
+        "cult_1a": {
+            "name": "\\{review}Бандит в маске 2",
+        },
+        "cult_1b": {
+            "name": "\\{review}Бандит в маске 3",
+        },
+        "cult_2": {
+            "name": "\\{review}Метатель ножей",
+        },
+        "cult_3": {
+            "name": "\\{review}Бандит с дробовиком",
+        },
+        "cut_shotgun": {
+            "name": "\\{review}Анимация дробовика",
+        },
+        "damocles_sword": {
+            "name": "Дамоклов меч",
+        },
+        "dart": {
+            "name": "Дротик",
+        },
+        "dart_effect": {
+            "name": "Эффект дротика",
+        },
+        "dart_emitter": {
+            "name": "Дротикомёт",
+        },
+        "desert_eagle": {
+            "name": "\\{review}Дезерт Игл",
+        },
+        "desert_eagle_ammo": {
+            "name": "\\{review}Магазины Дезерт Игл",
+        },
+        "detonator_box": {
+            "name": "\\{review}Коробка детонатора",
+        },
+        "ding_dong": {
+            "name": "\\{review}Дверной звонок",
+        },
+        "dino_mutant": {
+            "name": "Динозавр-мутант",
+        },
+        "disc": {
+            "name": "\\{review}Диск",
+        },
+        "disc_emitter": {
+            "name": "\\{review}Излучатель дисков",
+        },
+        "diver": {
+            "name": "\\{review}Водолаз",
+        },
+        "dog": {
+            "name": [
+                "\\{review}Собака",
+                "\\{review}Доберман",
+            ]
+        },
+        "door_1": {
+            "name": "Дверь 1",
+        },
+        "door_2": {
+            "name": "Дверь 2",
+        },
+        "door_3": {
+            "name": "Дверь 3",
+        },
+        "door_4": {
+            "name": "Дверь 4",
+        },
+        "door_5": {
+            "name": "Дверь 5",
+        },
+        "door_6": {
+            "name": "Дверь 6",
+        },
+        "door_7": {
+            "name": "Дверь 7",
+        },
+        "door_8": {
+            "name": "Дверь 8",
+        },
+        "dragon_back": {
+            "name": "\\{review}Дракон сзади",
+        },
+        "dragon_bones_1": {
+            "name": "\\{review}Заполнитель",
+        },
+        "dragon_bones_2": {
+            "name": "\\{review}Передние кости дракона",
+        },
+        "dragon_bones_3": {
+            "name": "\\{review}Задние кости дракона",
+        },
+        "dragon_front": {
+            "name": "\\{review}Дракон спереди",
+        },
+        "drawbridge": {
+            "name": "Подъемный мост",
+        },
+        "dust": {
+            "name": "Пыль",
+        },
+        "dying_monk": {
+            "name": "\\{review}Умирающий монах",
+        },
+        "eagle": {
+            "name": "\\{review}Орел",
+        },
+        "earthquake": {
+            "name": "Землетрясение",
+        },
+        "eel": {
+            "name": "\\{review}Угорь",
+        },
+        "electric_cleaner": {
+            "name": "\\{review}Электрический очиститель",
+        },
+        "electric_fence": {
+            "name": "\\{review}Электрический забор",
+        },
+        "electrical_light": {
+            "name": "\\{review}Электрический свет",
+        },
+        "ember": {
+            "name": "Уголь",
+        },
+        "ember_emitter": {
+            "name": "Источник углей",
+        },
+        "explosion_1": {
+            "name": "Взрыв 1",
+        },
+        "explosion_2": {
+            "name": "Взрыв 2",
+        },
+        "falling_block_1": {
+            "name": [
+                "Падающий блок",
+                "Разрушающийся пол",
+                "Разрушающиеся плиты",
+            ]
+        },
+        "falling_block_2": {
+            "name": [
+                "\\{review}Падающий блок 2",
+                "\\{review}Обрушивающийся пол 2",
+                "\\{review}Обрушивающиеся плитки 2",
+            ]
+        },
+        "falling_block_3": {
+            "name": [
+                "\\{review}Падающий блок 3",
+                "\\{review}Обрушивающийся пол 3",
+                "\\{review}Обрушивающиеся плитки 3",
+            ]
+        },
+        "falling_ceiling_1": {
+            "name": "Падающий потолок 1",
+        },
+        "falling_ceiling_2": {
+            "name": "Падающий потолок 2",
+        },
+        "fish_mutant": {
+            "name": "Рыба-мутант",
+        },
+        "flame": {
+            "name": [
+                "Пламя",
+                "Огонь",
+            ]
+        },
+        "flame_emitter": {
+            "name": [
+                "Источник пламени",
+                "Источник огня",
+            ]
+        },
+        "flame_emitter_big": {
+            "name": "\\{review}Генератор пламени (Большой)",
+        },
+        "flame_emitter_jet": {
+            "name": "\\{review}Генератор пламени (Струйный)",
+        },
+        "flame_emitter_side": {
+            "name": "\\{review}Генератор пламени (Боковой)",
+        },
+        "flame_emitter_small": {
+            "name": "\\{review}Генератор пламени (Малый)",
+        },
+        "flare": {
+            "name": "\\{review}Вспышка",
+        },
+        "flare_fire": {
+            "name": "\\{review}Огонь фальшфейера",
+        },
+        "flares_box": {
+            "name": "\\{review}Коробка вспышки",
+        },
+        "fuse_box": {
+            "name": "\\{review}Коробка предохранителей",
+        },
+        "fx_reserved": {
+            "name": "\\{review}Серый диск",
+        },
+        "gamma": {
+            "name": "Гамма",
+        },
+        "gas_emitter_green": {
+            "name": "\\{review}Излучатель Газа (Зелёный)",
+        },
+        "general": {
+            "name": "\\{review}Миниподводная лодка",
+        },
+        "globe": {
+            "name": "\\{review}Глобус",
+        },
+        "glow": {
+            "name": "Свечение",
+        },
+        "glow_reserved": {
+            "name": "\\{review}Сияние карты",
+        },
+        "gondola": {
+            "name": "\\{review}Гондола",
+        },
+        "gong": {
+            "name": "\\{review}Гонг",
+        },
+        "gong_bonger": {
+            "name": "\\{review}Палка для гонга",
+        },
+        "graphics": {
+            "name": "Изображение",
+        },
+        "green_light": {
+            "name": "\\{review}Зеленый свет",
+        },
+        "grenade": {
+            "name": "Граната",
+        },
+        "grenade_launcher": {
+            "name": "\\{review}Гранатомёт",
+        },
+        "grenade_launcher_ammo": {
+            "name": "\\{review}Гранаты",
+        },
+        "gun_flash": {
+            "name": "Вспышка выстрела",
+        },
+        "gun_shell": {
+            "name": "\\{review}Патрон для пистолета",
+        },
+        "harpoon_bolt": {
+            "name": "\\{review}Гарпунный болт",
+        },
+        "harpoon_gun": {
+            "name": "\\{review}Гарпунное ружьё",
+        },
+        "harpoon_gun_ammo": {
+            "name": "\\{review}Гарпуны",
+        },
+        "hook": {
+            "name": "\\{review}Крюк",
+        },
+        "hot_liquid": {
+            "name": "\\{review}Дополнительный огонь",
+        },
+        "huskie": {
+            "name": "\\{review}Собака",
+        },
+        "icicle": {
+            "name": "\\{review}Сосульки",
+        },
+        "inv_background": {
+            "name": "\\{review}Фон меню",
+        },
+        "jelly": {
+            "name": "\\{review}Медуза",
+        },
+        "kayak": {
+            "name": "\\{review}Каяк",
+        },
+        "key_1": {
+            "name": "Ключ 1",
+        },
+        "key_2": {
+            "name": "Ключ 2",
+        },
+        "key_3": {
+            "name": "Ключ 3",
+        },
+        "key_4": {
+            "name": "Ключ 4",
+        },
+        "key_hole_1": {
+            "name": "Замочная скважина 1",
+        },
+        "key_hole_2": {
+            "name": "Замочная скважина 2",
+        },
+        "key_hole_3": {
+            "name": "Замочная скважина 3",
+        },
+        "key_hole_4": {
+            "name": "Замочная скважина 4",
+        },
+        "kill_all_triggered": {
+            "name": "\\{review}Полное уничтожение (активировано)",
+        },
+        "killer_statue": {
+            "name": "\\{review}Статуя с мечом",
+        },
+        "lara": {
+            "name": "Лара",
+        },
+        "lara_alarm": {
+            "name": "\\{review}Звонок тревоги",
+        },
+        "lara_autos": {
+            "name": "\\{review}Анимация автоматических пистолетов",
+        },
+        "lara_boat": {
+            "name": "\\{review}Анимация лодки",
+        },
+        "lara_desert_eagle": {
+            "name": "\\{review}Анимация Дезерт Игл",
+        },
+        "lara_extra": {
+            "name": "Дополнительная анимация Лары",
+        },
+        "lara_flare": {
+            "name": "\\{review}Анимация фальшфейера",
+        },
+        "lara_grenade": {
+            "name": "\\{review}Анимация гранатомёта",
+        },
+        "lara_hair": {
+            "name": "Коса Лары",
+        },
+        "lara_harpoon": {
+            "name": "\\{review}Анимация гарпуна",
+        },
+        "lara_m16": {
+            "name": "\\{review}Анимация M16",
+        },
+        "lara_magnums": {
+            "name": "Анимация магнумов",
+        },
+        "lara_mp5": {
+            "name": "\\{review}Анимация MP5",
+        },
+        "lara_pistols": {
+            "name": "Анимация пистолетов",
+        },
+        "lara_rocket": {
+            "name": "\\{review}Анимация ракетной установки",
+        },
+        "lara_shotgun": {
+            "name": "Анимация дробовика",
+        },
+        "lara_skidoo": {
+            "name": "\\{review}Анимация снегохода",
+        },
+        "lara_uzis": {
+            "name": "Анимация узи",
+        },
+        "larson": {
+            "name": "Ларсон",
+        },
+        "lava_wedge": {
+            "name": "Лава",
+        },
+        "lead_bar": {
+            "name": "Свинцовый слиток",
+        },
+        "lift": {
+            "name": "\\{review}Лифт",
+        },
+        "lightning_emitter": {
+            "name": "Излучатель молний",
+        },
+        "lion": {
+            "name": "Лев",
+        },
+        "lioness": {
+            "name": [
+                "Львица",
+                "Лев",
+            ]
+        },
+        "lizard": {
+            "name": "\\{review}Ящерица",
+        },
+        "m16": {
+            "name": "\\{review}M16",
+        },
+        "m16_ammo": {
+            "name": "\\{review}Магазины для M16",
+        },
+        "m16_flash": {
+            "name": "\\{review}Вспышка M16",
+        },
+        "magnums": {
+            "name": "Магнумы",
+        },
+        "magnums_ammo": {
+            "name": "Обоймы для магнума",
+        },
+        "mesh_swap_1": {
+            "name": "\\{review}Замена модели 1",
+        },
+        "mesh_swap_2": {
+            "name": "\\{review}Замена модели 2",
+        },
+        "mesh_swap_3": {
+            "name": "\\{review}Замена модели 3",
+        },
+        "midas_touch": {
+            "name": "Рука Мидаса",
+        },
+        "mine": {
+            "name": "\\{review}Водная мина",
+        },
+        "mini_copter": {
+            "name": "\\{review}Вертолет 2",
+        },
+        "missile_atlantean_bomb": {
+            "name": "\\{review}Снаряд (Атлантическая бомба)",
+        },
+        "missile_atlantean_shard": {
+            "name": "\\{review}Снаряд (Атлантический осколок)",
+        },
+        "missile_flame": {
+            "name": "\\{review}Снаряд (Пламя)",
+        },
+        "missile_harpoon": {
+            "name": "\\{review}Снаряд (Гарпун)",
+        },
+        "missile_knife": {
+            "name": "\\{review}Снаряд (Нож)",
+        },
+        "missile_poison": {
+            "name": "\\{review}Снаряд (Яд)",
+        },
+        "monk_1": {
+            "name": "\\{review}Монах 1",
+        },
+        "monk_2": {
+            "name": "\\{review}Монах 2",
+        },
+        "monkey": {
+            "name": "\\{review}Обезьяна",
+        },
+        "mounted_gun": {
+            "name": "\\{review}Установленный пулемёт",
+        },
+        "mouse": {
+            "name": "\\{review}Крыса",
+        },
+        "movable_block_1": {
+            "name": [
+                "Нажимной блок 1",
+                "Передвижной блок 1",
+            ]
+        },
+        "movable_block_2": {
+            "name": [
+                "Нажимной блок 2",
+                "Передвижной блок 2",
+            ]
+        },
+        "movable_block_3": {
+            "name": [
+                "Нажимной блок 3",
+                "Передвижной блок 3",
+            ]
+        },
+        "movable_block_4": {
+            "name": [
+                "Нажимной блок 4",
+                "Передвижной блок 4",
+            ]
+        },
+        "moving_bar": {
+            "name": "Движущаяся планка",
+        },
+        "mp5": {
+            "name": "\\{review}MP5",
+        },
+        "mp5_ammo": {
+            "name": "\\{review}Магазины для MP5",
+        },
+        "mummy": {
+            "name": "Мумия",
+        },
+        "mutant_1": {
+            "name": "Мутант 1",
+        },
+        "mutant_2": {
+            "name": "Мутант 2",
+        },
+        "mutant_3": {
+            "name": "Мутант 3",
+        },
+        "natla": {
+            "name": "Натла",
+        },
+        "natla_gun": {
+            "name": "\\{review}Пушка Натлы",
+        },
+        "on_off_light": {
+            "name": "\\{review}Включение/выключение света",
+        },
+        "passport": {
+            "name": "Игра",
+        },
+        "patrol_dog": {
+            "name": "\\{review}Собака",
+        },
+        "pda": {
+            "name": "Игровой процесс",
+        },
+        "pendulum_1": {
+            "name": "Маятник",
+        },
+        "pendulum_2": {
+            "name": [
+                "\\{review}Маятник",
+                "\\{review}Песчаный ящик",
+                "\\{review}Качающийся топор",
+                "\\{review}Качающийся ящик",
+            ]
+        },
+        "photo": {
+            "name": "Дом Лары",
+        },
+        "pickup_1": {
+            "name": "Предмет 1",
+        },
+        "pickup_2": {
+            "name": "Предмет 2",
+        },
+        "pickup_aid": {
+            "name": "Первая помощь",
+        },
+        "pierre": {
+            "name": "Пьер",
+        },
+        "pirahnas": {
+            "name": "\\{review}Пираньи",
+        },
+        "pistols": {
+            "name": "Пистолеты",
+        },
+        "pistols_ammo": {
+            "name": "\\{review}Магазины для пистолета",
+        },
+        "player_1": {
+            "name": "Актёр заставки 1",
+        },
+        "player_10": {
+            "name": "\\{review}Актер катсцены 10",
+        },
+        "player_2": {
+            "name": "Актёр заставки 2",
+        },
+        "player_3": {
+            "name": "Актёр заставки 3",
+        },
+        "player_4": {
+            "name": "Актёр заставки 4",
+        },
+        "player_5": {
+            "name": "\\{review}Актер катсцены 5",
+        },
+        "player_6": {
+            "name": "\\{review}Актер катсцены 6",
+        },
+        "player_7": {
+            "name": "\\{review}Актер катсцены 7",
+        },
+        "player_8": {
+            "name": "\\{review}Актер катсцены 8",
+        },
+        "player_9": {
+            "name": "\\{review}Актер катсцены 9",
+        },
+        "pods": {
+            "name": "Гнездо",
+        },
+        "poison_dart": {
+            "name": "\\{review}Отравленный дротик",
+        },
+        "poison_dart_emitter": {
+            "name": "\\{review}Метатель отравленных дротиков",
+        },
+        "portacabin": {
+            "name": "Кабина",
+        },
+        "power_saw": {
+            "name": "\\{review}Электропила",
+        },
+        "propeller_1": {
+            "name": "\\{review}Винт самолёта",
+        },
+        "propeller_2": {
+            "name": "\\{review}Подводный винт",
+        },
+        "propeller_3": {
+            "name": "\\{review}Воздушный вентилятор",
+        },
+        "pulse_light": {
+            "name": "\\{review}Импульсный свет",
+        },
+        "puma": {
+            "name": "Пума",
+        },
+        "punk_1": {
+            "name": "\\{review}Панк 1",
+        },
+        "punk_2": {
+            "name": "\\{review}Панк 2",
+        },
+        "puzzle_1": {
+            "name": "Элемент головоломки 1",
+        },
+        "puzzle_2": {
+            "name": "Элемент головоломки 2",
+        },
+        "puzzle_3": {
+            "name": "Элемент головоломки 3",
+        },
+        "puzzle_4": {
+            "name": "Элемент головоломки 4",
+        },
+        "puzzle_done_1": {
+            "name": "Головоломка 1 (готово)",
+        },
+        "puzzle_done_2": {
+            "name": "Головоломка 2 (готово)",
+        },
+        "puzzle_done_3": {
+            "name": "Головоломка 3 (готово)",
+        },
+        "puzzle_done_4": {
+            "name": "Головоломка 4 (готово)",
+        },
+        "puzzle_hole_1": {
+            "name": "Головоломка 1 (пусто)",
+        },
+        "puzzle_hole_2": {
+            "name": "Головоломка 2 (пусто)",
+        },
+        "puzzle_hole_3": {
+            "name": "Головоломка 3 (пусто)",
+        },
+        "puzzle_hole_4": {
+            "name": "Головоломка 4 (пусто)",
+        },
+        "quad_bike": {
+            "name": "\\{review}Квадроцикл",
+        },
+        "quest_1": {
+            "name": "\\{review}Предмет задания 1",
+        },
+        "quest_2": {
+            "name": "\\{review}Предмет задания 2",
+        },
+        "quest_3": {
+            "name": "\\{review}Предмет задания 3",
+        },
+        "quest_4": {
+            "name": "\\{review}Предмет задания 4",
+        },
+        "raptor": {
+            "name": "Раптор",
+        },
+        "raptor_emitter": {
+            "name": "\\{review}Излучатель Раптора",
+        },
+        "rat": {
+            "name": [
+                "Крыса",
+                "Крыса на земле",
+            ]
+        },
+        "red_light": {
+            "name": "\\{review}Красный свет",
+        },
+        "ricochet": {
+            "name": "Рикошет",
+        },
+        "rocket": {
+            "name": "\\{review}Ракета",
+        },
+        "rocket_launcher": {
+            "name": "\\{review}Ракетная установка",
+        },
+        "rocket_launcher_ammo": {
+            "name": "\\{review}Ракеты",
+        },
+        "rolling_ball_1": {
+            "name": [
+                "Валун",
+                "Катящийся камень",
+            ]
+        },
+        "rolling_ball_2": {
+            "name": [
+                "\\{review}Камень 2",
+                "\\{review}Катающийся шар 2",
+            ]
+        },
+        "rolling_ball_3": {
+            "name": [
+                "\\{review}Камень 3",
+                "\\{review}Катающийся шар 3",
+            ]
+        },
+        "rolling_ball_4": {
+            "name": [
+                "\\{review}Камень 4",
+                "\\{review}Катающийся шар 4",
+            ]
+        },
+        "save_crystal": {
+            "name": "Кристалл сохранения",
+        },
+        "scion": {
+            "name": "Наследие",
+        },
+        "scion_holder": {
+            "name": "Постамент Наследия",
+        },
+        "secret_1": {
+            "name": "\\{review}Секрет 1",
+        },
+        "secret_2": {
+            "name": "\\{review}Секрет 2",
+        },
+        "secret_3": {
+            "name": "\\{review}Секрет 3",
+        },
+        "security_guard": {
+            "name": "\\{review}Охранник",
+        },
+        "shadow": {
+            "name": "\\{review}Тень",
+        },
+        "shark": {
+            "name": "\\{review}Акула",
+        },
+        "shiva": {
+            "name": "\\{review}Шива",
+        },
+        "shotgun": {
+            "name": "Дробовик",
+        },
+        "shotgun_ammo": {
+            "name": "Патроны для дробовика",
+        },
+        "shotgun_shell": {
+            "name": "\\{review}Патрон для дробовика",
+        },
+        "skate_kid": {
+            "name": "Скейтер",
+        },
+        "skateboard": {
+            "name": "Скейтборд",
+        },
+        "skidoo_armed": {
+            "name": "\\{review}Чёрный снегоход",
+        },
+        "skidoo_driver": {
+            "name": "\\{review}Водитель чёрного снегохода",
+        },
+        "skidoo_fast": {
+            "name": "\\{review}Красный снегоход",
+        },
+        "skidoo_track": {
+            "name": "\\{review}Гусеница снегохода",
+        },
+        "skybox": {
+            "name": "Скайбокс",
+        },
+        "sliding_pillar": {
+            "name": "Скользящая колонна",
+        },
+        "smashable_1": {
+            "name": "\\{review}Разбиваемое окно 1",
+        },
+        "smashable_2": {
+            "name": "\\{review}Разбиваемое окно 2",
+        },
+        "smashable_3": {
+            "name": "\\{review}Разбиваемое окно 3",
+        },
+        "smashable_4": {
+            "name": "\\{review}Разбиваемое окно 4",
+        },
+        "smoke_emitter_black": {
+            "name": "\\{review}Дымовой излучатель (черный)",
+        },
+        "smoke_emitter_white": {
+            "name": "\\{review}Дымовой излучатель (белый)",
+        },
+        "snake": {
+            "name": "\\{review}Змей",
+        },
+        "snow_sprite": {
+            "name": "\\{review}След снегохода",
+        },
+        "sophia": {
+            "name": "\\{review}София",
+        },
+        "sound": {
+            "name": "Звук",
+        },
+        "sphere_of_doom_1": {
+            "name": "\\{review}Взрыв дракона 1",
+        },
+        "sphere_of_doom_2": {
+            "name": "\\{review}Взрыв дракона 2",
+        },
+        "sphere_of_doom_3": {
+            "name": "\\{review}Взрыв дракона 3",
+        },
+        "spider": {
+            "name": "\\{review}Паук",
+        },
+        "spike_wall": {
+            "name": "\\{review}Стена с шипами",
+        },
+        "spikes": {
+            "name": "Шипы",
+        },
+        "spinning_blade": {
+            "name": "\\{review}Вращающийся клинок",
+        },
+        "splash_1": {
+            "name": "Всплеск 1",
+        },
+        "splash_2": {
+            "name": "Всплеск 2",
+        },
+        "springboard": {
+            "name": "\\{review}Прыжковая доска",
+        },
+        "steam_emitter": {
+            "name": "\\{review}Паровой излучатель",
+        },
+        "sthpac_mercenary": {
+            "name": "\\{review}Наёмник из южной части Тихого океана",
+        },
+        "stopwatch": {
+            "name": "\\{review}Статистика",
+        },
+        "strobe_light": {
+            "name": "\\{review}Стробоскопический свет",
+        },
+        "swat_1": {
+            "name": "\\{review}SWAT 1",
+        },
+        "swat_2": {
+            "name": "\\{review}SWAT 2",
+        },
+        "swat_3": {
+            "name": "\\{review}SWAT 3",
+        },
+        "swinging_axe": {
+            "name": "\\{review}Pаскачивающийся топор",
+        },
+        "switch_type_airlock": {
+            "name": "\\{review}Переключатель воздушного шлюза",
+        },
+        "switch_type_button": {
+            "name": [
+                "\\{review}Кнопка",
+                "\\{review}Нажимная кнопка",
+                "\\{review}Выключатель",
+            ]
+        },
+        "switch_type_normal": {
+            "name": [
+                "Рычаг",
+                "Переключатель",
+            ]
+        },
+        "switch_type_small": {
+            "name": "\\{review}Маленький выключатель",
+        },
+        "switch_type_uw": {
+            "name": [
+                "Подводный рычаг",
+                "Подводный переключатель",
+            ]
+        },
+        "switch_type_wheel": {
+            "name": "\\{review}Колёсный переключатель",
+        },
+        "teeth_trap": {
+            "name": [
+                "Зубная ловушка",
+                "Клацающая дверь",
+            ]
+        },
+        "text_box": {
+            "name": "\\{review}Рамка интерфейса",
+        },
+        "thors_handle": {
+            "name": "Рукоять молота Тора",
+        },
+        "thors_head": {
+            "name": "Молот Тора",
+        },
+        "tiger": {
+            "name": "\\{review}Тигр",
+        },
+        "tony": {
+            "name": "\\{review}Тони",
+        },
+        "torso": {
+            "name": [
+                "Торсо",
+                "Адам",
+                "Безногий мутант",
+            ]
+        },
+        "train": {
+            "name": "\\{review}Поезд",
+        },
+        "trapdoor_1": {
+            "name": "Люк 1",
+        },
+        "trapdoor_2": {
+            "name": "Люк 2",
+        },
+        "trapdoor_3": {
+            "name": "Люк 3",
+        },
+        "trex": {
+            "name": "Тираннозавр",
+        },
+        "trex_alpha": {
+            "name": "\\{review}Ти-Рекс Альфа",
+        },
+        "tribe_axeman": {
+            "name": "\\{review}Топорщик племени",
+        },
+        "tribe_boss": {
+            "name": "\\{review}Вождь племени",
+        },
+        "tribe_pipeman": {
+            "name": "\\{review}Пользователь духовой трубки племени",
+        },
+        "tropical_fish": {
+            "name": "\\{review}Тропическая рыба",
+        },
+        "twinkle": {
+            "name": "Искры",
+        },
+        "upv": {
+            "name": "\\{review}Минисуб",
+        },
+        "uzis": {
+            "name": "Узи",
+        },
+        "uzis_ammo": {
+            "name": "Обоймы для узи",
+        },
+        "vole": {
+            "name": [
+                "Плавающая крыса",
+                "Крыса в воде",
+            ]
+        },
+        "vulture": {
+            "name": "\\{review}Стервятник",
+        },
+        "water_sprite": {
+            "name": "\\{review}След лодки",
+        },
+        "waterfall": {
+            "name": "Водопадный туман",
+        },
+        "white_light": {
+            "name": "\\{review}Белый свет",
+        },
+        "winston": {
+            "name": "\\{review}Уинстон",
+        },
+        "winston_army": {
+            "name": "\\{review}Уинстон (армия)",
+        },
+        "wolf": {
+            "name": "Волк",
+        },
+        "worker_1": {
+            "name": "\\{review}Бандит с пистолетом 1",
+        },
+        "worker_2": {
+            "name": "\\{review}Бандит с пистолетом 2",
+        },
+        "worker_3": {
+            "name": "\\{review}Бандит с палкой 1",
+        },
+        "worker_4": {
+            "name": "\\{review}Бандит с палкой 2",
+        },
+        "worker_5": {
+            "name": "\\{review}Бандит с огнемётом",
+        },
+        "xian_knight": {
+            "name": "\\{review}Ксианский рыцарь",
+        },
+        "xian_knight_statue": {
+            "name": "\\{review}Статуя ксианского рыцаря",
+        },
+        "xian_spearman": {
+            "name": "\\{review}Ксианский копейщик",
+        },
+        "xian_spearman_statue": {
+            "name": "\\{review}Статуя ксианского копейщика",
+        },
+        "yeti": {
+            "name": "\\{review}Йети",
+        },
+        "zipline_handle": {
+            "name": "\\{review}Рукоятка зиплайна",
+        }
     }
 }
