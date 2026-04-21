@@ -1,4 +1,4 @@
-Tomb Raider 2: ![](https://geps.dev/progress/66?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 2: ![](https://geps.dev/progress/72?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 - [x] Lara's Home
 
@@ -26,7 +26,7 @@ Tomb Raider 2: ![](https://geps.dev/progress/66?dangerColor=800000&warningColor=
 
 - [x] Barkhang Monastry
 
-- [ ] Catacombs of the talions
+- [x] Catacombs of the talions
 
 - [ ] Ice Palace
 
