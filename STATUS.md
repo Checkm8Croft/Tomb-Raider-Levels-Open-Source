@@ -30,7 +30,7 @@ Tomb Raider 2: ![](https://geps.dev/progress/77?dangerColor=800000&warningColor=
 
 - [x] Ice Palace
 
-- [ ] Temple of the Xian
+- [x] Temple of the Xian
 
 - [ ] Floating Islands
 
