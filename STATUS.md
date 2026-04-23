@@ -1,4 +1,4 @@
-Tomb Raider 2: ![](https://geps.dev/progress/77?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 2: ![](https://geps.dev/progress/83?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 - [x] Lara's Home
 
