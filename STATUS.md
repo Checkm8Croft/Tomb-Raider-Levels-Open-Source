@@ -1,4 +1,4 @@
-Tomb Raider 2: ![](https://geps.dev/progress/83?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 2: ![](https://geps.dev/progress/100?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 - [x] Lara's Home
 
@@ -32,11 +32,11 @@ Tomb Raider 2: ![](https://geps.dev/progress/83?dangerColor=800000&warningColor=
 
 - [x] Temple of the Xian
 
-- [ ] Floating Islands
+- [x] Floating Islands (The level is complete but it make crash TR2X)
 
-- [ ] The Dragon's Lair
+- [x] The Dragon's Lair
 
-- [ ] Home Sweet Home
+- [x] Home Sweet Home
 
 --GOLD-- ![](https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
