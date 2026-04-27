@@ -38,7 +38,7 @@ Tomb Raider 2: ![](https://geps.dev/progress/100?dangerColor=800000&warningColor
 
 - [x] Home Sweet Home
 
---GOLD-- ![](https://geps.dev/progress/20?dangerColor=800000&warningColor=ff9900&successColor=006600)
+--GOLD-- ![](https://geps.dev/progress/40?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 - [x] The Cold War
 
