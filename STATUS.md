@@ -38,7 +38,7 @@ Tomb Raider 2: ![](https://geps.dev/progress/100?dangerColor=800000&warningColor
 
 - [x] Home Sweet Home
 
---GOLD-- ![](https://geps.dev/progress/60?dangerColor=800000&warningColor=ff9900&successColor=006600)
+--GOLD-- ![](https://geps.dev/progress/80?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 - [x] The Cold War
 
@@ -46,6 +46,6 @@ Tomb Raider 2: ![](https://geps.dev/progress/100?dangerColor=800000&warningColor
 
 - [x] The Furnace of the Gods
 
-- [ ] Kingdom
+- [x] Kingdom
 
 - [ ] Nightmare in Vegas
