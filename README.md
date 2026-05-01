@@ -1,4 +1,5 @@
 # Tomb-Raider-Levels-Open-Source
+
 Collection of PRJ files of classic tomb raiders that can be modfied as you want with Tomb Editor
 
 On `Raw Levels/` folder there are extracted prj files of the levels with no modifications, so some textures will be mismatched or totally missing and objects (such as doors, enemies, medipacks, ammonitions, ...) are missing, so you have to reput them using level's wad. Also the rooms will have the brightness or at the top or completely dark
@@ -8,3 +9,7 @@ On `Complete Levels/` folder there are prj2 files of the levels modified by me, 
 ## See [The Status](STATUS.MD) for see which is complete and the progress of the project
 
 ## See [Level Names](NAMES.md) for knowing what name has the filename (such as boat.tr2) respect of it real name (for example: boat.tr2 is Venice level)
+
+## Disclaimer
+
+Starting from Catacombs of the Talion, I decided to use [TR2 Conversion Project](https://www.trsearch.org/item/4908) maps for having lighting nad light points as the OG game
