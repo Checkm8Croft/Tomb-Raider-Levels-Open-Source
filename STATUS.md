@@ -1,6 +1,8 @@
-Tomb Raider 1: ![](https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600)
+Tomb Raider 1: ![](https://geps.dev/progress/12?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
-- [ ] Caves
+- [x] Lara's Home
+
+- [x] Caves
 
 - [ ] City of Vilcabamba
 
